@@ -1,0 +1,3991 @@
+=== PATTERN SINGOLE COLONNE ===
+
+Gender:
+  'Male': 15547 occorrenze
+  'Female': 12354 occorrenze
+
+Age:
+  'ricercatore': 15728 occorrenze
+  'universitario': 9026 occorrenze
+  'liceale': 3147 occorrenze
+
+City:
+  'Kalyan': 1570 occorrenze
+  'Srinagar': 1372 occorrenze
+  'Hyderabad': 1340 occorrenze
+  'Vasai-Virar': 1290 occorrenze
+  'Lucknow': 1155 occorrenze
+  'Thane': 1139 occorrenze
+  'Ludhiana': 1111 occorrenze
+  'Agra': 1094 occorrenze
+  'Surat': 1078 occorrenze
+  'Kolkata': 1066 occorrenze
+  'Jaipur': 1036 occorrenze
+  'Patna': 1007 occorrenze
+
+Academic Pressure:
+  'alta': 11451 occorrenze
+  'bassa': 8988 occorrenze
+  'media': 7462 occorrenze
+
+CGPA:
+  'media': 11946 occorrenze
+  'bassa': 9723 occorrenze
+  'alta': 6232 occorrenze
+
+Study Satisfaction:
+  'bassa': 11299 occorrenze
+  'alta': 10781 occorrenze
+  'media': 5821 occorrenze
+
+Sleep Duration:
+  ''Less than 5 hours'': 8310 occorrenze
+  ''7-8 hours'': 7346 occorrenze
+  ''5-6 hours'': 6183 occorrenze
+  ''More than 8 hours'': 6044 occorrenze
+
+Dietary Habits:
+  'Unhealthy': 10317 occorrenze
+  'Moderate': 9921 occorrenze
+  'Healthy': 7651 occorrenze
+
+Degree:
+  ''Class 12'': 6080 occorrenze
+  'B.Ed': 1867 occorrenze
+  'B.Com': 1506 occorrenze
+  'B.Arch': 1478 occorrenze
+  'BCA': 1433 occorrenze
+  'MSc': 1190 occorrenze
+  'B.Tech': 1152 occorrenze
+  'MCA': 1044 occorrenze
+  'M.Tech': 1022 occorrenze
+
+Have you ever had suicidal thoughts ?:
+  'Yes': 17656 occorrenze
+  'No': 10245 occorrenze
+
+Study Hours:
+  '10.0': 4234 occorrenze
+  '12.0': 3172 occorrenze
+  '11.0': 2892 occorrenze
+  '8.0': 2509 occorrenze
+  '6.0': 2247 occorrenze
+  '9.0': 2026 occorrenze
+  '7.0': 2001 occorrenze
+  '0.0': 1700 occorrenze
+  '4.0': 1614 occorrenze
+  '2.0': 1590 occorrenze
+  '3.0': 1470 occorrenze
+  '5.0': 1296 occorrenze
+  '1.0': 1150 occorrenze
+
+Financial Stress:
+  '5.0': 6715 occorrenze
+  '4.0': 5775 occorrenze
+  '3.0': 5226 occorrenze
+  '1.0': 5121 occorrenze
+  '2.0': 5061 occorrenze
+
+Family History of Mental Illness:
+  'No': 14398 occorrenze
+  'Yes': 13503 occorrenze
+
+Depression:
+  '1': 16336 occorrenze
+  '0': 11565 occorrenze
+
+=== PATTERN COMBINAZIONI (min 1000 occorrenze) ===
+
+Gender + Age:
+  'Male' + 'ricercatore': 8806 occorrenze
+  'Female' + 'ricercatore': 6922 occorrenze
+  'Male' + 'universitario': 4983 occorrenze
+  'Female' + 'universitario': 4043 occorrenze
+  'Male' + 'liceale': 1758 occorrenze
+  'Female' + 'liceale': 1389 occorrenze
+
+Gender + Academic Pressure:
+  'Male' + 'alta': 6225 occorrenze
+  'Female' + 'alta': 5226 occorrenze
+  'Male' + 'bassa': 5093 occorrenze
+  'Male' + 'media': 4229 occorrenze
+  'Female' + 'bassa': 3895 occorrenze
+  'Female' + 'media': 3233 occorrenze
+
+Gender + CGPA:
+  'Male' + 'media': 6758 occorrenze
+  'Female' + 'media': 5188 occorrenze
+  'Male' + 'bassa': 5163 occorrenze
+  'Female' + 'bassa': 4560 occorrenze
+  'Male' + 'alta': 3626 occorrenze
+  'Female' + 'alta': 2606 occorrenze
+
+Gender + Study Satisfaction:
+  'Male' + 'bassa': 6305 occorrenze
+  'Male' + 'alta': 5891 occorrenze
+  'Female' + 'bassa': 4994 occorrenze
+  'Female' + 'alta': 4890 occorrenze
+  'Male' + 'media': 3351 occorrenze
+  'Female' + 'media': 2470 occorrenze
+
+Gender + Sleep Duration:
+  'Male' + ''Less than 5 hours'': 4682 occorrenze
+  'Male' + ''7-8 hours'': 4055 occorrenze
+  'Female' + ''Less than 5 hours'': 3628 occorrenze
+  'Male' + ''More than 8 hours'': 3407 occorrenze
+  'Male' + ''5-6 hours'': 3394 occorrenze
+  'Female' + ''7-8 hours'': 3291 occorrenze
+  'Female' + ''5-6 hours'': 2789 occorrenze
+  'Female' + ''More than 8 hours'': 2637 occorrenze
+
+Gender + Dietary Habits:
+  'Male' + 'Unhealthy': 6173 occorrenze
+  'Male' + 'Moderate': 5339 occorrenze
+  'Female' + 'Moderate': 4582 occorrenze
+  'Female' + 'Unhealthy': 4144 occorrenze
+  'Male' + 'Healthy': 4027 occorrenze
+  'Female' + 'Healthy': 3624 occorrenze
+
+Gender + Degree:
+  'Male' + ''Class 12'': 3375 occorrenze
+  'Female' + ''Class 12'': 2705 occorrenze
+  'Male' + 'B.Ed': 1104 occorrenze
+
+Gender + Have you ever had suicidal thoughts ?:
+  'Male' + 'Yes': 9830 occorrenze
+  'Female' + 'Yes': 7826 occorrenze
+  'Male' + 'No': 5717 occorrenze
+  'Female' + 'No': 4528 occorrenze
+
+Gender + Study Hours:
+  'Male' + '10.0': 2476 occorrenze
+  'Female' + '10.0': 1758 occorrenze
+  'Male' + '12.0': 1724 occorrenze
+  'Male' + '11.0': 1626 occorrenze
+  'Female' + '12.0': 1448 occorrenze
+  'Male' + '8.0': 1425 occorrenze
+  'Female' + '11.0': 1266 occorrenze
+  'Male' + '6.0': 1244 occorrenze
+  'Male' + '7.0': 1130 occorrenze
+  'Male' + '9.0': 1101 occorrenze
+  'Female' + '8.0': 1084 occorrenze
+  'Female' + '6.0': 1003 occorrenze
+
+Gender + Financial Stress:
+  'Male' + '5.0': 3684 occorrenze
+  'Male' + '4.0': 3239 occorrenze
+  'Female' + '5.0': 3031 occorrenze
+  'Male' + '3.0': 2934 occorrenze
+  'Male' + '1.0': 2853 occorrenze
+  'Male' + '2.0': 2836 occorrenze
+  'Female' + '4.0': 2536 occorrenze
+  'Female' + '3.0': 2292 occorrenze
+  'Female' + '1.0': 2268 occorrenze
+  'Female' + '2.0': 2225 occorrenze
+
+Gender + Family History of Mental Illness:
+  'Male' + 'No': 8132 occorrenze
+  'Male' + 'Yes': 7415 occorrenze
+  'Female' + 'No': 6266 occorrenze
+  'Female' + 'Yes': 6088 occorrenze
+
+Gender + Depression:
+  'Male' + '1': 9115 occorrenze
+  'Female' + '1': 7221 occorrenze
+  'Male' + '0': 6432 occorrenze
+  'Female' + '0': 5133 occorrenze
+
+Age + Academic Pressure:
+  'ricercatore' + 'alta': 6198 occorrenze
+  'ricercatore' + 'bassa': 5284 occorrenze
+  'ricercatore' + 'media': 4246 occorrenze
+  'universitario' + 'alta': 3686 occorrenze
+  'universitario' + 'bassa': 2951 occorrenze
+  'universitario' + 'media': 2389 occorrenze
+  'liceale' + 'alta': 1567 occorrenze
+
+Age + CGPA:
+  'ricercatore' + 'media': 6483 occorrenze
+  'ricercatore' + 'bassa': 5464 occorrenze
+  'universitario' + 'media': 4009 occorrenze
+  'ricercatore' + 'alta': 3781 occorrenze
+  'universitario' + 'bassa': 3165 occorrenze
+  'universitario' + 'alta': 1852 occorrenze
+  'liceale' + 'media': 1454 occorrenze
+  'liceale' + 'bassa': 1094 occorrenze
+
+Age + Study Satisfaction:
+  'ricercatore' + 'bassa': 6181 occorrenze
+  'ricercatore' + 'alta': 6087 occorrenze
+  'universitario' + 'bassa': 3990 occorrenze
+  'ricercatore' + 'media': 3460 occorrenze
+  'universitario' + 'alta': 3259 occorrenze
+  'universitario' + 'media': 1777 occorrenze
+  'liceale' + 'alta': 1435 occorrenze
+  'liceale' + 'bassa': 1128 occorrenze
+
+Age + Sleep Duration:
+  'ricercatore' + ''Less than 5 hours'': 4687 occorrenze
+  'ricercatore' + ''7-8 hours'': 4086 occorrenze
+  'ricercatore' + ''5-6 hours'': 3551 occorrenze
+  'ricercatore' + ''More than 8 hours'': 3391 occorrenze
+  'universitario' + ''Less than 5 hours'': 2683 occorrenze
+  'universitario' + ''7-8 hours'': 2460 occorrenze
+  'universitario' + ''5-6 hours'': 1952 occorrenze
+  'universitario' + ''More than 8 hours'': 1927 occorrenze
+
+Age + Dietary Habits:
+  'ricercatore' + 'Moderate': 5738 occorrenze
+  'ricercatore' + 'Unhealthy': 5545 occorrenze
+  'ricercatore' + 'Healthy': 4438 occorrenze
+  'universitario' + 'Unhealthy': 3526 occorrenze
+  'universitario' + 'Moderate': 3066 occorrenze
+  'universitario' + 'Healthy': 2430 occorrenze
+  'liceale' + 'Unhealthy': 1246 occorrenze
+  'liceale' + 'Moderate': 1117 occorrenze
+
+Age + Degree:
+  'liceale' + ''Class 12'': 3126 occorrenze
+  'universitario' + ''Class 12'': 2493 occorrenze
+  'ricercatore' + 'B.Ed': 1452 occorrenze
+
+Age + Have you ever had suicidal thoughts ?:
+  'ricercatore' + 'Yes': 9371 occorrenze
+  'ricercatore' + 'No': 6357 occorrenze
+  'universitario' + 'Yes': 6075 occorrenze
+  'universitario' + 'No': 2951 occorrenze
+  'liceale' + 'Yes': 2210 occorrenze
+
+Age + Study Hours:
+  'ricercatore' + '10.0': 2349 occorrenze
+  'ricercatore' + '12.0': 1797 occorrenze
+  'ricercatore' + '11.0': 1552 occorrenze
+  'universitario' + '10.0': 1432 occorrenze
+  'ricercatore' + '8.0': 1400 occorrenze
+  'ricercatore' + '6.0': 1265 occorrenze
+  'ricercatore' + '9.0': 1116 occorrenze
+  'ricercatore' + '7.0': 1076 occorrenze
+  'universitario' + '12.0': 1015 occorrenze
+  'universitario' + '11.0': 1012 occorrenze
+  'ricercatore' + '0.0': 1009 occorrenze
+
+Age + Financial Stress:
+  'ricercatore' + '5.0': 3455 occorrenze
+  'ricercatore' + '1.0': 3254 occorrenze
+  'ricercatore' + '4.0': 3092 occorrenze
+  'ricercatore' + '2.0': 2965 occorrenze
+  'ricercatore' + '3.0': 2960 occorrenze
+  'universitario' + '5.0': 2434 occorrenze
+  'universitario' + '4.0': 2007 occorrenze
+  'universitario' + '3.0': 1674 occorrenze
+  'universitario' + '2.0': 1527 occorrenze
+  'universitario' + '1.0': 1383 occorrenze
+
+Age + Family History of Mental Illness:
+  'ricercatore' + 'No': 8162 occorrenze
+  'ricercatore' + 'Yes': 7566 occorrenze
+  'universitario' + 'No': 4628 occorrenze
+  'universitario' + 'Yes': 4398 occorrenze
+  'liceale' + 'No': 1608 occorrenze
+  'liceale' + 'Yes': 1539 occorrenze
+
+Age + Depression:
+  'ricercatore' + '1': 8011 occorrenze
+  'ricercatore' + '0': 7717 occorrenze
+  'universitario' + '1': 6009 occorrenze
+  'universitario' + '0': 3017 occorrenze
+  'liceale' + '1': 2316 occorrenze
+
+City + Have you ever had suicidal thoughts ?:
+  'Kalyan' + 'Yes': 1007 occorrenze
+
+Academic Pressure + CGPA:
+  'alta' + 'media': 5003 occorrenze
+  'alta' + 'bassa': 4094 occorrenze
+  'bassa' + 'media': 3678 occorrenze
+  'media' + 'media': 3265 occorrenze
+  'bassa' + 'bassa': 3025 occorrenze
+  'media' + 'bassa': 2604 occorrenze
+  'alta' + 'alta': 2354 occorrenze
+  'bassa' + 'alta': 2285 occorrenze
+  'media' + 'alta': 1593 occorrenze
+
+Academic Pressure + Study Satisfaction:
+  'alta' + 'bassa': 5470 occorrenze
+  'bassa' + 'alta': 3930 occorrenze
+  'alta' + 'alta': 3739 occorrenze
+  'media' + 'alta': 3112 occorrenze
+  'bassa' + 'bassa': 2966 occorrenze
+  'media' + 'bassa': 2863 occorrenze
+  'alta' + 'media': 2242 occorrenze
+  'bassa' + 'media': 2092 occorrenze
+  'media' + 'media': 1487 occorrenze
+
+Academic Pressure + Sleep Duration:
+  'alta' + ''Less than 5 hours'': 3641 occorrenze
+  'alta' + ''7-8 hours'': 2920 occorrenze
+  'alta' + ''5-6 hours'': 2524 occorrenze
+  'bassa' + ''Less than 5 hours'': 2516 occorrenze
+  'alta' + ''More than 8 hours'': 2359 occorrenze
+  'bassa' + ''7-8 hours'': 2290 occorrenze
+  'bassa' + ''More than 8 hours'': 2156 occorrenze
+  'media' + ''Less than 5 hours'': 2153 occorrenze
+  'media' + ''7-8 hours'': 2136 occorrenze
+  'bassa' + ''5-6 hours'': 2021 occorrenze
+  'media' + ''5-6 hours'': 1638 occorrenze
+  'media' + ''More than 8 hours'': 1529 occorrenze
+
+Academic Pressure + Dietary Habits:
+  'alta' + 'Unhealthy': 4803 occorrenze
+  'alta' + 'Moderate': 3845 occorrenze
+  'bassa' + 'Moderate': 3311 occorrenze
+  'bassa' + 'Unhealthy': 2912 occorrenze
+  'alta' + 'Healthy': 2798 occorrenze
+  'media' + 'Moderate': 2765 occorrenze
+  'bassa' + 'Healthy': 2760 occorrenze
+  'media' + 'Unhealthy': 2602 occorrenze
+  'media' + 'Healthy': 2093 occorrenze
+
+Academic Pressure + Degree:
+  'alta' + ''Class 12'': 2884 occorrenze
+  'media' + ''Class 12'': 1725 occorrenze
+  'bassa' + ''Class 12'': 1471 occorrenze
+
+Academic Pressure + Have you ever had suicidal thoughts ?:
+  'alta' + 'Yes': 8634 occorrenze
+  'media' + 'Yes': 4888 occorrenze
+  'bassa' + 'No': 4854 occorrenze
+  'bassa' + 'Yes': 4134 occorrenze
+  'alta' + 'No': 2817 occorrenze
+  'media' + 'No': 2574 occorrenze
+
+Academic Pressure + Study Hours:
+  'alta' + '10.0': 1851 occorrenze
+  'alta' + '12.0': 1440 occorrenze
+  'alta' + '11.0': 1273 occorrenze
+  'media' + '10.0': 1202 occorrenze
+  'bassa' + '10.0': 1181 occorrenze
+  'alta' + '8.0': 1068 occorrenze
+
+Academic Pressure + Financial Stress:
+  'alta' + '5.0': 3240 occorrenze
+  'alta' + '4.0': 2516 occorrenze
+  'alta' + '3.0': 2140 occorrenze
+  'bassa' + '1.0': 2140 occorrenze
+  'alta' + '2.0': 1961 occorrenze
+  'bassa' + '2.0': 1910 occorrenze
+  'media' + '5.0': 1866 occorrenze
+  'bassa' + '3.0': 1698 occorrenze
+  'media' + '4.0': 1630 occorrenze
+  'bassa' + '4.0': 1629 occorrenze
+  'bassa' + '5.0': 1609 occorrenze
+  'alta' + '1.0': 1594 occorrenze
+  'media' + '3.0': 1388 occorrenze
+  'media' + '1.0': 1387 occorrenze
+  'media' + '2.0': 1190 occorrenze
+
+Academic Pressure + Family History of Mental Illness:
+  'alta' + 'No': 5751 occorrenze
+  'alta' + 'Yes': 5700 occorrenze
+  'bassa' + 'No': 4830 occorrenze
+  'bassa' + 'Yes': 4158 occorrenze
+  'media' + 'No': 3817 occorrenze
+  'media' + 'Yes': 3645 occorrenze
+
+Academic Pressure + Depression:
+  'alta' + '1': 9345 occorrenze
+  'bassa' + '0': 6486 occorrenze
+  'media' + '1': 4489 occorrenze
+  'media' + '0': 2973 occorrenze
+  'bassa' + '1': 2502 occorrenze
+  'alta' + '0': 2106 occorrenze
+
+CGPA + Study Satisfaction:
+  'media' + 'bassa': 4810 occorrenze
+  'media' + 'alta': 4712 occorrenze
+  'bassa' + 'alta': 3844 occorrenze
+  'bassa' + 'bassa': 3758 occorrenze
+  'alta' + 'bassa': 2731 occorrenze
+  'media' + 'media': 2424 occorrenze
+  'alta' + 'alta': 2225 occorrenze
+  'bassa' + 'media': 2121 occorrenze
+  'alta' + 'media': 1276 occorrenze
+
+CGPA + Sleep Duration:
+  'media' + ''Less than 5 hours'': 3641 occorrenze
+  'media' + ''7-8 hours'': 3022 occorrenze
+  'bassa' + ''Less than 5 hours'': 2852 occorrenze
+  'media' + ''5-6 hours'': 2814 occorrenze
+  'bassa' + ''7-8 hours'': 2600 occorrenze
+  'media' + ''More than 8 hours'': 2463 occorrenze
+  'bassa' + ''More than 8 hours'': 2240 occorrenze
+  'bassa' + ''5-6 hours'': 2024 occorrenze
+  'alta' + ''Less than 5 hours'': 1817 occorrenze
+  'alta' + ''7-8 hours'': 1724 occorrenze
+  'alta' + ''5-6 hours'': 1345 occorrenze
+  'alta' + ''More than 8 hours'': 1341 occorrenze
+
+CGPA + Dietary Habits:
+  'media' + 'Unhealthy': 4410 occorrenze
+  'media' + 'Moderate': 4276 occorrenze
+  'bassa' + 'Unhealthy': 3647 occorrenze
+  'bassa' + 'Moderate': 3407 occorrenze
+  'media' + 'Healthy': 3256 occorrenze
+  'bassa' + 'Healthy': 2664 occorrenze
+  'alta' + 'Unhealthy': 2260 occorrenze
+  'alta' + 'Moderate': 2238 occorrenze
+  'alta' + 'Healthy': 1731 occorrenze
+
+CGPA + Degree:
+  'media' + ''Class 12'': 2748 occorrenze
+  'bassa' + ''Class 12'': 2200 occorrenze
+  'alta' + ''Class 12'': 1132 occorrenze
+
+CGPA + Have you ever had suicidal thoughts ?:
+  'media' + 'Yes': 7665 occorrenze
+  'bassa' + 'Yes': 6114 occorrenze
+  'media' + 'No': 4281 occorrenze
+  'alta' + 'Yes': 3877 occorrenze
+  'bassa' + 'No': 3609 occorrenze
+  'alta' + 'No': 2355 occorrenze
+
+CGPA + Study Hours:
+  'media' + '10.0': 1900 occorrenze
+  'bassa' + '10.0': 1435 occorrenze
+  'media' + '12.0': 1389 occorrenze
+  'media' + '11.0': 1270 occorrenze
+  'bassa' + '12.0': 1074 occorrenze
+  'media' + '8.0': 1031 occorrenze
+
+CGPA + Financial Stress:
+  'media' + '5.0': 2900 occorrenze
+  'media' + '4.0': 2494 occorrenze
+  'bassa' + '5.0': 2334 occorrenze
+  'media' + '3.0': 2236 occorrenze
+  'media' + '2.0': 2164 occorrenze
+  'media' + '1.0': 2151 occorrenze
+  'bassa' + '4.0': 1983 occorrenze
+  'bassa' + '3.0': 1833 occorrenze
+  'bassa' + '1.0': 1789 occorrenze
+  'bassa' + '2.0': 1782 occorrenze
+  'alta' + '5.0': 1481 occorrenze
+  'alta' + '4.0': 1298 occorrenze
+  'alta' + '1.0': 1181 occorrenze
+  'alta' + '3.0': 1157 occorrenze
+  'alta' + '2.0': 1115 occorrenze
+
+CGPA + Family History of Mental Illness:
+  'media' + 'No': 6196 occorrenze
+  'media' + 'Yes': 5750 occorrenze
+  'bassa' + 'No': 4973 occorrenze
+  'bassa' + 'Yes': 4750 occorrenze
+  'alta' + 'No': 3229 occorrenze
+  'alta' + 'Yes': 3003 occorrenze
+
+CGPA + Depression:
+  'media' + '1': 7164 occorrenze
+  'bassa' + '1': 5585 occorrenze
+  'media' + '0': 4782 occorrenze
+  'bassa' + '0': 4138 occorrenze
+  'alta' + '1': 3587 occorrenze
+  'alta' + '0': 2645 occorrenze
+
+Study Satisfaction + Sleep Duration:
+  'bassa' + ''Less than 5 hours'': 3462 occorrenze
+  'alta' + ''Less than 5 hours'': 3192 occorrenze
+  'bassa' + ''7-8 hours'': 2951 occorrenze
+  'alta' + ''7-8 hours'': 2792 occorrenze
+  'bassa' + ''5-6 hours'': 2477 occorrenze
+  'alta' + ''More than 8 hours'': 2423 occorrenze
+  'bassa' + ''More than 8 hours'': 2402 occorrenze
+  'alta' + ''5-6 hours'': 2364 occorrenze
+  'media' + ''Less than 5 hours'': 1656 occorrenze
+  'media' + ''7-8 hours'': 1603 occorrenze
+  'media' + ''5-6 hours'': 1342 occorrenze
+  'media' + ''More than 8 hours'': 1219 occorrenze
+
+Study Satisfaction + Dietary Habits:
+  'bassa' + 'Unhealthy': 4253 occorrenze
+  'bassa' + 'Moderate': 4128 occorrenze
+  'alta' + 'Unhealthy': 3890 occorrenze
+  'alta' + 'Moderate': 3793 occorrenze
+  'alta' + 'Healthy': 3092 occorrenze
+  'bassa' + 'Healthy': 2914 occorrenze
+  'media' + 'Unhealthy': 2174 occorrenze
+  'media' + 'Moderate': 2000 occorrenze
+  'media' + 'Healthy': 1645 occorrenze
+
+Study Satisfaction + Degree:
+  'alta' + ''Class 12'': 2647 occorrenze
+  'bassa' + ''Class 12'': 2221 occorrenze
+  'media' + ''Class 12'': 1212 occorrenze
+
+Study Satisfaction + Have you ever had suicidal thoughts ?:
+  'bassa' + 'Yes': 7624 occorrenze
+  'alta' + 'Yes': 6315 occorrenze
+  'alta' + 'No': 4466 occorrenze
+  'media' + 'Yes': 3717 occorrenze
+  'bassa' + 'No': 3675 occorrenze
+  'media' + 'No': 2104 occorrenze
+
+Study Satisfaction + Study Hours:
+  'bassa' + '10.0': 1759 occorrenze
+  'alta' + '10.0': 1573 occorrenze
+  'bassa' + '12.0': 1376 occorrenze
+  'bassa' + '11.0': 1168 occorrenze
+  'alta' + '12.0': 1148 occorrenze
+  'alta' + '11.0': 1104 occorrenze
+  'bassa' + '8.0': 1090 occorrenze
+
+Study Satisfaction + Financial Stress:
+  'bassa' + '5.0': 2971 occorrenze
+  'alta' + '5.0': 2418 occorrenze
+  'bassa' + '4.0': 2402 occorrenze
+  'alta' + '1.0': 2244 occorrenze
+  'alta' + '4.0': 2208 occorrenze
+  'bassa' + '3.0': 2179 occorrenze
+  'alta' + '2.0': 2004 occorrenze
+  'bassa' + '2.0': 1992 occorrenze
+  'alta' + '3.0': 1907 occorrenze
+  'bassa' + '1.0': 1753 occorrenze
+  'media' + '5.0': 1326 occorrenze
+  'media' + '4.0': 1165 occorrenze
+  'media' + '3.0': 1140 occorrenze
+  'media' + '1.0': 1124 occorrenze
+  'media' + '2.0': 1065 occorrenze
+
+Study Satisfaction + Family History of Mental Illness:
+  'bassa' + 'No': 5796 occorrenze
+  'alta' + 'No': 5606 occorrenze
+  'bassa' + 'Yes': 5503 occorrenze
+  'alta' + 'Yes': 5175 occorrenze
+  'media' + 'No': 2996 occorrenze
+  'media' + 'Yes': 2825 occorrenze
+
+Study Satisfaction + Depression:
+  'bassa' + '1': 7631 occorrenze
+  'alta' + '0': 5429 occorrenze
+  'alta' + '1': 5352 occorrenze
+  'bassa' + '0': 3668 occorrenze
+  'media' + '1': 3353 occorrenze
+  'media' + '0': 2468 occorrenze
+
+Sleep Duration + Dietary Habits:
+  ''Less than 5 hours'' + 'Unhealthy': 3068 occorrenze
+  ''Less than 5 hours'' + 'Moderate': 3040 occorrenze
+  ''7-8 hours'' + 'Unhealthy': 2820 occorrenze
+  ''7-8 hours'' + 'Moderate': 2515 occorrenze
+  ''More than 8 hours'' + 'Unhealthy': 2241 occorrenze
+  ''5-6 hours'' + 'Moderate': 2217 occorrenze
+  ''Less than 5 hours'' + 'Healthy': 2197 occorrenze
+  ''5-6 hours'' + 'Unhealthy': 2180 occorrenze
+  ''More than 8 hours'' + 'Moderate': 2142 occorrenze
+  ''7-8 hours'' + 'Healthy': 2008 occorrenze
+  ''5-6 hours'' + 'Healthy': 1783 occorrenze
+  ''More than 8 hours'' + 'Healthy': 1660 occorrenze
+
+Sleep Duration + Degree:
+  ''Less than 5 hours'' + ''Class 12'': 1803 occorrenze
+  ''7-8 hours'' + ''Class 12'': 1561 occorrenze
+  ''More than 8 hours'' + ''Class 12'': 1407 occorrenze
+  ''5-6 hours'' + ''Class 12'': 1309 occorrenze
+
+Sleep Duration + Have you ever had suicidal thoughts ?:
+  ''Less than 5 hours'' + 'Yes': 5543 occorrenze
+  ''7-8 hours'' + 'Yes': 4773 occorrenze
+  ''5-6 hours'' + 'Yes': 3836 occorrenze
+  ''More than 8 hours'' + 'Yes': 3493 occorrenze
+  ''Less than 5 hours'' + 'No': 2767 occorrenze
+  ''7-8 hours'' + 'No': 2573 occorrenze
+  ''More than 8 hours'' + 'No': 2551 occorrenze
+  ''5-6 hours'' + 'No': 2347 occorrenze
+
+Sleep Duration + Study Hours:
+  ''Less than 5 hours'' + '10.0': 1297 occorrenze
+  ''7-8 hours'' + '10.0': 1088 occorrenze
+  ''5-6 hours'' + '10.0': 1024 occorrenze
+
+Sleep Duration + Financial Stress:
+  ''Less than 5 hours'' + '5.0': 2146 occorrenze
+  ''7-8 hours'' + '5.0': 1764 occorrenze
+  ''Less than 5 hours'' + '1.0': 1636 occorrenze
+  ''Less than 5 hours'' + '4.0': 1635 occorrenze
+  ''7-8 hours'' + '4.0': 1607 occorrenze
+  ''Less than 5 hours'' + '3.0': 1502 occorrenze
+  ''More than 8 hours'' + '5.0': 1426 occorrenze
+  ''Less than 5 hours'' + '2.0': 1390 occorrenze
+  ''7-8 hours'' + '3.0': 1378 occorrenze
+  ''5-6 hours'' + '5.0': 1376 occorrenze
+  ''7-8 hours'' + '2.0': 1327 occorrenze
+  ''5-6 hours'' + '4.0': 1319 occorrenze
+  ''7-8 hours'' + '1.0': 1270 occorrenze
+  ''More than 8 hours'' + '4.0': 1212 occorrenze
+  ''5-6 hours'' + '3.0': 1206 occorrenze
+  ''5-6 hours'' + '2.0': 1186 occorrenze
+  ''More than 8 hours'' + '2.0': 1154 occorrenze
+  ''More than 8 hours'' + '3.0': 1136 occorrenze
+  ''More than 8 hours'' + '1.0': 1116 occorrenze
+  ''5-6 hours'' + '1.0': 1094 occorrenze
+
+Sleep Duration + Family History of Mental Illness:
+  ''Less than 5 hours'' + 'No': 4214 occorrenze
+  ''Less than 5 hours'' + 'Yes': 4096 occorrenze
+  ''7-8 hours'' + 'No': 3847 occorrenze
+  ''7-8 hours'' + 'Yes': 3499 occorrenze
+  ''5-6 hours'' + 'No': 3179 occorrenze
+  ''More than 8 hours'' + 'No': 3148 occorrenze
+  ''5-6 hours'' + 'Yes': 3004 occorrenze
+  ''More than 8 hours'' + 'Yes': 2896 occorrenze
+
+Sleep Duration + Depression:
+  ''Less than 5 hours'' + '1': 5361 occorrenze
+  ''7-8 hours'' + '1': 4371 occorrenze
+  ''5-6 hours'' + '1': 3517 occorrenze
+  ''More than 8 hours'' + '1': 3078 occorrenze
+  ''7-8 hours'' + '0': 2975 occorrenze
+  ''More than 8 hours'' + '0': 2966 occorrenze
+  ''Less than 5 hours'' + '0': 2949 occorrenze
+  ''5-6 hours'' + '0': 2666 occorrenze
+
+Dietary Habits + Degree:
+  'Unhealthy' + ''Class 12'': 2429 occorrenze
+  'Moderate' + ''Class 12'': 2085 occorrenze
+  'Healthy' + ''Class 12'': 1565 occorrenze
+
+Dietary Habits + Have you ever had suicidal thoughts ?:
+  'Unhealthy' + 'Yes': 7187 occorrenze
+  'Moderate' + 'Yes': 6170 occorrenze
+  'Healthy' + 'Yes': 4289 occorrenze
+  'Moderate' + 'No': 3751 occorrenze
+  'Healthy' + 'No': 3362 occorrenze
+  'Unhealthy' + 'No': 3130 occorrenze
+
+Dietary Habits + Study Hours:
+  'Unhealthy' + '10.0': 1641 occorrenze
+  'Moderate' + '10.0': 1551 occorrenze
+  'Unhealthy' + '12.0': 1212 occorrenze
+  'Unhealthy' + '11.0': 1131 occorrenze
+  'Moderate' + '12.0': 1126 occorrenze
+  'Healthy' + '10.0': 1042 occorrenze
+
+Dietary Habits + Financial Stress:
+  'Unhealthy' + '5.0': 2887 occorrenze
+  'Moderate' + '5.0': 2264 occorrenze
+  'Unhealthy' + '4.0': 2257 occorrenze
+  'Moderate' + '4.0': 1961 occorrenze
+  'Moderate' + '1.0': 1921 occorrenze
+  'Unhealthy' + '3.0': 1909 occorrenze
+  'Moderate' + '2.0': 1892 occorrenze
+  'Moderate' + '3.0': 1883 occorrenze
+  'Unhealthy' + '2.0': 1645 occorrenze
+  'Unhealthy' + '1.0': 1618 occorrenze
+  'Healthy' + '1.0': 1579 occorrenze
+  'Healthy' + '5.0': 1561 occorrenze
+  'Healthy' + '4.0': 1554 occorrenze
+  'Healthy' + '2.0': 1523 occorrenze
+  'Healthy' + '3.0': 1432 occorrenze
+
+Dietary Habits + Family History of Mental Illness:
+  'Unhealthy' + 'No': 5274 occorrenze
+  'Moderate' + 'No': 5163 occorrenze
+  'Unhealthy' + 'Yes': 5043 occorrenze
+  'Moderate' + 'Yes': 4758 occorrenze
+  'Healthy' + 'No': 3952 occorrenze
+  'Healthy' + 'Yes': 3699 occorrenze
+
+Dietary Habits + Depression:
+  'Unhealthy' + '1': 7297 occorrenze
+  'Moderate' + '1': 5558 occorrenze
+  'Moderate' + '0': 4363 occorrenze
+  'Healthy' + '0': 4178 occorrenze
+  'Healthy' + '1': 3473 occorrenze
+  'Unhealthy' + '0': 3020 occorrenze
+
+Degree + Have you ever had suicidal thoughts ?:
+  ''Class 12'' + 'Yes': 4197 occorrenze
+  ''Class 12'' + 'No': 1883 occorrenze
+  'B.Ed' + 'Yes': 1157 occorrenze
+
+Degree + Financial Stress:
+  ''Class 12'' + '5.0': 1621 occorrenze
+  ''Class 12'' + '4.0': 1355 occorrenze
+  ''Class 12'' + '3.0': 1118 occorrenze
+  ''Class 12'' + '2.0': 1073 occorrenze
+
+Degree + Family History of Mental Illness:
+  ''Class 12'' + 'No': 3098 occorrenze
+  ''Class 12'' + 'Yes': 2982 occorrenze
+
+Degree + Depression:
+  ''Class 12'' + '1': 4303 occorrenze
+  ''Class 12'' + '0': 1777 occorrenze
+  'B.Ed' + '1': 1021 occorrenze
+
+Have you ever had suicidal thoughts ? + Study Hours:
+  'Yes' + '10.0': 3041 occorrenze
+  'Yes' + '12.0': 2186 occorrenze
+  'Yes' + '11.0': 1942 occorrenze
+  'Yes' + '8.0': 1623 occorrenze
+  'Yes' + '6.0': 1393 occorrenze
+  'Yes' + '7.0': 1269 occorrenze
+  'Yes' + '9.0': 1268 occorrenze
+  'No' + '10.0': 1193 occorrenze
+
+Have you ever had suicidal thoughts ? + Financial Stress:
+  'Yes' + '5.0': 5084 occorrenze
+  'Yes' + '4.0': 4017 occorrenze
+  'Yes' + '3.0': 3347 occorrenze
+  'Yes' + '2.0': 2743 occorrenze
+  'No' + '1.0': 2656 occorrenze
+  'Yes' + '1.0': 2465 occorrenze
+  'No' + '2.0': 2318 occorrenze
+  'No' + '3.0': 1879 occorrenze
+  'No' + '4.0': 1758 occorrenze
+  'No' + '5.0': 1631 occorrenze
+
+Have you ever had suicidal thoughts ? + Family History of Mental Illness:
+  'Yes' + 'No': 8935 occorrenze
+  'Yes' + 'Yes': 8721 occorrenze
+  'No' + 'No': 5463 occorrenze
+  'No' + 'Yes': 4782 occorrenze
+
+Have you ever had suicidal thoughts ? + Depression:
+  'Yes' + '1': 13957 occorrenze
+  'No' + '0': 7866 occorrenze
+  'Yes' + '0': 3699 occorrenze
+  'No' + '1': 2379 occorrenze
+
+Study Hours + Financial Stress:
+  '10.0' + '5.0': 1151 occorrenze
+
+Study Hours + Family History of Mental Illness:
+  '10.0' + 'No': 2161 occorrenze
+  '10.0' + 'Yes': 2073 occorrenze
+  '12.0' + 'No': 1613 occorrenze
+  '12.0' + 'Yes': 1559 occorrenze
+  '11.0' + 'No': 1450 occorrenze
+  '11.0' + 'Yes': 1442 occorrenze
+  '8.0' + 'No': 1285 occorrenze
+  '8.0' + 'Yes': 1224 occorrenze
+  '6.0' + 'No': 1146 occorrenze
+  '6.0' + 'Yes': 1101 occorrenze
+  '7.0' + 'No': 1053 occorrenze
+  '9.0' + 'No': 1050 occorrenze
+
+Study Hours + Depression:
+  '10.0' + '1': 2979 occorrenze
+  '12.0' + '1': 2169 occorrenze
+  '11.0' + '1': 1960 occorrenze
+  '8.0' + '1': 1568 occorrenze
+  '6.0' + '1': 1288 occorrenze
+  '10.0' + '0': 1255 occorrenze
+  '9.0' + '1': 1214 occorrenze
+  '7.0' + '1': 1176 occorrenze
+  '0.0' + '0': 1096 occorrenze
+  '12.0' + '0': 1003 occorrenze
+
+Financial Stress + Family History of Mental Illness:
+  '5.0' + 'No': 3435 occorrenze
+  '5.0' + 'Yes': 3280 occorrenze
+  '4.0' + 'No': 2899 occorrenze
+  '4.0' + 'Yes': 2876 occorrenze
+  '2.0' + 'No': 2772 occorrenze
+  '3.0' + 'No': 2714 occorrenze
+  '1.0' + 'No': 2577 occorrenze
+  '1.0' + 'Yes': 2544 occorrenze
+  '3.0' + 'Yes': 2512 occorrenze
+  '2.0' + 'Yes': 2289 occorrenze
+
+Financial Stress + Depression:
+  '5.0' + '1': 5458 occorrenze
+  '4.0' + '1': 3990 occorrenze
+  '1.0' + '0': 3489 occorrenze
+  '3.0' + '1': 3080 occorrenze
+  '2.0' + '0': 2886 occorrenze
+  '2.0' + '1': 2175 occorrenze
+  '3.0' + '0': 2146 occorrenze
+  '4.0' + '0': 1785 occorrenze
+  '1.0' + '1': 1632 occorrenze
+  '5.0' + '0': 1257 occorrenze
+
+Family History of Mental Illness + Depression:
+  'Yes' + '1': 8273 occorrenze
+  'No' + '1': 8063 occorrenze
+  'No' + '0': 6335 occorrenze
+  'Yes' + '0': 5230 occorrenze
+
+=== PATTERN COMBINAZIONI 3 COLONNE (min 1000 occorrenze) ===
+
+Gender + Age + Academic Pressure:
+  'Male' + 'ricercatore' + 'alta': 3374 occorrenze
+  'Male' + 'ricercatore' + 'bassa': 3011 occorrenze
+  'Female' + 'ricercatore' + 'alta': 2824 occorrenze
+  'Male' + 'ricercatore' + 'media': 2421 occorrenze
+  'Female' + 'ricercatore' + 'bassa': 2273 occorrenze
+  'Male' + 'universitario' + 'alta': 1969 occorrenze
+  'Female' + 'ricercatore' + 'media': 1825 occorrenze
+  'Female' + 'universitario' + 'alta': 1717 occorrenze
+  'Male' + 'universitario' + 'bassa': 1657 occorrenze
+  'Male' + 'universitario' + 'media': 1357 occorrenze
+  'Female' + 'universitario' + 'bassa': 1294 occorrenze
+  'Female' + 'universitario' + 'media': 1032 occorrenze
+
+Gender + Age + CGPA:
+  'Male' + 'ricercatore' + 'media': 3686 occorrenze
+  'Male' + 'ricercatore' + 'bassa': 2914 occorrenze
+  'Female' + 'ricercatore' + 'media': 2797 occorrenze
+  'Female' + 'ricercatore' + 'bassa': 2550 occorrenze
+  'Male' + 'universitario' + 'media': 2256 occorrenze
+  'Male' + 'ricercatore' + 'alta': 2206 occorrenze
+  'Female' + 'universitario' + 'media': 1753 occorrenze
+  'Male' + 'universitario' + 'bassa': 1667 occorrenze
+  'Female' + 'ricercatore' + 'alta': 1575 occorrenze
+  'Female' + 'universitario' + 'bassa': 1498 occorrenze
+  'Male' + 'universitario' + 'alta': 1060 occorrenze
+
+Gender + Age + Study Satisfaction:
+  'Male' + 'ricercatore' + 'bassa': 3426 occorrenze
+  'Male' + 'ricercatore' + 'alta': 3361 occorrenze
+  'Female' + 'ricercatore' + 'bassa': 2755 occorrenze
+  'Female' + 'ricercatore' + 'alta': 2726 occorrenze
+  'Male' + 'universitario' + 'bassa': 2224 occorrenze
+  'Male' + 'ricercatore' + 'media': 2019 occorrenze
+  'Female' + 'universitario' + 'bassa': 1766 occorrenze
+  'Male' + 'universitario' + 'alta': 1760 occorrenze
+  'Female' + 'universitario' + 'alta': 1499 occorrenze
+  'Female' + 'ricercatore' + 'media': 1441 occorrenze
+
+Gender + Age + Sleep Duration:
+  'Male' + 'ricercatore' + ''Less than 5 hours'': 2644 occorrenze
+  'Male' + 'ricercatore' + ''7-8 hours'': 2284 occorrenze
+  'Female' + 'ricercatore' + ''Less than 5 hours'': 2043 occorrenze
+  'Male' + 'ricercatore' + ''5-6 hours'': 1965 occorrenze
+  'Male' + 'ricercatore' + ''More than 8 hours'': 1907 occorrenze
+  'Female' + 'ricercatore' + ''7-8 hours'': 1802 occorrenze
+  'Female' + 'ricercatore' + ''5-6 hours'': 1586 occorrenze
+  'Male' + 'universitario' + ''Less than 5 hours'': 1502 occorrenze
+  'Female' + 'ricercatore' + ''More than 8 hours'': 1484 occorrenze
+  'Male' + 'universitario' + ''7-8 hours'': 1322 occorrenze
+  'Female' + 'universitario' + ''Less than 5 hours'': 1181 occorrenze
+  'Female' + 'universitario' + ''7-8 hours'': 1138 occorrenze
+  'Male' + 'universitario' + ''More than 8 hours'': 1095 occorrenze
+  'Male' + 'universitario' + ''5-6 hours'': 1061 occorrenze
+
+Gender + Age + Dietary Habits:
+  'Male' + 'ricercatore' + 'Unhealthy': 3341 occorrenze
+  'Male' + 'ricercatore' + 'Moderate': 3105 occorrenze
+  'Female' + 'ricercatore' + 'Moderate': 2633 occorrenze
+  'Male' + 'ricercatore' + 'Healthy': 2355 occorrenze
+  'Female' + 'ricercatore' + 'Unhealthy': 2204 occorrenze
+  'Male' + 'universitario' + 'Unhealthy': 2092 occorrenze
+  'Female' + 'ricercatore' + 'Healthy': 2083 occorrenze
+  'Male' + 'universitario' + 'Moderate': 1625 occorrenze
+  'Female' + 'universitario' + 'Moderate': 1441 occorrenze
+  'Female' + 'universitario' + 'Unhealthy': 1434 occorrenze
+  'Male' + 'universitario' + 'Healthy': 1264 occorrenze
+  'Female' + 'universitario' + 'Healthy': 1166 occorrenze
+
+Gender + Age + Degree:
+  'Male' + 'liceale' + ''Class 12'': 1746 occorrenze
+  'Female' + 'liceale' + ''Class 12'': 1380 occorrenze
+  'Male' + 'universitario' + ''Class 12'': 1343 occorrenze
+  'Female' + 'universitario' + ''Class 12'': 1150 occorrenze
+
+Gender + Age + Have you ever had suicidal thoughts ?:
+  'Male' + 'ricercatore' + 'Yes': 5267 occorrenze
+  'Female' + 'ricercatore' + 'Yes': 4104 occorrenze
+  'Male' + 'ricercatore' + 'No': 3539 occorrenze
+  'Male' + 'universitario' + 'Yes': 3341 occorrenze
+  'Female' + 'ricercatore' + 'No': 2818 occorrenze
+  'Female' + 'universitario' + 'Yes': 2734 occorrenze
+  'Male' + 'universitario' + 'No': 1642 occorrenze
+  'Female' + 'universitario' + 'No': 1309 occorrenze
+  'Male' + 'liceale' + 'Yes': 1222 occorrenze
+
+Gender + Age + Study Hours:
+  'Male' + 'ricercatore' + '10.0': 1369 occorrenze
+
+Gender + Age + Financial Stress:
+  'Male' + 'ricercatore' + '5.0': 1914 occorrenze
+  'Male' + 'ricercatore' + '1.0': 1801 occorrenze
+  'Male' + 'ricercatore' + '4.0': 1746 occorrenze
+  'Male' + 'ricercatore' + '2.0': 1673 occorrenze
+  'Male' + 'ricercatore' + '3.0': 1671 occorrenze
+  'Female' + 'ricercatore' + '5.0': 1541 occorrenze
+  'Female' + 'ricercatore' + '1.0': 1453 occorrenze
+  'Female' + 'ricercatore' + '4.0': 1346 occorrenze
+  'Male' + 'universitario' + '5.0': 1313 occorrenze
+  'Female' + 'ricercatore' + '2.0': 1292 occorrenze
+  'Female' + 'ricercatore' + '3.0': 1289 occorrenze
+  'Female' + 'universitario' + '5.0': 1121 occorrenze
+  'Male' + 'universitario' + '4.0': 1111 occorrenze
+
+Gender + Age + Family History of Mental Illness:
+  'Male' + 'ricercatore' + 'No': 4614 occorrenze
+  'Male' + 'ricercatore' + 'Yes': 4192 occorrenze
+  'Female' + 'ricercatore' + 'No': 3548 occorrenze
+  'Female' + 'ricercatore' + 'Yes': 3374 occorrenze
+  'Male' + 'universitario' + 'No': 2618 occorrenze
+  'Male' + 'universitario' + 'Yes': 2365 occorrenze
+  'Female' + 'universitario' + 'Yes': 2033 occorrenze
+  'Female' + 'universitario' + 'No': 2010 occorrenze
+
+Gender + Age + Depression:
+  'Male' + 'ricercatore' + '1': 4495 occorrenze
+  'Male' + 'ricercatore' + '0': 4311 occorrenze
+  'Female' + 'ricercatore' + '1': 3516 occorrenze
+  'Female' + 'ricercatore' + '0': 3406 occorrenze
+  'Male' + 'universitario' + '1': 3320 occorrenze
+  'Female' + 'universitario' + '1': 2689 occorrenze
+  'Male' + 'universitario' + '0': 1663 occorrenze
+  'Female' + 'universitario' + '0': 1354 occorrenze
+  'Male' + 'liceale' + '1': 1300 occorrenze
+  'Female' + 'liceale' + '1': 1016 occorrenze
+
+Gender + Academic Pressure + CGPA:
+  'Male' + 'alta' + 'media': 2722 occorrenze
+  'Female' + 'alta' + 'media': 2281 occorrenze
+  'Male' + 'alta' + 'bassa': 2160 occorrenze
+  'Male' + 'bassa' + 'media': 2144 occorrenze
+  'Female' + 'alta' + 'bassa': 1934 occorrenze
+  'Male' + 'media' + 'media': 1892 occorrenze
+  'Male' + 'bassa' + 'bassa': 1600 occorrenze
+  'Female' + 'bassa' + 'media': 1534 occorrenze
+  'Female' + 'bassa' + 'bassa': 1425 occorrenze
+  'Male' + 'media' + 'bassa': 1403 occorrenze
+  'Female' + 'media' + 'media': 1373 occorrenze
+  'Male' + 'bassa' + 'alta': 1349 occorrenze
+  'Male' + 'alta' + 'alta': 1343 occorrenze
+  'Female' + 'media' + 'bassa': 1201 occorrenze
+  'Female' + 'alta' + 'alta': 1011 occorrenze
+
+Gender + Academic Pressure + Study Satisfaction:
+  'Male' + 'alta' + 'bassa': 3019 occorrenze
+  'Female' + 'alta' + 'bassa': 2451 occorrenze
+  'Male' + 'bassa' + 'alta': 2213 occorrenze
+  'Male' + 'alta' + 'alta': 1975 occorrenze
+  'Female' + 'alta' + 'alta': 1764 occorrenze
+  'Female' + 'bassa' + 'alta': 1717 occorrenze
+  'Male' + 'media' + 'alta': 1703 occorrenze
+  'Male' + 'bassa' + 'bassa': 1655 occorrenze
+  'Male' + 'media' + 'bassa': 1631 occorrenze
+  'Female' + 'media' + 'alta': 1409 occorrenze
+  'Female' + 'bassa' + 'bassa': 1311 occorrenze
+  'Female' + 'media' + 'bassa': 1232 occorrenze
+  'Male' + 'alta' + 'media': 1231 occorrenze
+  'Male' + 'bassa' + 'media': 1225 occorrenze
+  'Female' + 'alta' + 'media': 1011 occorrenze
+
+Gender + Academic Pressure + Sleep Duration:
+  'Male' + 'alta' + ''Less than 5 hours'': 2029 occorrenze
+  'Female' + 'alta' + ''Less than 5 hours'': 1612 occorrenze
+  'Male' + 'alta' + ''7-8 hours'': 1559 occorrenze
+  'Male' + 'bassa' + ''Less than 5 hours'': 1439 occorrenze
+  'Female' + 'alta' + ''7-8 hours'': 1361 occorrenze
+  'Male' + 'alta' + ''5-6 hours'': 1334 occorrenze
+  'Male' + 'alta' + ''More than 8 hours'': 1301 occorrenze
+  'Male' + 'bassa' + ''7-8 hours'': 1290 occorrenze
+  'Male' + 'bassa' + ''More than 8 hours'': 1218 occorrenze
+  'Male' + 'media' + ''Less than 5 hours'': 1214 occorrenze
+  'Male' + 'media' + ''7-8 hours'': 1206 occorrenze
+  'Female' + 'alta' + ''5-6 hours'': 1190 occorrenze
+  'Male' + 'bassa' + ''5-6 hours'': 1143 occorrenze
+  'Female' + 'bassa' + ''Less than 5 hours'': 1077 occorrenze
+  'Female' + 'alta' + ''More than 8 hours'': 1058 occorrenze
+  'Female' + 'bassa' + ''7-8 hours'': 1000 occorrenze
+
+Gender + Academic Pressure + Dietary Habits:
+  'Male' + 'alta' + 'Unhealthy': 2782 occorrenze
+  'Female' + 'alta' + 'Unhealthy': 2021 occorrenze
+  'Male' + 'alta' + 'Moderate': 2017 occorrenze
+  'Female' + 'alta' + 'Moderate': 1828 occorrenze
+  'Male' + 'bassa' + 'Moderate': 1812 occorrenze
+  'Male' + 'bassa' + 'Unhealthy': 1802 occorrenze
+  'Male' + 'media' + 'Unhealthy': 1589 occorrenze
+  'Male' + 'media' + 'Moderate': 1510 occorrenze
+  'Female' + 'bassa' + 'Moderate': 1499 occorrenze
+  'Male' + 'bassa' + 'Healthy': 1476 occorrenze
+  'Male' + 'alta' + 'Healthy': 1423 occorrenze
+  'Female' + 'alta' + 'Healthy': 1375 occorrenze
+  'Female' + 'bassa' + 'Healthy': 1284 occorrenze
+  'Female' + 'media' + 'Moderate': 1255 occorrenze
+  'Male' + 'media' + 'Healthy': 1128 occorrenze
+  'Female' + 'bassa' + 'Unhealthy': 1110 occorrenze
+  'Female' + 'media' + 'Unhealthy': 1013 occorrenze
+
+Gender + Academic Pressure + Degree:
+  'Male' + 'alta' + ''Class 12'': 1585 occorrenze
+  'Female' + 'alta' + ''Class 12'': 1299 occorrenze
+
+Gender + Academic Pressure + Have you ever had suicidal thoughts ?:
+  'Male' + 'alta' + 'Yes': 4696 occorrenze
+  'Female' + 'alta' + 'Yes': 3938 occorrenze
+  'Male' + 'media' + 'Yes': 2777 occorrenze
+  'Male' + 'bassa' + 'No': 2736 occorrenze
+  'Male' + 'bassa' + 'Yes': 2357 occorrenze
+  'Female' + 'bassa' + 'No': 2118 occorrenze
+  'Female' + 'media' + 'Yes': 2111 occorrenze
+  'Female' + 'bassa' + 'Yes': 1777 occorrenze
+  'Male' + 'alta' + 'No': 1529 occorrenze
+  'Male' + 'media' + 'No': 1452 occorrenze
+  'Female' + 'alta' + 'No': 1288 occorrenze
+  'Female' + 'media' + 'No': 1122 occorrenze
+
+Gender + Academic Pressure + Study Hours:
+  'Male' + 'alta' + '10.0': 1024 occorrenze
+
+Gender + Academic Pressure + Financial Stress:
+  'Male' + 'alta' + '5.0': 1732 occorrenze
+  'Female' + 'alta' + '5.0': 1508 occorrenze
+  'Male' + 'alta' + '4.0': 1410 occorrenze
+  'Male' + 'bassa' + '1.0': 1187 occorrenze
+  'Male' + 'alta' + '3.0': 1157 occorrenze
+  'Female' + 'alta' + '4.0': 1106 occorrenze
+  'Male' + 'bassa' + '2.0': 1076 occorrenze
+  'Male' + 'alta' + '2.0': 1066 occorrenze
+  'Male' + 'media' + '5.0': 1038 occorrenze
+
+Gender + Academic Pressure + Family History of Mental Illness:
+  'Male' + 'alta' + 'No': 3192 occorrenze
+  'Male' + 'alta' + 'Yes': 3033 occorrenze
+  'Male' + 'bassa' + 'No': 2721 occorrenze
+  'Female' + 'alta' + 'Yes': 2667 occorrenze
+  'Female' + 'alta' + 'No': 2559 occorrenze
+  'Male' + 'bassa' + 'Yes': 2372 occorrenze
+  'Male' + 'media' + 'No': 2219 occorrenze
+  'Female' + 'bassa' + 'No': 2109 occorrenze
+  'Male' + 'media' + 'Yes': 2010 occorrenze
+  'Female' + 'bassa' + 'Yes': 1786 occorrenze
+  'Female' + 'media' + 'Yes': 1635 occorrenze
+  'Female' + 'media' + 'No': 1598 occorrenze
+
+Gender + Academic Pressure + Depression:
+  'Male' + 'alta' + '1': 5112 occorrenze
+  'Female' + 'alta' + '1': 4233 occorrenze
+  'Male' + 'bassa' + '0': 3634 occorrenze
+  'Female' + 'bassa' + '0': 2852 occorrenze
+  'Male' + 'media' + '1': 2544 occorrenze
+  'Female' + 'media' + '1': 1945 occorrenze
+  'Male' + 'media' + '0': 1685 occorrenze
+  'Male' + 'bassa' + '1': 1459 occorrenze
+  'Female' + 'media' + '0': 1288 occorrenze
+  'Male' + 'alta' + '0': 1113 occorrenze
+  'Female' + 'bassa' + '1': 1043 occorrenze
+
+Gender + CGPA + Study Satisfaction:
+  'Male' + 'media' + 'bassa': 2714 occorrenze
+  'Male' + 'media' + 'alta': 2652 occorrenze
+  'Female' + 'media' + 'bassa': 2096 occorrenze
+  'Female' + 'media' + 'alta': 2060 occorrenze
+  'Male' + 'bassa' + 'alta': 2005 occorrenze
+  'Male' + 'bassa' + 'bassa': 1993 occorrenze
+  'Female' + 'bassa' + 'alta': 1839 occorrenze
+  'Female' + 'bassa' + 'bassa': 1765 occorrenze
+  'Male' + 'alta' + 'bassa': 1598 occorrenze
+  'Male' + 'media' + 'media': 1392 occorrenze
+  'Male' + 'alta' + 'alta': 1234 occorrenze
+  'Male' + 'bassa' + 'media': 1165 occorrenze
+  'Female' + 'alta' + 'bassa': 1133 occorrenze
+  'Female' + 'media' + 'media': 1032 occorrenze
+
+Gender + CGPA + Sleep Duration:
+  'Male' + 'media' + ''Less than 5 hours'': 2081 occorrenze
+  'Male' + 'media' + ''7-8 hours'': 1707 occorrenze
+  'Male' + 'media' + ''5-6 hours'': 1585 occorrenze
+  'Female' + 'media' + ''Less than 5 hours'': 1560 occorrenze
+  'Male' + 'bassa' + ''Less than 5 hours'': 1554 occorrenze
+  'Male' + 'media' + ''More than 8 hours'': 1381 occorrenze
+  'Male' + 'bassa' + ''7-8 hours'': 1321 occorrenze
+  'Female' + 'media' + ''7-8 hours'': 1315 occorrenze
+  'Female' + 'bassa' + ''Less than 5 hours'': 1298 occorrenze
+  'Female' + 'bassa' + ''7-8 hours'': 1279 occorrenze
+  'Male' + 'bassa' + ''More than 8 hours'': 1236 occorrenze
+  'Female' + 'media' + ''5-6 hours'': 1229 occorrenze
+  'Female' + 'media' + ''More than 8 hours'': 1082 occorrenze
+  'Male' + 'bassa' + ''5-6 hours'': 1050 occorrenze
+  'Male' + 'alta' + ''Less than 5 hours'': 1047 occorrenze
+  'Male' + 'alta' + ''7-8 hours'': 1027 occorrenze
+  'Female' + 'bassa' + ''More than 8 hours'': 1004 occorrenze
+
+Gender + CGPA + Dietary Habits:
+  'Male' + 'media' + 'Unhealthy': 2658 occorrenze
+  'Male' + 'media' + 'Moderate': 2324 occorrenze
+  'Male' + 'bassa' + 'Unhealthy': 2106 occorrenze
+  'Female' + 'media' + 'Moderate': 1952 occorrenze
+  'Male' + 'media' + 'Healthy': 1773 occorrenze
+  'Female' + 'media' + 'Unhealthy': 1752 occorrenze
+  'Male' + 'bassa' + 'Moderate': 1748 occorrenze
+  'Female' + 'bassa' + 'Moderate': 1659 occorrenze
+  'Female' + 'bassa' + 'Unhealthy': 1541 occorrenze
+  'Female' + 'media' + 'Healthy': 1483 occorrenze
+  'Male' + 'alta' + 'Unhealthy': 1409 occorrenze
+  'Female' + 'bassa' + 'Healthy': 1358 occorrenze
+  'Male' + 'bassa' + 'Healthy': 1306 occorrenze
+  'Male' + 'alta' + 'Moderate': 1267 occorrenze
+
+Gender + CGPA + Degree:
+  'Male' + 'media' + ''Class 12'': 1562 occorrenze
+  'Female' + 'media' + ''Class 12'': 1186 occorrenze
+  'Male' + 'bassa' + ''Class 12'': 1172 occorrenze
+  'Female' + 'bassa' + ''Class 12'': 1028 occorrenze
+
+Gender + CGPA + Have you ever had suicidal thoughts ?:
+  'Male' + 'media' + 'Yes': 4312 occorrenze
+  'Female' + 'media' + 'Yes': 3353 occorrenze
+  'Male' + 'bassa' + 'Yes': 3281 occorrenze
+  'Female' + 'bassa' + 'Yes': 2833 occorrenze
+  'Male' + 'media' + 'No': 2446 occorrenze
+  'Male' + 'alta' + 'Yes': 2237 occorrenze
+  'Male' + 'bassa' + 'No': 1882 occorrenze
+  'Female' + 'media' + 'No': 1835 occorrenze
+  'Female' + 'bassa' + 'No': 1727 occorrenze
+  'Female' + 'alta' + 'Yes': 1640 occorrenze
+  'Male' + 'alta' + 'No': 1389 occorrenze
+
+Gender + CGPA + Study Hours:
+  'Male' + 'media' + '10.0': 1107 occorrenze
+
+Gender + CGPA + Financial Stress:
+  'Male' + 'media' + '5.0': 1631 occorrenze
+  'Male' + 'media' + '4.0': 1439 occorrenze
+  'Female' + 'media' + '5.0': 1269 occorrenze
+  'Male' + 'media' + '3.0': 1268 occorrenze
+  'Male' + 'media' + '1.0': 1212 occorrenze
+  'Male' + 'media' + '2.0': 1207 occorrenze
+  'Male' + 'bassa' + '5.0': 1200 occorrenze
+  'Female' + 'bassa' + '5.0': 1134 occorrenze
+  'Female' + 'media' + '4.0': 1055 occorrenze
+  'Male' + 'bassa' + '4.0': 1042 occorrenze
+  'Male' + 'bassa' + '3.0': 1018 occorrenze
+
+Gender + CGPA + Family History of Mental Illness:
+  'Male' + 'media' + 'No': 3553 occorrenze
+  'Male' + 'media' + 'Yes': 3205 occorrenze
+  'Male' + 'bassa' + 'No': 2665 occorrenze
+  'Female' + 'media' + 'No': 2643 occorrenze
+  'Female' + 'media' + 'Yes': 2545 occorrenze
+  'Male' + 'bassa' + 'Yes': 2498 occorrenze
+  'Female' + 'bassa' + 'No': 2308 occorrenze
+  'Female' + 'bassa' + 'Yes': 2252 occorrenze
+  'Male' + 'alta' + 'No': 1914 occorrenze
+  'Male' + 'alta' + 'Yes': 1712 occorrenze
+  'Female' + 'alta' + 'No': 1315 occorrenze
+  'Female' + 'alta' + 'Yes': 1291 occorrenze
+
+Gender + CGPA + Depression:
+  'Male' + 'media' + '1': 4022 occorrenze
+  'Female' + 'media' + '1': 3142 occorrenze
+  'Male' + 'bassa' + '1': 3011 occorrenze
+  'Male' + 'media' + '0': 2736 occorrenze
+  'Female' + 'bassa' + '1': 2574 occorrenze
+  'Male' + 'bassa' + '0': 2152 occorrenze
+  'Male' + 'alta' + '1': 2082 occorrenze
+  'Female' + 'media' + '0': 2046 occorrenze
+  'Female' + 'bassa' + '0': 1986 occorrenze
+  'Male' + 'alta' + '0': 1544 occorrenze
+  'Female' + 'alta' + '1': 1505 occorrenze
+  'Female' + 'alta' + '0': 1101 occorrenze
+
+Gender + Study Satisfaction + Sleep Duration:
+  'Male' + 'bassa' + ''Less than 5 hours'': 1952 occorrenze
+  'Male' + 'alta' + ''Less than 5 hours'': 1762 occorrenze
+  'Male' + 'bassa' + ''7-8 hours'': 1646 occorrenze
+  'Female' + 'bassa' + ''Less than 5 hours'': 1510 occorrenze
+  'Male' + 'alta' + ''7-8 hours'': 1507 occorrenze
+  'Female' + 'alta' + ''Less than 5 hours'': 1430 occorrenze
+  'Male' + 'alta' + ''More than 8 hours'': 1367 occorrenze
+  'Male' + 'bassa' + ''5-6 hours'': 1363 occorrenze
+  'Male' + 'bassa' + ''More than 8 hours'': 1340 occorrenze
+  'Female' + 'bassa' + ''7-8 hours'': 1305 occorrenze
+  'Female' + 'alta' + ''7-8 hours'': 1285 occorrenze
+  'Male' + 'alta' + ''5-6 hours'': 1250 occorrenze
+  'Female' + 'alta' + ''5-6 hours'': 1114 occorrenze
+  'Female' + 'bassa' + ''5-6 hours'': 1114 occorrenze
+  'Female' + 'bassa' + ''More than 8 hours'': 1062 occorrenze
+  'Female' + 'alta' + ''More than 8 hours'': 1056 occorrenze
+
+Gender + Study Satisfaction + Dietary Habits:
+  'Male' + 'bassa' + 'Unhealthy': 2555 occorrenze
+  'Male' + 'alta' + 'Unhealthy': 2306 occorrenze
+  'Male' + 'bassa' + 'Moderate': 2230 occorrenze
+  'Male' + 'alta' + 'Moderate': 1985 occorrenze
+  'Female' + 'bassa' + 'Moderate': 1898 occorrenze
+  'Female' + 'alta' + 'Moderate': 1808 occorrenze
+  'Female' + 'bassa' + 'Unhealthy': 1698 occorrenze
+  'Male' + 'alta' + 'Healthy': 1597 occorrenze
+  'Female' + 'alta' + 'Unhealthy': 1584 occorrenze
+  'Male' + 'bassa' + 'Healthy': 1516 occorrenze
+  'Female' + 'alta' + 'Healthy': 1495 occorrenze
+  'Female' + 'bassa' + 'Healthy': 1398 occorrenze
+  'Male' + 'media' + 'Unhealthy': 1312 occorrenze
+  'Male' + 'media' + 'Moderate': 1124 occorrenze
+
+Gender + Study Satisfaction + Degree:
+  'Male' + 'alta' + ''Class 12'': 1428 occorrenze
+  'Male' + 'bassa' + ''Class 12'': 1269 occorrenze
+  'Female' + 'alta' + ''Class 12'': 1219 occorrenze
+
+Gender + Study Satisfaction + Have you ever had suicidal thoughts ?:
+  'Male' + 'bassa' + 'Yes': 4274 occorrenze
+  'Male' + 'alta' + 'Yes': 3455 occorrenze
+  'Female' + 'bassa' + 'Yes': 3350 occorrenze
+  'Female' + 'alta' + 'Yes': 2860 occorrenze
+  'Male' + 'alta' + 'No': 2436 occorrenze
+  'Male' + 'media' + 'Yes': 2101 occorrenze
+  'Male' + 'bassa' + 'No': 2031 occorrenze
+  'Female' + 'alta' + 'No': 2030 occorrenze
+  'Female' + 'bassa' + 'No': 1644 occorrenze
+  'Female' + 'media' + 'Yes': 1616 occorrenze
+  'Male' + 'media' + 'No': 1250 occorrenze
+
+Gender + Study Satisfaction + Study Hours:
+  'Male' + 'bassa' + '10.0': 1031 occorrenze
+
+Gender + Study Satisfaction + Financial Stress:
+  'Male' + 'bassa' + '5.0': 1627 occorrenze
+  'Male' + 'bassa' + '4.0': 1375 occorrenze
+  'Female' + 'bassa' + '5.0': 1344 occorrenze
+  'Male' + 'alta' + '5.0': 1307 occorrenze
+  'Male' + 'alta' + '1.0': 1241 occorrenze
+  'Male' + 'bassa' + '3.0': 1209 occorrenze
+  'Male' + 'alta' + '4.0': 1208 occorrenze
+  'Male' + 'bassa' + '2.0': 1130 occorrenze
+  'Female' + 'alta' + '5.0': 1111 occorrenze
+  'Male' + 'alta' + '2.0': 1077 occorrenze
+  'Male' + 'alta' + '3.0': 1058 occorrenze
+  'Female' + 'bassa' + '4.0': 1027 occorrenze
+  'Female' + 'alta' + '1.0': 1003 occorrenze
+  'Female' + 'alta' + '4.0': 1000 occorrenze
+
+Gender + Study Satisfaction + Family History of Mental Illness:
+  'Male' + 'bassa' + 'No': 3253 occorrenze
+  'Male' + 'alta' + 'No': 3136 occorrenze
+  'Male' + 'bassa' + 'Yes': 3052 occorrenze
+  'Male' + 'alta' + 'Yes': 2755 occorrenze
+  'Female' + 'bassa' + 'No': 2543 occorrenze
+  'Female' + 'alta' + 'No': 2470 occorrenze
+  'Female' + 'bassa' + 'Yes': 2451 occorrenze
+  'Female' + 'alta' + 'Yes': 2420 occorrenze
+  'Male' + 'media' + 'No': 1743 occorrenze
+  'Male' + 'media' + 'Yes': 1608 occorrenze
+  'Female' + 'media' + 'No': 1253 occorrenze
+  'Female' + 'media' + 'Yes': 1217 occorrenze
+
+Gender + Study Satisfaction + Depression:
+  'Male' + 'bassa' + '1': 4343 occorrenze
+  'Female' + 'bassa' + '1': 3288 occorrenze
+  'Male' + 'alta' + '0': 2988 occorrenze
+  'Male' + 'alta' + '1': 2903 occorrenze
+  'Female' + 'alta' + '1': 2449 occorrenze
+  'Female' + 'alta' + '0': 2441 occorrenze
+  'Male' + 'bassa' + '0': 1962 occorrenze
+  'Male' + 'media' + '1': 1869 occorrenze
+  'Female' + 'bassa' + '0': 1706 occorrenze
+  'Female' + 'media' + '1': 1484 occorrenze
+  'Male' + 'media' + '0': 1482 occorrenze
+
+Gender + Sleep Duration + Dietary Habits:
+  'Male' + ''Less than 5 hours'' + 'Unhealthy': 1818 occorrenze
+  'Male' + ''7-8 hours'' + 'Unhealthy': 1658 occorrenze
+  'Male' + ''Less than 5 hours'' + 'Moderate': 1648 occorrenze
+  'Female' + ''Less than 5 hours'' + 'Moderate': 1392 occorrenze
+  'Male' + ''More than 8 hours'' + 'Unhealthy': 1379 occorrenze
+  'Male' + ''7-8 hours'' + 'Moderate': 1350 occorrenze
+  'Male' + ''5-6 hours'' + 'Unhealthy': 1313 occorrenze
+  'Female' + ''Less than 5 hours'' + 'Unhealthy': 1250 occorrenze
+  'Male' + ''Less than 5 hours'' + 'Healthy': 1213 occorrenze
+  'Male' + ''5-6 hours'' + 'Moderate': 1172 occorrenze
+  'Male' + ''More than 8 hours'' + 'Moderate': 1166 occorrenze
+  'Female' + ''7-8 hours'' + 'Moderate': 1165 occorrenze
+  'Female' + ''7-8 hours'' + 'Unhealthy': 1162 occorrenze
+  'Female' + ''5-6 hours'' + 'Moderate': 1045 occorrenze
+  'Male' + ''7-8 hours'' + 'Healthy': 1044 occorrenze
+
+Gender + Sleep Duration + Degree:
+  'Male' + ''Less than 5 hours'' + ''Class 12'': 1017 occorrenze
+
+Gender + Sleep Duration + Have you ever had suicidal thoughts ?:
+  'Male' + ''Less than 5 hours'' + 'Yes': 3157 occorrenze
+  'Male' + ''7-8 hours'' + 'Yes': 2618 occorrenze
+  'Female' + ''Less than 5 hours'' + 'Yes': 2386 occorrenze
+  'Female' + ''7-8 hours'' + 'Yes': 2155 occorrenze
+  'Male' + ''5-6 hours'' + 'Yes': 2114 occorrenze
+  'Male' + ''More than 8 hours'' + 'Yes': 1936 occorrenze
+  'Female' + ''5-6 hours'' + 'Yes': 1722 occorrenze
+  'Female' + ''More than 8 hours'' + 'Yes': 1557 occorrenze
+  'Male' + ''Less than 5 hours'' + 'No': 1525 occorrenze
+  'Male' + ''More than 8 hours'' + 'No': 1471 occorrenze
+  'Male' + ''7-8 hours'' + 'No': 1437 occorrenze
+  'Male' + ''5-6 hours'' + 'No': 1280 occorrenze
+  'Female' + ''Less than 5 hours'' + 'No': 1242 occorrenze
+  'Female' + ''7-8 hours'' + 'No': 1136 occorrenze
+  'Female' + ''More than 8 hours'' + 'No': 1080 occorrenze
+  'Female' + ''5-6 hours'' + 'No': 1067 occorrenze
+
+Gender + Sleep Duration + Financial Stress:
+  'Male' + ''Less than 5 hours'' + '5.0': 1214 occorrenze
+
+Gender + Sleep Duration + Family History of Mental Illness:
+  'Male' + ''Less than 5 hours'' + 'No': 2388 occorrenze
+  'Male' + ''Less than 5 hours'' + 'Yes': 2294 occorrenze
+  'Male' + ''7-8 hours'' + 'No': 2145 occorrenze
+  'Male' + ''7-8 hours'' + 'Yes': 1910 occorrenze
+  'Female' + ''Less than 5 hours'' + 'No': 1826 occorrenze
+  'Male' + ''More than 8 hours'' + 'No': 1808 occorrenze
+  'Female' + ''Less than 5 hours'' + 'Yes': 1802 occorrenze
+  'Male' + ''5-6 hours'' + 'No': 1786 occorrenze
+  'Female' + ''7-8 hours'' + 'No': 1702 occorrenze
+  'Male' + ''5-6 hours'' + 'Yes': 1608 occorrenze
+  'Male' + ''More than 8 hours'' + 'Yes': 1599 occorrenze
+  'Female' + ''7-8 hours'' + 'Yes': 1589 occorrenze
+  'Female' + ''5-6 hours'' + 'Yes': 1396 occorrenze
+  'Female' + ''5-6 hours'' + 'No': 1393 occorrenze
+  'Female' + ''More than 8 hours'' + 'No': 1340 occorrenze
+  'Female' + ''More than 8 hours'' + 'Yes': 1297 occorrenze
+
+Gender + Sleep Duration + Depression:
+  'Male' + ''Less than 5 hours'' + '1': 3042 occorrenze
+  'Male' + ''7-8 hours'' + '1': 2399 occorrenze
+  'Female' + ''Less than 5 hours'' + '1': 2319 occorrenze
+  'Female' + ''7-8 hours'' + '1': 1972 occorrenze
+  'Male' + ''5-6 hours'' + '1': 1935 occorrenze
+  'Male' + ''More than 8 hours'' + '1': 1735 occorrenze
+  'Male' + ''More than 8 hours'' + '0': 1672 occorrenze
+  'Male' + ''7-8 hours'' + '0': 1656 occorrenze
+  'Male' + ''Less than 5 hours'' + '0': 1640 occorrenze
+  'Female' + ''5-6 hours'' + '1': 1582 occorrenze
+  'Male' + ''5-6 hours'' + '0': 1459 occorrenze
+  'Female' + ''More than 8 hours'' + '1': 1343 occorrenze
+  'Female' + ''7-8 hours'' + '0': 1319 occorrenze
+  'Female' + ''Less than 5 hours'' + '0': 1309 occorrenze
+  'Female' + ''More than 8 hours'' + '0': 1294 occorrenze
+  'Female' + ''5-6 hours'' + '0': 1207 occorrenze
+
+Gender + Dietary Habits + Degree:
+  'Male' + 'Unhealthy' + ''Class 12'': 1448 occorrenze
+  'Male' + 'Moderate' + ''Class 12'': 1104 occorrenze
+
+Gender + Dietary Habits + Have you ever had suicidal thoughts ?:
+  'Male' + 'Unhealthy' + 'Yes': 4258 occorrenze
+  'Male' + 'Moderate' + 'Yes': 3306 occorrenze
+  'Female' + 'Unhealthy' + 'Yes': 2929 occorrenze
+  'Female' + 'Moderate' + 'Yes': 2864 occorrenze
+  'Male' + 'Healthy' + 'Yes': 2259 occorrenze
+  'Male' + 'Moderate' + 'No': 2033 occorrenze
+  'Female' + 'Healthy' + 'Yes': 2030 occorrenze
+  'Male' + 'Unhealthy' + 'No': 1915 occorrenze
+  'Male' + 'Healthy' + 'No': 1768 occorrenze
+  'Female' + 'Moderate' + 'No': 1718 occorrenze
+  'Female' + 'Healthy' + 'No': 1594 occorrenze
+  'Female' + 'Unhealthy' + 'No': 1215 occorrenze
+
+Gender + Dietary Habits + Study Hours:
+  'Male' + 'Unhealthy' + '10.0': 1030 occorrenze
+
+Gender + Dietary Habits + Financial Stress:
+  'Male' + 'Unhealthy' + '5.0': 1676 occorrenze
+  'Male' + 'Unhealthy' + '4.0': 1361 occorrenze
+  'Male' + 'Moderate' + '5.0': 1216 occorrenze
+  'Female' + 'Unhealthy' + '5.0': 1211 occorrenze
+  'Male' + 'Unhealthy' + '3.0': 1151 occorrenze
+  'Male' + 'Moderate' + '4.0': 1049 occorrenze
+  'Female' + 'Moderate' + '5.0': 1048 occorrenze
+  'Male' + 'Moderate' + '1.0': 1047 occorrenze
+  'Male' + 'Unhealthy' + '2.0': 1028 occorrenze
+  'Male' + 'Moderate' + '2.0': 1027 occorrenze
+  'Male' + 'Moderate' + '3.0': 1000 occorrenze
+
+Gender + Dietary Habits + Family History of Mental Illness:
+  'Male' + 'Unhealthy' + 'No': 3189 occorrenze
+  'Male' + 'Unhealthy' + 'Yes': 2984 occorrenze
+  'Male' + 'Moderate' + 'No': 2808 occorrenze
+  'Male' + 'Moderate' + 'Yes': 2531 occorrenze
+  'Female' + 'Moderate' + 'No': 2355 occorrenze
+  'Female' + 'Moderate' + 'Yes': 2227 occorrenze
+  'Male' + 'Healthy' + 'No': 2129 occorrenze
+  'Female' + 'Unhealthy' + 'No': 2085 occorrenze
+  'Female' + 'Unhealthy' + 'Yes': 2059 occorrenze
+  'Male' + 'Healthy' + 'Yes': 1898 occorrenze
+  'Female' + 'Healthy' + 'No': 1823 occorrenze
+  'Female' + 'Healthy' + 'Yes': 1801 occorrenze
+
+Gender + Dietary Habits + Depression:
+  'Male' + 'Unhealthy' + '1': 4336 occorrenze
+  'Male' + 'Moderate' + '1': 2964 occorrenze
+  'Female' + 'Unhealthy' + '1': 2961 occorrenze
+  'Female' + 'Moderate' + '1': 2594 occorrenze
+  'Male' + 'Moderate' + '0': 2375 occorrenze
+  'Male' + 'Healthy' + '0': 2217 occorrenze
+  'Female' + 'Moderate' + '0': 1988 occorrenze
+  'Female' + 'Healthy' + '0': 1961 occorrenze
+  'Male' + 'Unhealthy' + '0': 1837 occorrenze
+  'Male' + 'Healthy' + '1': 1810 occorrenze
+  'Female' + 'Healthy' + '1': 1663 occorrenze
+  'Female' + 'Unhealthy' + '0': 1183 occorrenze
+
+Gender + Degree + Have you ever had suicidal thoughts ?:
+  'Male' + ''Class 12'' + 'Yes': 2291 occorrenze
+  'Female' + ''Class 12'' + 'Yes': 1906 occorrenze
+  'Male' + ''Class 12'' + 'No': 1084 occorrenze
+
+Gender + Degree + Family History of Mental Illness:
+  'Male' + ''Class 12'' + 'No': 1755 occorrenze
+  'Male' + ''Class 12'' + 'Yes': 1620 occorrenze
+  'Female' + ''Class 12'' + 'Yes': 1362 occorrenze
+  'Female' + ''Class 12'' + 'No': 1343 occorrenze
+
+Gender + Degree + Depression:
+  'Male' + ''Class 12'' + '1': 2386 occorrenze
+  'Female' + ''Class 12'' + '1': 1917 occorrenze
+
+Gender + Have you ever had suicidal thoughts ? + Study Hours:
+  'Male' + 'Yes' + '10.0': 1801 occorrenze
+  'Female' + 'Yes' + '10.0': 1240 occorrenze
+  'Male' + 'Yes' + '12.0': 1193 occorrenze
+  'Male' + 'Yes' + '11.0': 1100 occorrenze
+
+Gender + Have you ever had suicidal thoughts ? + Financial Stress:
+  'Male' + 'Yes' + '5.0': 2772 occorrenze
+  'Female' + 'Yes' + '5.0': 2312 occorrenze
+  'Male' + 'Yes' + '4.0': 2282 occorrenze
+  'Male' + 'Yes' + '3.0': 1864 occorrenze
+  'Female' + 'Yes' + '4.0': 1735 occorrenze
+  'Male' + 'Yes' + '2.0': 1515 occorrenze
+  'Female' + 'Yes' + '3.0': 1483 occorrenze
+  'Male' + 'No' + '1.0': 1456 occorrenze
+  'Male' + 'Yes' + '1.0': 1397 occorrenze
+  'Male' + 'No' + '2.0': 1321 occorrenze
+  'Female' + 'Yes' + '2.0': 1228 occorrenze
+  'Female' + 'No' + '1.0': 1200 occorrenze
+  'Male' + 'No' + '3.0': 1070 occorrenze
+  'Female' + 'Yes' + '1.0': 1068 occorrenze
+
+Gender + Have you ever had suicidal thoughts ? + Family History of Mental Illness:
+  'Male' + 'Yes' + 'No': 5048 occorrenze
+  'Male' + 'Yes' + 'Yes': 4782 occorrenze
+  'Female' + 'Yes' + 'Yes': 3939 occorrenze
+  'Female' + 'Yes' + 'No': 3887 occorrenze
+  'Male' + 'No' + 'No': 3084 occorrenze
+  'Male' + 'No' + 'Yes': 2633 occorrenze
+  'Female' + 'No' + 'No': 2379 occorrenze
+  'Female' + 'No' + 'Yes': 2149 occorrenze
+
+Gender + Have you ever had suicidal thoughts ? + Depression:
+  'Male' + 'Yes' + '1': 7757 occorrenze
+  'Female' + 'Yes' + '1': 6200 occorrenze
+  'Male' + 'No' + '0': 4359 occorrenze
+  'Female' + 'No' + '0': 3507 occorrenze
+  'Male' + 'Yes' + '0': 2073 occorrenze
+  'Female' + 'Yes' + '0': 1626 occorrenze
+  'Male' + 'No' + '1': 1358 occorrenze
+  'Female' + 'No' + '1': 1021 occorrenze
+
+Gender + Study Hours + Family History of Mental Illness:
+  'Male' + '10.0' + 'No': 1277 occorrenze
+  'Male' + '10.0' + 'Yes': 1199 occorrenze
+
+Gender + Study Hours + Depression:
+  'Male' + '10.0' + '1': 1750 occorrenze
+  'Female' + '10.0' + '1': 1229 occorrenze
+  'Male' + '12.0' + '1': 1191 occorrenze
+  'Male' + '11.0' + '1': 1108 occorrenze
+
+Gender + Financial Stress + Family History of Mental Illness:
+  'Male' + '5.0' + 'No': 1910 occorrenze
+  'Male' + '5.0' + 'Yes': 1774 occorrenze
+  'Male' + '4.0' + 'No': 1646 occorrenze
+  'Male' + '4.0' + 'Yes': 1593 occorrenze
+  'Male' + '2.0' + 'No': 1585 occorrenze
+  'Male' + '3.0' + 'No': 1529 occorrenze
+  'Female' + '5.0' + 'No': 1525 occorrenze
+  'Female' + '5.0' + 'Yes': 1506 occorrenze
+  'Male' + '1.0' + 'No': 1462 occorrenze
+  'Male' + '3.0' + 'Yes': 1405 occorrenze
+  'Male' + '1.0' + 'Yes': 1391 occorrenze
+  'Female' + '4.0' + 'Yes': 1283 occorrenze
+  'Female' + '4.0' + 'No': 1253 occorrenze
+  'Male' + '2.0' + 'Yes': 1251 occorrenze
+  'Female' + '2.0' + 'No': 1187 occorrenze
+  'Female' + '3.0' + 'No': 1185 occorrenze
+  'Female' + '1.0' + 'Yes': 1153 occorrenze
+  'Female' + '1.0' + 'No': 1115 occorrenze
+  'Female' + '3.0' + 'Yes': 1107 occorrenze
+  'Female' + '2.0' + 'Yes': 1038 occorrenze
+
+Gender + Financial Stress + Depression:
+  'Male' + '5.0' + '1': 3000 occorrenze
+  'Female' + '5.0' + '1': 2458 occorrenze
+  'Male' + '4.0' + '1': 2268 occorrenze
+  'Male' + '1.0' + '0': 1950 occorrenze
+  'Female' + '4.0' + '1': 1722 occorrenze
+  'Male' + '3.0' + '1': 1718 occorrenze
+  'Male' + '2.0' + '0': 1610 occorrenze
+  'Female' + '1.0' + '0': 1539 occorrenze
+  'Female' + '3.0' + '1': 1362 occorrenze
+  'Female' + '2.0' + '0': 1276 occorrenze
+  'Male' + '2.0' + '1': 1226 occorrenze
+  'Male' + '3.0' + '0': 1216 occorrenze
+
+Gender + Family History of Mental Illness + Depression:
+  'Male' + 'No' + '1': 4584 occorrenze
+  'Male' + 'Yes' + '1': 4531 occorrenze
+  'Female' + 'Yes' + '1': 3742 occorrenze
+  'Male' + 'No' + '0': 3548 occorrenze
+  'Female' + 'No' + '1': 3479 occorrenze
+  'Male' + 'Yes' + '0': 2884 occorrenze
+  'Female' + 'No' + '0': 2787 occorrenze
+  'Female' + 'Yes' + '0': 2346 occorrenze
+
+Age + Academic Pressure + CGPA:
+  'ricercatore' + 'alta' + 'media': 2597 occorrenze
+  'ricercatore' + 'alta' + 'bassa': 2212 occorrenze
+  'ricercatore' + 'bassa' + 'media': 2067 occorrenze
+  'ricercatore' + 'media' + 'media': 1819 occorrenze
+  'ricercatore' + 'bassa' + 'bassa': 1790 occorrenze
+  'universitario' + 'alta' + 'media': 1665 occorrenze
+  'ricercatore' + 'media' + 'bassa': 1462 occorrenze
+  'ricercatore' + 'bassa' + 'alta': 1427 occorrenze
+  'ricercatore' + 'alta' + 'alta': 1389 occorrenze
+  'universitario' + 'alta' + 'bassa': 1338 occorrenze
+  'universitario' + 'bassa' + 'media': 1272 occorrenze
+  'universitario' + 'media' + 'media': 1072 occorrenze
+
+Age + Academic Pressure + Study Satisfaction:
+  'ricercatore' + 'alta' + 'bassa': 2957 occorrenze
+  'ricercatore' + 'bassa' + 'alta': 2308 occorrenze
+  'ricercatore' + 'alta' + 'alta': 1987 occorrenze
+  'universitario' + 'alta' + 'bassa': 1888 occorrenze
+  'ricercatore' + 'media' + 'alta': 1792 occorrenze
+  'ricercatore' + 'bassa' + 'bassa': 1665 occorrenze
+  'ricercatore' + 'media' + 'bassa': 1559 occorrenze
+  'ricercatore' + 'bassa' + 'media': 1311 occorrenze
+  'ricercatore' + 'alta' + 'media': 1254 occorrenze
+  'universitario' + 'bassa' + 'alta': 1235 occorrenze
+  'universitario' + 'alta' + 'alta': 1109 occorrenze
+  'universitario' + 'bassa' + 'bassa': 1083 occorrenze
+  'universitario' + 'media' + 'bassa': 1019 occorrenze
+
+Age + Academic Pressure + Sleep Duration:
+  'ricercatore' + 'alta' + ''Less than 5 hours'': 1961 occorrenze
+  'ricercatore' + 'alta' + ''7-8 hours'': 1580 occorrenze
+  'ricercatore' + 'bassa' + ''Less than 5 hours'': 1508 occorrenze
+  'ricercatore' + 'alta' + ''5-6 hours'': 1399 occorrenze
+  'ricercatore' + 'bassa' + ''More than 8 hours'': 1291 occorrenze
+  'ricercatore' + 'bassa' + ''7-8 hours'': 1276 occorrenze
+  'ricercatore' + 'alta' + ''More than 8 hours'': 1253 occorrenze
+  'ricercatore' + 'media' + ''7-8 hours'': 1230 occorrenze
+  'ricercatore' + 'media' + ''Less than 5 hours'': 1218 occorrenze
+  'ricercatore' + 'bassa' + ''5-6 hours'': 1205 occorrenze
+  'universitario' + 'alta' + ''Less than 5 hours'': 1189 occorrenze
+
+Age + Academic Pressure + Dietary Habits:
+  'ricercatore' + 'alta' + 'Unhealthy': 2522 occorrenze
+  'ricercatore' + 'alta' + 'Moderate': 2116 occorrenze
+  'ricercatore' + 'bassa' + 'Moderate': 2019 occorrenze
+  'ricercatore' + 'bassa' + 'Healthy': 1635 occorrenze
+  'ricercatore' + 'bassa' + 'Unhealthy': 1629 occorrenze
+  'ricercatore' + 'media' + 'Moderate': 1603 occorrenze
+  'universitario' + 'alta' + 'Unhealthy': 1602 occorrenze
+  'ricercatore' + 'alta' + 'Healthy': 1555 occorrenze
+  'ricercatore' + 'media' + 'Unhealthy': 1394 occorrenze
+  'ricercatore' + 'media' + 'Healthy': 1248 occorrenze
+  'universitario' + 'alta' + 'Moderate': 1203 occorrenze
+  'universitario' + 'bassa' + 'Unhealthy': 1031 occorrenze
+  'universitario' + 'bassa' + 'Moderate': 1010 occorrenze
+
+Age + Academic Pressure + Degree:
+  'liceale' + 'alta' + ''Class 12'': 1557 occorrenze
+  'universitario' + 'alta' + ''Class 12'': 1110 occorrenze
+
+Age + Academic Pressure + Have you ever had suicidal thoughts ?:
+  'ricercatore' + 'alta' + 'Yes': 4525 occorrenze
+  'ricercatore' + 'bassa' + 'No': 3007 occorrenze
+  'universitario' + 'alta' + 'Yes': 2901 occorrenze
+  'ricercatore' + 'media' + 'Yes': 2569 occorrenze
+  'ricercatore' + 'bassa' + 'Yes': 2277 occorrenze
+  'universitario' + 'media' + 'Yes': 1711 occorrenze
+  'ricercatore' + 'media' + 'No': 1677 occorrenze
+  'ricercatore' + 'alta' + 'No': 1673 occorrenze
+  'universitario' + 'bassa' + 'No': 1488 occorrenze
+  'universitario' + 'bassa' + 'Yes': 1463 occorrenze
+  'liceale' + 'alta' + 'Yes': 1208 occorrenze
+
+Age + Academic Pressure + Financial Stress:
+  'ricercatore' + 'alta' + '5.0': 1670 occorrenze
+  'ricercatore' + 'bassa' + '1.0': 1352 occorrenze
+  'ricercatore' + 'alta' + '4.0': 1299 occorrenze
+  'ricercatore' + 'bassa' + '2.0': 1150 occorrenze
+  'ricercatore' + 'alta' + '3.0': 1142 occorrenze
+  'universitario' + 'alta' + '5.0': 1130 occorrenze
+  'ricercatore' + 'alta' + '2.0': 1098 occorrenze
+  'ricercatore' + 'bassa' + '3.0': 1009 occorrenze
+
+Age + Academic Pressure + Family History of Mental Illness:
+  'ricercatore' + 'alta' + 'No': 3143 occorrenze
+  'ricercatore' + 'alta' + 'Yes': 3055 occorrenze
+  'ricercatore' + 'bassa' + 'No': 2838 occorrenze
+  'ricercatore' + 'bassa' + 'Yes': 2446 occorrenze
+  'ricercatore' + 'media' + 'No': 2181 occorrenze
+  'ricercatore' + 'media' + 'Yes': 2065 occorrenze
+  'universitario' + 'alta' + 'Yes': 1853 occorrenze
+  'universitario' + 'alta' + 'No': 1833 occorrenze
+  'universitario' + 'bassa' + 'No': 1580 occorrenze
+  'universitario' + 'bassa' + 'Yes': 1371 occorrenze
+  'universitario' + 'media' + 'No': 1215 occorrenze
+  'universitario' + 'media' + 'Yes': 1174 occorrenze
+
+Age + Academic Pressure + Depression:
+  'ricercatore' + 'alta' + '1': 4713 occorrenze
+  'ricercatore' + 'bassa' + '0': 4123 occorrenze
+  'universitario' + 'alta' + '1': 3239 occorrenze
+  'ricercatore' + 'media' + '1': 2137 occorrenze
+  'ricercatore' + 'media' + '0': 2109 occorrenze
+  'universitario' + 'bassa' + '0': 1919 occorrenze
+  'universitario' + 'media' + '1': 1738 occorrenze
+  'ricercatore' + 'alta' + '0': 1485 occorrenze
+  'liceale' + 'alta' + '1': 1393 occorrenze
+  'ricercatore' + 'bassa' + '1': 1161 occorrenze
+  'universitario' + 'bassa' + '1': 1032 occorrenze
+
+Age + CGPA + Study Satisfaction:
+  'ricercatore' + 'media' + 'alta': 2548 occorrenze
+  'ricercatore' + 'media' + 'bassa': 2530 occorrenze
+  'ricercatore' + 'bassa' + 'alta': 2187 occorrenze
+  'ricercatore' + 'bassa' + 'bassa': 2026 occorrenze
+  'universitario' + 'media' + 'bassa': 1751 occorrenze
+  'ricercatore' + 'alta' + 'bassa': 1625 occorrenze
+  'universitario' + 'media' + 'alta': 1512 occorrenze
+  'ricercatore' + 'media' + 'media': 1405 occorrenze
+  'universitario' + 'bassa' + 'bassa': 1354 occorrenze
+  'ricercatore' + 'alta' + 'alta': 1352 occorrenze
+  'ricercatore' + 'bassa' + 'media': 1251 occorrenze
+  'universitario' + 'bassa' + 'alta': 1138 occorrenze
+
+Age + CGPA + Sleep Duration:
+  'ricercatore' + 'media' + ''Less than 5 hours'': 1977 occorrenze
+  'ricercatore' + 'bassa' + ''Less than 5 hours'': 1610 occorrenze
+  'ricercatore' + 'media' + ''7-8 hours'': 1601 occorrenze
+  'ricercatore' + 'media' + ''5-6 hours'': 1578 occorrenze
+  'ricercatore' + 'bassa' + ''7-8 hours'': 1460 occorrenze
+  'ricercatore' + 'media' + ''More than 8 hours'': 1322 occorrenze
+  'ricercatore' + 'bassa' + ''More than 8 hours'': 1245 occorrenze
+  'universitario' + 'media' + ''Less than 5 hours'': 1222 occorrenze
+  'ricercatore' + 'bassa' + ''5-6 hours'': 1145 occorrenze
+  'ricercatore' + 'alta' + ''Less than 5 hours'': 1100 occorrenze
+  'universitario' + 'media' + ''7-8 hours'': 1061 occorrenze
+  'ricercatore' + 'alta' + ''7-8 hours'': 1025 occorrenze
+
+Age + CGPA + Dietary Habits:
+  'ricercatore' + 'media' + 'Moderate': 2362 occorrenze
+  'ricercatore' + 'media' + 'Unhealthy': 2272 occorrenze
+  'ricercatore' + 'bassa' + 'Moderate': 1997 occorrenze
+  'ricercatore' + 'bassa' + 'Unhealthy': 1954 occorrenze
+  'ricercatore' + 'media' + 'Healthy': 1847 occorrenze
+  'universitario' + 'media' + 'Unhealthy': 1558 occorrenze
+  'ricercatore' + 'bassa' + 'Healthy': 1510 occorrenze
+  'universitario' + 'media' + 'Moderate': 1405 occorrenze
+  'ricercatore' + 'alta' + 'Moderate': 1379 occorrenze
+  'ricercatore' + 'alta' + 'Unhealthy': 1319 occorrenze
+  'universitario' + 'bassa' + 'Unhealthy': 1272 occorrenze
+  'ricercatore' + 'alta' + 'Healthy': 1081 occorrenze
+  'universitario' + 'media' + 'Healthy': 1044 occorrenze
+  'universitario' + 'bassa' + 'Moderate': 1016 occorrenze
+
+Age + CGPA + Degree:
+  'liceale' + 'media' + ''Class 12'': 1444 occorrenze
+  'universitario' + 'media' + ''Class 12'': 1097 occorrenze
+  'liceale' + 'bassa' + ''Class 12'': 1089 occorrenze
+
+Age + CGPA + Have you ever had suicidal thoughts ?:
+  'ricercatore' + 'media' + 'Yes': 3929 occorrenze
+  'ricercatore' + 'bassa' + 'Yes': 3212 occorrenze
+  'universitario' + 'media' + 'Yes': 2721 occorrenze
+  'ricercatore' + 'media' + 'No': 2554 occorrenze
+  'ricercatore' + 'bassa' + 'No': 2252 occorrenze
+  'ricercatore' + 'alta' + 'Yes': 2230 occorrenze
+  'universitario' + 'bassa' + 'Yes': 2116 occorrenze
+  'ricercatore' + 'alta' + 'No': 1551 occorrenze
+  'universitario' + 'media' + 'No': 1288 occorrenze
+  'universitario' + 'alta' + 'Yes': 1238 occorrenze
+  'universitario' + 'bassa' + 'No': 1049 occorrenze
+  'liceale' + 'media' + 'Yes': 1015 occorrenze
+
+Age + CGPA + Study Hours:
+  'ricercatore' + 'media' + '10.0': 1007 occorrenze
+
+Age + CGPA + Financial Stress:
+  'ricercatore' + 'media' + '5.0': 1416 occorrenze
+  'ricercatore' + 'media' + '1.0': 1325 occorrenze
+  'ricercatore' + 'media' + '4.0': 1321 occorrenze
+  'ricercatore' + 'media' + '2.0': 1216 occorrenze
+  'ricercatore' + 'bassa' + '5.0': 1209 occorrenze
+  'ricercatore' + 'media' + '3.0': 1204 occorrenze
+  'ricercatore' + 'bassa' + '1.0': 1141 occorrenze
+  'universitario' + 'media' + '5.0': 1095 occorrenze
+  'ricercatore' + 'bassa' + '2.0': 1052 occorrenze
+  'ricercatore' + 'bassa' + '3.0': 1038 occorrenze
+  'ricercatore' + 'bassa' + '4.0': 1023 occorrenze
+
+Age + CGPA + Family History of Mental Illness:
+  'ricercatore' + 'media' + 'No': 3366 occorrenze
+  'ricercatore' + 'media' + 'Yes': 3117 occorrenze
+  'ricercatore' + 'bassa' + 'No': 2812 occorrenze
+  'ricercatore' + 'bassa' + 'Yes': 2652 occorrenze
+  'universitario' + 'media' + 'No': 2064 occorrenze
+  'ricercatore' + 'alta' + 'No': 1984 occorrenze
+  'universitario' + 'media' + 'Yes': 1945 occorrenze
+  'ricercatore' + 'alta' + 'Yes': 1797 occorrenze
+  'universitario' + 'bassa' + 'No': 1623 occorrenze
+  'universitario' + 'bassa' + 'Yes': 1542 occorrenze
+
+Age + CGPA + Depression:
+  'ricercatore' + 'media' + '1': 3372 occorrenze
+  'ricercatore' + 'media' + '0': 3111 occorrenze
+  'ricercatore' + 'bassa' + '0': 2760 occorrenze
+  'ricercatore' + 'bassa' + '1': 2704 occorrenze
+  'universitario' + 'media' + '1': 2703 occorrenze
+  'universitario' + 'bassa' + '1': 2076 occorrenze
+  'ricercatore' + 'alta' + '1': 1935 occorrenze
+  'ricercatore' + 'alta' + '0': 1846 occorrenze
+  'universitario' + 'media' + '0': 1306 occorrenze
+  'universitario' + 'alta' + '1': 1230 occorrenze
+  'liceale' + 'media' + '1': 1089 occorrenze
+  'universitario' + 'bassa' + '0': 1089 occorrenze
+
+Age + Study Satisfaction + Sleep Duration:
+  'ricercatore' + 'bassa' + ''Less than 5 hours'': 1906 occorrenze
+  'ricercatore' + 'alta' + ''Less than 5 hours'': 1797 occorrenze
+  'ricercatore' + 'bassa' + ''7-8 hours'': 1606 occorrenze
+  'ricercatore' + 'alta' + ''7-8 hours'': 1528 occorrenze
+  'ricercatore' + 'alta' + ''5-6 hours'': 1384 occorrenze
+  'ricercatore' + 'bassa' + ''5-6 hours'': 1372 occorrenze
+  'ricercatore' + 'alta' + ''More than 8 hours'': 1370 occorrenze
+  'ricercatore' + 'bassa' + ''More than 8 hours'': 1292 occorrenze
+  'universitario' + 'bassa' + ''Less than 5 hours'': 1213 occorrenze
+  'universitario' + 'bassa' + ''7-8 hours'': 1066 occorrenze
+
+Age + Study Satisfaction + Dietary Habits:
+  'ricercatore' + 'bassa' + 'Moderate': 2327 occorrenze
+  'ricercatore' + 'bassa' + 'Unhealthy': 2252 occorrenze
+  'ricercatore' + 'alta' + 'Moderate': 2199 occorrenze
+  'ricercatore' + 'alta' + 'Unhealthy': 2049 occorrenze
+  'ricercatore' + 'alta' + 'Healthy': 1837 occorrenze
+  'ricercatore' + 'bassa' + 'Healthy': 1599 occorrenze
+  'universitario' + 'bassa' + 'Unhealthy': 1559 occorrenze
+  'universitario' + 'bassa' + 'Moderate': 1375 occorrenze
+  'universitario' + 'alta' + 'Unhealthy': 1257 occorrenze
+  'ricercatore' + 'media' + 'Unhealthy': 1244 occorrenze
+  'ricercatore' + 'media' + 'Moderate': 1212 occorrenze
+  'universitario' + 'alta' + 'Moderate': 1113 occorrenze
+  'universitario' + 'bassa' + 'Healthy': 1055 occorrenze
+  'ricercatore' + 'media' + 'Healthy': 1002 occorrenze
+
+Age + Study Satisfaction + Degree:
+  'liceale' + 'alta' + ''Class 12'': 1427 occorrenze
+  'liceale' + 'bassa' + ''Class 12'': 1119 occorrenze
+  'universitario' + 'alta' + ''Class 12'': 1025 occorrenze
+
+Age + Study Satisfaction + Have you ever had suicidal thoughts ?:
+  'ricercatore' + 'bassa' + 'Yes': 4007 occorrenze
+  'ricercatore' + 'alta' + 'Yes': 3283 occorrenze
+  'universitario' + 'bassa' + 'Yes': 2810 occorrenze
+  'ricercatore' + 'alta' + 'No': 2804 occorrenze
+  'ricercatore' + 'bassa' + 'No': 2174 occorrenze
+  'ricercatore' + 'media' + 'Yes': 2081 occorrenze
+  'universitario' + 'alta' + 'Yes': 2046 occorrenze
+  'ricercatore' + 'media' + 'No': 1379 occorrenze
+  'universitario' + 'media' + 'Yes': 1219 occorrenze
+  'universitario' + 'alta' + 'No': 1213 occorrenze
+  'universitario' + 'bassa' + 'No': 1180 occorrenze
+
+Age + Study Satisfaction + Financial Stress:
+  'ricercatore' + 'bassa' + '5.0': 1526 occorrenze
+  'ricercatore' + 'alta' + '1.0': 1430 occorrenze
+  'ricercatore' + 'bassa' + '4.0': 1244 occorrenze
+  'ricercatore' + 'alta' + '5.0': 1212 occorrenze
+  'ricercatore' + 'alta' + '4.0': 1203 occorrenze
+  'ricercatore' + 'bassa' + '3.0': 1197 occorrenze
+  'ricercatore' + 'alta' + '2.0': 1161 occorrenze
+  'universitario' + 'bassa' + '5.0': 1140 occorrenze
+  'ricercatore' + 'bassa' + '2.0': 1137 occorrenze
+  'ricercatore' + 'alta' + '3.0': 1081 occorrenze
+  'ricercatore' + 'bassa' + '1.0': 1076 occorrenze
+
+Age + Study Satisfaction + Family History of Mental Illness:
+  'ricercatore' + 'bassa' + 'No': 3222 occorrenze
+  'ricercatore' + 'alta' + 'No': 3148 occorrenze
+  'ricercatore' + 'bassa' + 'Yes': 2959 occorrenze
+  'ricercatore' + 'alta' + 'Yes': 2939 occorrenze
+  'universitario' + 'bassa' + 'No': 2033 occorrenze
+  'universitario' + 'bassa' + 'Yes': 1957 occorrenze
+  'ricercatore' + 'media' + 'No': 1792 occorrenze
+  'universitario' + 'alta' + 'No': 1689 occorrenze
+  'ricercatore' + 'media' + 'Yes': 1668 occorrenze
+  'universitario' + 'alta' + 'Yes': 1570 occorrenze
+
+Age + Study Satisfaction + Depression:
+  'ricercatore' + 'bassa' + '1': 3792 occorrenze
+  'ricercatore' + 'alta' + '0': 3602 occorrenze
+  'universitario' + 'bassa' + '1': 2948 occorrenze
+  'ricercatore' + 'alta' + '1': 2485 occorrenze
+  'ricercatore' + 'bassa' + '0': 2389 occorrenze
+  'universitario' + 'alta' + '1': 1881 occorrenze
+  'ricercatore' + 'media' + '1': 1734 occorrenze
+  'ricercatore' + 'media' + '0': 1726 occorrenze
+  'universitario' + 'alta' + '0': 1378 occorrenze
+  'universitario' + 'media' + '1': 1180 occorrenze
+  'universitario' + 'bassa' + '0': 1042 occorrenze
+
+Age + Sleep Duration + Dietary Habits:
+  'ricercatore' + ''Less than 5 hours'' + 'Moderate': 1735 occorrenze
+  'ricercatore' + ''Less than 5 hours'' + 'Unhealthy': 1654 occorrenze
+  'ricercatore' + ''7-8 hours'' + 'Unhealthy': 1475 occorrenze
+  'ricercatore' + ''7-8 hours'' + 'Moderate': 1455 occorrenze
+  'ricercatore' + ''Less than 5 hours'' + 'Healthy': 1295 occorrenze
+  'ricercatore' + ''5-6 hours'' + 'Moderate': 1282 occorrenze
+  'ricercatore' + ''More than 8 hours'' + 'Moderate': 1261 occorrenze
+  'ricercatore' + ''5-6 hours'' + 'Unhealthy': 1221 occorrenze
+  'ricercatore' + ''More than 8 hours'' + 'Unhealthy': 1190 occorrenze
+  'ricercatore' + ''7-8 hours'' + 'Healthy': 1155 occorrenze
+  'universitario' + ''Less than 5 hours'' + 'Unhealthy': 1048 occorrenze
+  'ricercatore' + ''5-6 hours'' + 'Healthy': 1046 occorrenze
+  'universitario' + ''7-8 hours'' + 'Unhealthy': 1026 occorrenze
+
+Age + Sleep Duration + Have you ever had suicidal thoughts ?:
+  'ricercatore' + ''Less than 5 hours'' + 'Yes': 2952 occorrenze
+  'ricercatore' + ''7-8 hours'' + 'Yes': 2527 occorrenze
+  'ricercatore' + ''5-6 hours'' + 'Yes': 2092 occorrenze
+  'universitario' + ''Less than 5 hours'' + 'Yes': 1906 occorrenze
+  'ricercatore' + ''More than 8 hours'' + 'Yes': 1793 occorrenze
+  'ricercatore' + ''Less than 5 hours'' + 'No': 1735 occorrenze
+  'universitario' + ''7-8 hours'' + 'Yes': 1668 occorrenze
+  'ricercatore' + ''More than 8 hours'' + 'No': 1598 occorrenze
+  'ricercatore' + ''7-8 hours'' + 'No': 1559 occorrenze
+  'ricercatore' + ''5-6 hours'' + 'No': 1459 occorrenze
+  'universitario' + ''5-6 hours'' + 'Yes': 1291 occorrenze
+  'universitario' + ''More than 8 hours'' + 'Yes': 1207 occorrenze
+
+Age + Sleep Duration + Financial Stress:
+  'ricercatore' + ''Less than 5 hours'' + '5.0': 1094 occorrenze
+  'ricercatore' + ''Less than 5 hours'' + '1.0': 1046 occorrenze
+
+Age + Sleep Duration + Family History of Mental Illness:
+  'ricercatore' + ''Less than 5 hours'' + 'No': 2395 occorrenze
+  'ricercatore' + ''Less than 5 hours'' + 'Yes': 2292 occorrenze
+  'ricercatore' + ''7-8 hours'' + 'No': 2146 occorrenze
+  'ricercatore' + ''7-8 hours'' + 'Yes': 1940 occorrenze
+  'ricercatore' + ''5-6 hours'' + 'No': 1839 occorrenze
+  'ricercatore' + ''More than 8 hours'' + 'No': 1774 occorrenze
+  'ricercatore' + ''5-6 hours'' + 'Yes': 1712 occorrenze
+  'ricercatore' + ''More than 8 hours'' + 'Yes': 1617 occorrenze
+  'universitario' + ''Less than 5 hours'' + 'No': 1350 occorrenze
+  'universitario' + ''Less than 5 hours'' + 'Yes': 1333 occorrenze
+  'universitario' + ''7-8 hours'' + 'No': 1294 occorrenze
+  'universitario' + ''7-8 hours'' + 'Yes': 1166 occorrenze
+  'universitario' + ''5-6 hours'' + 'No': 1001 occorrenze
+
+Age + Sleep Duration + Depression:
+  'ricercatore' + ''Less than 5 hours'' + '1': 2671 occorrenze
+  'ricercatore' + ''7-8 hours'' + '1': 2118 occorrenze
+  'ricercatore' + ''Less than 5 hours'' + '0': 2016 occorrenze
+  'ricercatore' + ''7-8 hours'' + '0': 1968 occorrenze
+  'ricercatore' + ''More than 8 hours'' + '0': 1950 occorrenze
+  'universitario' + ''Less than 5 hours'' + '1': 1946 occorrenze
+  'ricercatore' + ''5-6 hours'' + '0': 1776 occorrenze
+  'ricercatore' + ''5-6 hours'' + '1': 1775 occorrenze
+  'universitario' + ''7-8 hours'' + '1': 1674 occorrenze
+  'ricercatore' + ''More than 8 hours'' + '1': 1441 occorrenze
+  'universitario' + ''5-6 hours'' + '1': 1253 occorrenze
+  'universitario' + ''More than 8 hours'' + '1': 1134 occorrenze
+
+Age + Dietary Habits + Degree:
+  'liceale' + 'Unhealthy' + ''Class 12'': 1234 occorrenze
+  'liceale' + 'Moderate' + ''Class 12'': 1111 occorrenze
+  'universitario' + 'Unhealthy' + ''Class 12'': 1036 occorrenze
+
+Age + Dietary Habits + Have you ever had suicidal thoughts ?:
+  'ricercatore' + 'Unhealthy' + 'Yes': 3695 occorrenze
+  'ricercatore' + 'Moderate' + 'Yes': 3373 occorrenze
+  'universitario' + 'Unhealthy' + 'Yes': 2570 occorrenze
+  'ricercatore' + 'Moderate' + 'No': 2365 occorrenze
+  'ricercatore' + 'Healthy' + 'Yes': 2296 occorrenze
+  'ricercatore' + 'Healthy' + 'No': 2142 occorrenze
+  'universitario' + 'Moderate' + 'Yes': 2032 occorrenze
+  'ricercatore' + 'Unhealthy' + 'No': 1850 occorrenze
+  'universitario' + 'Healthy' + 'Yes': 1470 occorrenze
+  'universitario' + 'Moderate' + 'No': 1034 occorrenze
+
+Age + Dietary Habits + Financial Stress:
+  'ricercatore' + 'Unhealthy' + '5.0': 1453 occorrenze
+  'ricercatore' + 'Moderate' + '1.0': 1230 occorrenze
+  'ricercatore' + 'Moderate' + '5.0': 1180 occorrenze
+  'ricercatore' + 'Unhealthy' + '4.0': 1164 occorrenze
+  'ricercatore' + 'Moderate' + '4.0': 1110 occorrenze
+  'ricercatore' + 'Moderate' + '2.0': 1109 occorrenze
+  'ricercatore' + 'Moderate' + '3.0': 1109 occorrenze
+  'universitario' + 'Unhealthy' + '5.0': 1075 occorrenze
+  'ricercatore' + 'Healthy' + '1.0': 1049 occorrenze
+  'ricercatore' + 'Unhealthy' + '3.0': 1025 occorrenze
+
+Age + Dietary Habits + Family History of Mental Illness:
+  'ricercatore' + 'Moderate' + 'No': 3029 occorrenze
+  'ricercatore' + 'Unhealthy' + 'No': 2819 occorrenze
+  'ricercatore' + 'Unhealthy' + 'Yes': 2726 occorrenze
+  'ricercatore' + 'Moderate' + 'Yes': 2709 occorrenze
+  'ricercatore' + 'Healthy' + 'No': 2309 occorrenze
+  'ricercatore' + 'Healthy' + 'Yes': 2129 occorrenze
+  'universitario' + 'Unhealthy' + 'No': 1803 occorrenze
+  'universitario' + 'Unhealthy' + 'Yes': 1723 occorrenze
+  'universitario' + 'Moderate' + 'No': 1567 occorrenze
+  'universitario' + 'Moderate' + 'Yes': 1499 occorrenze
+  'universitario' + 'Healthy' + 'No': 1255 occorrenze
+  'universitario' + 'Healthy' + 'Yes': 1175 occorrenze
+
+Age + Dietary Habits + Depression:
+  'ricercatore' + 'Unhealthy' + '1': 3552 occorrenze
+  'ricercatore' + 'Moderate' + '0': 2913 occorrenze
+  'ricercatore' + 'Moderate' + '1': 2825 occorrenze
+  'ricercatore' + 'Healthy' + '0': 2809 occorrenze
+  'universitario' + 'Unhealthy' + '1': 2725 occorrenze
+  'ricercatore' + 'Unhealthy' + '0': 1993 occorrenze
+  'universitario' + 'Moderate' + '1': 1933 occorrenze
+  'ricercatore' + 'Healthy' + '1': 1629 occorrenze
+  'universitario' + 'Healthy' + '1': 1348 occorrenze
+  'universitario' + 'Moderate' + '0': 1133 occorrenze
+  'universitario' + 'Healthy' + '0': 1082 occorrenze
+  'liceale' + 'Unhealthy' + '1': 1020 occorrenze
+
+Age + Degree + Have you ever had suicidal thoughts ?:
+  'liceale' + ''Class 12'' + 'Yes': 2194 occorrenze
+  'universitario' + ''Class 12'' + 'Yes': 1726 occorrenze
+
+Age + Degree + Family History of Mental Illness:
+  'liceale' + ''Class 12'' + 'No': 1596 occorrenze
+  'liceale' + ''Class 12'' + 'Yes': 1530 occorrenze
+  'universitario' + ''Class 12'' + 'No': 1262 occorrenze
+  'universitario' + ''Class 12'' + 'Yes': 1231 occorrenze
+
+Age + Degree + Depression:
+  'liceale' + ''Class 12'' + '1': 2301 occorrenze
+  'universitario' + ''Class 12'' + '1': 1766 occorrenze
+
+Age + Have you ever had suicidal thoughts ? + Study Hours:
+  'ricercatore' + 'Yes' + '10.0': 1604 occorrenze
+  'ricercatore' + 'Yes' + '12.0': 1198 occorrenze
+  'universitario' + 'Yes' + '10.0': 1071 occorrenze
+
+Age + Have you ever had suicidal thoughts ? + Financial Stress:
+  'ricercatore' + 'Yes' + '5.0': 2544 occorrenze
+  'ricercatore' + 'Yes' + '4.0': 2033 occorrenze
+  'universitario' + 'Yes' + '5.0': 1898 occorrenze
+  'ricercatore' + 'Yes' + '3.0': 1775 occorrenze
+  'ricercatore' + 'No' + '1.0': 1758 occorrenze
+  'ricercatore' + 'Yes' + '2.0': 1523 occorrenze
+  'ricercatore' + 'Yes' + '1.0': 1496 occorrenze
+  'universitario' + 'Yes' + '4.0': 1454 occorrenze
+  'ricercatore' + 'No' + '2.0': 1442 occorrenze
+  'ricercatore' + 'No' + '3.0': 1185 occorrenze
+  'universitario' + 'Yes' + '3.0': 1144 occorrenze
+  'ricercatore' + 'No' + '4.0': 1059 occorrenze
+
+Age + Have you ever had suicidal thoughts ? + Family History of Mental Illness:
+  'ricercatore' + 'Yes' + 'No': 4763 occorrenze
+  'ricercatore' + 'Yes' + 'Yes': 4608 occorrenze
+  'ricercatore' + 'No' + 'No': 3399 occorrenze
+  'universitario' + 'Yes' + 'No': 3067 occorrenze
+  'universitario' + 'Yes' + 'Yes': 3008 occorrenze
+  'ricercatore' + 'No' + 'Yes': 2958 occorrenze
+  'universitario' + 'No' + 'No': 1561 occorrenze
+  'universitario' + 'No' + 'Yes': 1390 occorrenze
+  'liceale' + 'Yes' + 'Yes': 1105 occorrenze
+  'liceale' + 'Yes' + 'No': 1105 occorrenze
+
+Age + Have you ever had suicidal thoughts ? + Depression:
+  'ricercatore' + 'Yes' + '1': 6883 occorrenze
+  'ricercatore' + 'No' + '0': 5229 occorrenze
+  'universitario' + 'Yes' + '1': 5136 occorrenze
+  'ricercatore' + 'Yes' + '0': 2488 occorrenze
+  'universitario' + 'No' + '0': 2078 occorrenze
+  'liceale' + 'Yes' + '1': 1938 occorrenze
+  'ricercatore' + 'No' + '1': 1128 occorrenze
+
+Age + Study Hours + Family History of Mental Illness:
+  'ricercatore' + '10.0' + 'No': 1232 occorrenze
+  'ricercatore' + '10.0' + 'Yes': 1117 occorrenze
+
+Age + Study Hours + Depression:
+  'ricercatore' + '10.0' + '1': 1488 occorrenze
+  'ricercatore' + '12.0' + '1': 1121 occorrenze
+  'universitario' + '10.0' + '1': 1091 occorrenze
+
+Age + Financial Stress + Family History of Mental Illness:
+  'ricercatore' + '5.0' + 'No': 1766 occorrenze
+  'ricercatore' + '5.0' + 'Yes': 1689 occorrenze
+  'ricercatore' + '1.0' + 'No': 1639 occorrenze
+  'ricercatore' + '2.0' + 'No': 1619 occorrenze
+  'ricercatore' + '1.0' + 'Yes': 1615 occorrenze
+  'ricercatore' + '4.0' + 'No': 1577 occorrenze
+  'ricercatore' + '3.0' + 'No': 1560 occorrenze
+  'ricercatore' + '4.0' + 'Yes': 1515 occorrenze
+  'ricercatore' + '3.0' + 'Yes': 1400 occorrenze
+  'ricercatore' + '2.0' + 'Yes': 1346 occorrenze
+  'universitario' + '5.0' + 'No': 1249 occorrenze
+  'universitario' + '5.0' + 'Yes': 1185 occorrenze
+  'universitario' + '4.0' + 'Yes': 1020 occorrenze
+
+Age + Financial Stress + Depression:
+  'ricercatore' + '5.0' + '1': 2623 occorrenze
+  'ricercatore' + '1.0' + '0': 2395 occorrenze
+  'universitario' + '5.0' + '1': 2096 occorrenze
+  'ricercatore' + '4.0' + '1': 1901 occorrenze
+  'ricercatore' + '2.0' + '0': 1879 occorrenze
+  'ricercatore' + '3.0' + '1': 1541 occorrenze
+  'universitario' + '4.0' + '1': 1522 occorrenze
+  'ricercatore' + '3.0' + '0': 1419 occorrenze
+  'ricercatore' + '4.0' + '0': 1191 occorrenze
+  'universitario' + '3.0' + '1': 1098 occorrenze
+  'ricercatore' + '2.0' + '1': 1086 occorrenze
+
+Age + Family History of Mental Illness + Depression:
+  'ricercatore' + 'No' + '0': 4206 occorrenze
+  'ricercatore' + 'Yes' + '1': 4055 occorrenze
+  'ricercatore' + 'No' + '1': 3956 occorrenze
+  'ricercatore' + 'Yes' + '0': 3511 occorrenze
+  'universitario' + 'Yes' + '1': 3040 occorrenze
+  'universitario' + 'No' + '1': 2969 occorrenze
+  'universitario' + 'No' + '0': 1659 occorrenze
+  'universitario' + 'Yes' + '0': 1358 occorrenze
+  'liceale' + 'Yes' + '1': 1178 occorrenze
+  'liceale' + 'No' + '1': 1138 occorrenze
+
+Academic Pressure + CGPA + Study Satisfaction:
+  'alta' + 'media' + 'bassa': 2382 occorrenze
+  'alta' + 'bassa' + 'bassa': 1855 occorrenze
+  'alta' + 'media' + 'alta': 1655 occorrenze
+  'bassa' + 'media' + 'alta': 1644 occorrenze
+  'alta' + 'bassa' + 'alta': 1416 occorrenze
+  'media' + 'media' + 'alta': 1413 occorrenze
+  'bassa' + 'bassa' + 'alta': 1329 occorrenze
+  'alta' + 'alta' + 'bassa': 1233 occorrenze
+  'bassa' + 'media' + 'bassa': 1218 occorrenze
+  'media' + 'media' + 'bassa': 1210 occorrenze
+  'media' + 'bassa' + 'alta': 1099 occorrenze
+
+Academic Pressure + CGPA + Sleep Duration:
+  'alta' + 'media' + ''Less than 5 hours'': 1612 occorrenze
+  'alta' + 'bassa' + ''Less than 5 hours'': 1295 occorrenze
+  'alta' + 'media' + ''7-8 hours'': 1236 occorrenze
+  'alta' + 'media' + ''5-6 hours'': 1186 occorrenze
+  'alta' + 'bassa' + ''7-8 hours'': 1090 occorrenze
+  'bassa' + 'media' + ''Less than 5 hours'': 1068 occorrenze
+
+Academic Pressure + CGPA + Dietary Habits:
+  'alta' + 'media' + 'Unhealthy': 2103 occorrenze
+  'alta' + 'bassa' + 'Unhealthy': 1707 occorrenze
+  'alta' + 'media' + 'Moderate': 1700 occorrenze
+  'alta' + 'bassa' + 'Moderate': 1368 occorrenze
+  'bassa' + 'media' + 'Moderate': 1339 occorrenze
+  'media' + 'media' + 'Moderate': 1237 occorrenze
+  'alta' + 'media' + 'Healthy': 1199 occorrenze
+  'bassa' + 'media' + 'Unhealthy': 1176 occorrenze
+  'bassa' + 'media' + 'Healthy': 1160 occorrenze
+  'media' + 'media' + 'Unhealthy': 1131 occorrenze
+  'bassa' + 'bassa' + 'Moderate': 1118 occorrenze
+  'alta' + 'bassa' + 'Healthy': 1017 occorrenze
+
+Academic Pressure + CGPA + Degree:
+  'alta' + 'media' + ''Class 12'': 1321 occorrenze
+  'alta' + 'bassa' + ''Class 12'': 1070 occorrenze
+
+Academic Pressure + CGPA + Have you ever had suicidal thoughts ?:
+  'alta' + 'media' + 'Yes': 3800 occorrenze
+  'alta' + 'bassa' + 'Yes': 3049 occorrenze
+  'media' + 'media' + 'Yes': 2141 occorrenze
+  'bassa' + 'media' + 'No': 1954 occorrenze
+  'alta' + 'alta' + 'Yes': 1785 occorrenze
+  'bassa' + 'media' + 'Yes': 1724 occorrenze
+  'media' + 'bassa' + 'Yes': 1693 occorrenze
+  'bassa' + 'bassa' + 'No': 1653 occorrenze
+  'bassa' + 'bassa' + 'Yes': 1372 occorrenze
+  'bassa' + 'alta' + 'No': 1247 occorrenze
+  'alta' + 'media' + 'No': 1203 occorrenze
+  'media' + 'media' + 'No': 1124 occorrenze
+  'media' + 'alta' + 'Yes': 1054 occorrenze
+  'alta' + 'bassa' + 'No': 1045 occorrenze
+  'bassa' + 'alta' + 'Yes': 1038 occorrenze
+
+Academic Pressure + CGPA + Financial Stress:
+  'alta' + 'media' + '5.0': 1410 occorrenze
+  'alta' + 'bassa' + '5.0': 1158 occorrenze
+  'alta' + 'media' + '4.0': 1103 occorrenze
+
+Academic Pressure + CGPA + Family History of Mental Illness:
+  'alta' + 'media' + 'No': 2555 occorrenze
+  'alta' + 'media' + 'Yes': 2448 occorrenze
+  'alta' + 'bassa' + 'Yes': 2070 occorrenze
+  'alta' + 'bassa' + 'No': 2024 occorrenze
+  'bassa' + 'media' + 'No': 1949 occorrenze
+  'bassa' + 'media' + 'Yes': 1729 occorrenze
+  'media' + 'media' + 'No': 1692 occorrenze
+  'bassa' + 'bassa' + 'No': 1651 occorrenze
+  'media' + 'media' + 'Yes': 1573 occorrenze
+  'bassa' + 'bassa' + 'Yes': 1374 occorrenze
+  'media' + 'bassa' + 'Yes': 1306 occorrenze
+  'media' + 'bassa' + 'No': 1298 occorrenze
+  'bassa' + 'alta' + 'No': 1230 occorrenze
+  'alta' + 'alta' + 'Yes': 1182 occorrenze
+  'alta' + 'alta' + 'No': 1172 occorrenze
+  'bassa' + 'alta' + 'Yes': 1055 occorrenze
+
+Academic Pressure + CGPA + Depression:
+  'alta' + 'media' + '1': 4119 occorrenze
+  'alta' + 'bassa' + '1': 3284 occorrenze
+  'bassa' + 'media' + '0': 2595 occorrenze
+  'bassa' + 'bassa' + '0': 2253 occorrenze
+  'media' + 'media' + '1': 1962 occorrenze
+  'alta' + 'alta' + '1': 1942 occorrenze
+  'bassa' + 'alta' + '0': 1638 occorrenze
+  'media' + 'bassa' + '1': 1529 occorrenze
+  'media' + 'media' + '0': 1303 occorrenze
+  'bassa' + 'media' + '1': 1083 occorrenze
+  'media' + 'bassa' + '0': 1075 occorrenze
+
+Academic Pressure + Study Satisfaction + Sleep Duration:
+  'alta' + 'bassa' + ''Less than 5 hours'': 1756 occorrenze
+  'alta' + 'bassa' + ''7-8 hours'': 1384 occorrenze
+  'alta' + 'alta' + ''Less than 5 hours'': 1220 occorrenze
+  'alta' + 'bassa' + ''5-6 hours'': 1178 occorrenze
+  'alta' + 'bassa' + ''More than 8 hours'': 1150 occorrenze
+  'bassa' + 'alta' + ''Less than 5 hours'': 1086 occorrenze
+
+Academic Pressure + Study Satisfaction + Dietary Habits:
+  'alta' + 'bassa' + 'Unhealthy': 2257 occorrenze
+  'alta' + 'bassa' + 'Moderate': 1955 occorrenze
+  'alta' + 'alta' + 'Unhealthy': 1584 occorrenze
+  'bassa' + 'alta' + 'Moderate': 1491 occorrenze
+  'alta' + 'bassa' + 'Healthy': 1256 occorrenze
+  'bassa' + 'alta' + 'Unhealthy': 1250 occorrenze
+  'bassa' + 'alta' + 'Healthy': 1186 occorrenze
+  'alta' + 'alta' + 'Moderate': 1179 occorrenze
+  'media' + 'alta' + 'Moderate': 1123 occorrenze
+  'media' + 'bassa' + 'Moderate': 1097 occorrenze
+  'bassa' + 'bassa' + 'Moderate': 1076 occorrenze
+  'media' + 'alta' + 'Unhealthy': 1056 occorrenze
+  'media' + 'bassa' + 'Unhealthy': 1028 occorrenze
+
+Academic Pressure + Study Satisfaction + Degree:
+  'alta' + 'bassa' + ''Class 12'': 1204 occorrenze
+  'alta' + 'alta' + ''Class 12'': 1100 occorrenze
+
+Academic Pressure + Study Satisfaction + Have you ever had suicidal thoughts ?:
+  'alta' + 'bassa' + 'Yes': 4229 occorrenze
+  'alta' + 'alta' + 'Yes': 2661 occorrenze
+  'bassa' + 'alta' + 'No': 2163 occorrenze
+  'media' + 'bassa' + 'Yes': 1992 occorrenze
+  'media' + 'alta' + 'Yes': 1887 occorrenze
+  'bassa' + 'alta' + 'Yes': 1767 occorrenze
+  'alta' + 'media' + 'Yes': 1744 occorrenze
+  'bassa' + 'bassa' + 'No': 1563 occorrenze
+  'bassa' + 'bassa' + 'Yes': 1403 occorrenze
+  'alta' + 'bassa' + 'No': 1241 occorrenze
+  'media' + 'alta' + 'No': 1225 occorrenze
+  'bassa' + 'media' + 'No': 1128 occorrenze
+  'alta' + 'alta' + 'No': 1078 occorrenze
+  'media' + 'media' + 'Yes': 1009 occorrenze
+
+Academic Pressure + Study Satisfaction + Financial Stress:
+  'alta' + 'bassa' + '5.0': 1599 occorrenze
+  'alta' + 'bassa' + '4.0': 1195 occorrenze
+  'alta' + 'bassa' + '3.0': 1084 occorrenze
+  'alta' + 'alta' + '5.0': 1020 occorrenze
+
+Academic Pressure + Study Satisfaction + Family History of Mental Illness:
+  'alta' + 'bassa' + 'No': 2749 occorrenze
+  'alta' + 'bassa' + 'Yes': 2721 occorrenze
+  'bassa' + 'alta' + 'No': 2095 occorrenze
+  'alta' + 'alta' + 'No': 1878 occorrenze
+  'alta' + 'alta' + 'Yes': 1861 occorrenze
+  'bassa' + 'alta' + 'Yes': 1835 occorrenze
+  'media' + 'alta' + 'No': 1633 occorrenze
+  'bassa' + 'bassa' + 'No': 1611 occorrenze
+  'media' + 'alta' + 'Yes': 1479 occorrenze
+  'media' + 'bassa' + 'No': 1436 occorrenze
+  'media' + 'bassa' + 'Yes': 1427 occorrenze
+  'bassa' + 'bassa' + 'Yes': 1355 occorrenze
+  'alta' + 'media' + 'No': 1124 occorrenze
+  'bassa' + 'media' + 'No': 1124 occorrenze
+  'alta' + 'media' + 'Yes': 1118 occorrenze
+
+Academic Pressure + Study Satisfaction + Depression:
+  'alta' + 'bassa' + '1': 4729 occorrenze
+  'bassa' + 'alta' + '0': 2984 occorrenze
+  'alta' + 'alta' + '1': 2771 occorrenze
+  'bassa' + 'bassa' + '0': 2009 occorrenze
+  'media' + 'bassa' + '1': 1945 occorrenze
+  'alta' + 'media' + '1': 1845 occorrenze
+  'media' + 'alta' + '1': 1635 occorrenze
+  'bassa' + 'media' + '0': 1493 occorrenze
+  'media' + 'alta' + '0': 1477 occorrenze
+
+Academic Pressure + Sleep Duration + Dietary Habits:
+  'alta' + ''Less than 5 hours'' + 'Unhealthy': 1506 occorrenze
+  'alta' + ''7-8 hours'' + 'Unhealthy': 1290 occorrenze
+  'alta' + ''Less than 5 hours'' + 'Moderate': 1281 occorrenze
+  'alta' + ''5-6 hours'' + 'Unhealthy': 1006 occorrenze
+  'alta' + ''More than 8 hours'' + 'Unhealthy': 1000 occorrenze
+
+Academic Pressure + Sleep Duration + Have you ever had suicidal thoughts ?:
+  'alta' + ''Less than 5 hours'' + 'Yes': 2851 occorrenze
+  'alta' + ''7-8 hours'' + 'Yes': 2228 occorrenze
+  'alta' + ''5-6 hours'' + 'Yes': 1854 occorrenze
+  'alta' + ''More than 8 hours'' + 'Yes': 1697 occorrenze
+  'media' + ''7-8 hours'' + 'Yes': 1465 occorrenze
+  'media' + ''Less than 5 hours'' + 'Yes': 1434 occorrenze
+  'bassa' + ''More than 8 hours'' + 'No': 1271 occorrenze
+  'bassa' + ''Less than 5 hours'' + 'No': 1258 occorrenze
+  'bassa' + ''Less than 5 hours'' + 'Yes': 1258 occorrenze
+  'bassa' + ''7-8 hours'' + 'No': 1210 occorrenze
+  'bassa' + ''5-6 hours'' + 'No': 1114 occorrenze
+  'bassa' + ''7-8 hours'' + 'Yes': 1080 occorrenze
+  'media' + ''5-6 hours'' + 'Yes': 1075 occorrenze
+
+Academic Pressure + Sleep Duration + Financial Stress:
+  'alta' + ''Less than 5 hours'' + '5.0': 1105 occorrenze
+
+Academic Pressure + Sleep Duration + Family History of Mental Illness:
+  'alta' + ''Less than 5 hours'' + 'Yes': 1845 occorrenze
+  'alta' + ''Less than 5 hours'' + 'No': 1796 occorrenze
+  'alta' + ''7-8 hours'' + 'No': 1525 occorrenze
+  'alta' + ''7-8 hours'' + 'Yes': 1395 occorrenze
+  'bassa' + ''Less than 5 hours'' + 'No': 1349 occorrenze
+  'alta' + ''5-6 hours'' + 'Yes': 1279 occorrenze
+  'alta' + ''5-6 hours'' + 'No': 1245 occorrenze
+  'bassa' + ''7-8 hours'' + 'No': 1229 occorrenze
+  'alta' + ''More than 8 hours'' + 'No': 1184 occorrenze
+  'alta' + ''More than 8 hours'' + 'Yes': 1175 occorrenze
+  'bassa' + ''Less than 5 hours'' + 'Yes': 1167 occorrenze
+  'bassa' + ''More than 8 hours'' + 'No': 1163 occorrenze
+  'media' + ''7-8 hours'' + 'No': 1093 occorrenze
+  'bassa' + ''5-6 hours'' + 'No': 1085 occorrenze
+  'media' + ''Less than 5 hours'' + 'Yes': 1084 occorrenze
+  'media' + ''Less than 5 hours'' + 'No': 1069 occorrenze
+  'bassa' + ''7-8 hours'' + 'Yes': 1061 occorrenze
+  'media' + ''7-8 hours'' + 'Yes': 1043 occorrenze
+
+Academic Pressure + Sleep Duration + Depression:
+  'alta' + ''Less than 5 hours'' + '1': 3122 occorrenze
+  'alta' + ''7-8 hours'' + '1': 2397 occorrenze
+  'alta' + ''5-6 hours'' + '1': 1997 occorrenze
+  'alta' + ''More than 8 hours'' + '1': 1824 occorrenze
+  'bassa' + ''More than 8 hours'' + '0': 1693 occorrenze
+  'bassa' + ''Less than 5 hours'' + '0': 1683 occorrenze
+  'bassa' + ''7-8 hours'' + '0': 1625 occorrenze
+  'bassa' + ''5-6 hours'' + '0': 1482 occorrenze
+  'media' + ''Less than 5 hours'' + '1': 1406 occorrenze
+  'media' + ''7-8 hours'' + '1': 1309 occorrenze
+
+Academic Pressure + Dietary Habits + Degree:
+  'alta' + 'Unhealthy' + ''Class 12'': 1253 occorrenze
+
+Academic Pressure + Dietary Habits + Have you ever had suicidal thoughts ?:
+  'alta' + 'Unhealthy' + 'Yes': 3775 occorrenze
+  'alta' + 'Moderate' + 'Yes': 2891 occorrenze
+  'alta' + 'Healthy' + 'Yes': 1963 occorrenze
+  'media' + 'Unhealthy' + 'Yes': 1874 occorrenze
+  'bassa' + 'Moderate' + 'No': 1843 occorrenze
+  'media' + 'Moderate' + 'Yes': 1811 occorrenze
+  'bassa' + 'Healthy' + 'No': 1635 occorrenze
+  'bassa' + 'Unhealthy' + 'Yes': 1538 occorrenze
+  'bassa' + 'Moderate' + 'Yes': 1468 occorrenze
+  'bassa' + 'Unhealthy' + 'No': 1374 occorrenze
+  'media' + 'Healthy' + 'Yes': 1201 occorrenze
+  'bassa' + 'Healthy' + 'Yes': 1125 occorrenze
+  'alta' + 'Unhealthy' + 'No': 1028 occorrenze
+
+Academic Pressure + Dietary Habits + Financial Stress:
+  'alta' + 'Unhealthy' + '5.0': 1457 occorrenze
+  'alta' + 'Unhealthy' + '4.0': 1101 occorrenze
+  'alta' + 'Moderate' + '5.0': 1092 occorrenze
+
+Academic Pressure + Dietary Habits + Family History of Mental Illness:
+  'alta' + 'Unhealthy' + 'No': 2408 occorrenze
+  'alta' + 'Unhealthy' + 'Yes': 2395 occorrenze
+  'alta' + 'Moderate' + 'No': 1938 occorrenze
+  'alta' + 'Moderate' + 'Yes': 1907 occorrenze
+  'bassa' + 'Moderate' + 'No': 1791 occorrenze
+  'bassa' + 'Unhealthy' + 'No': 1557 occorrenze
+  'bassa' + 'Moderate' + 'Yes': 1520 occorrenze
+  'bassa' + 'Healthy' + 'No': 1478 occorrenze
+  'media' + 'Moderate' + 'No': 1434 occorrenze
+  'alta' + 'Healthy' + 'No': 1402 occorrenze
+  'alta' + 'Healthy' + 'Yes': 1396 occorrenze
+  'bassa' + 'Unhealthy' + 'Yes': 1355 occorrenze
+  'media' + 'Moderate' + 'Yes': 1331 occorrenze
+  'media' + 'Unhealthy' + 'No': 1309 occorrenze
+  'media' + 'Unhealthy' + 'Yes': 1293 occorrenze
+  'bassa' + 'Healthy' + 'Yes': 1282 occorrenze
+  'media' + 'Healthy' + 'No': 1072 occorrenze
+  'media' + 'Healthy' + 'Yes': 1021 occorrenze
+
+Academic Pressure + Dietary Habits + Depression:
+  'alta' + 'Unhealthy' + '1': 4204 occorrenze
+  'alta' + 'Moderate' + '1': 3143 occorrenze
+  'bassa' + 'Moderate' + '0': 2506 occorrenze
+  'bassa' + 'Healthy' + '0': 2257 occorrenze
+  'alta' + 'Healthy' + '1': 1993 occorrenze
+  'media' + 'Unhealthy' + '1': 1901 occorrenze
+  'bassa' + 'Unhealthy' + '0': 1720 occorrenze
+  'media' + 'Moderate' + '1': 1610 occorrenze
+  'bassa' + 'Unhealthy' + '1': 1192 occorrenze
+  'media' + 'Moderate' + '0': 1155 occorrenze
+  'media' + 'Healthy' + '0': 1116 occorrenze
+
+Academic Pressure + Degree + Have you ever had suicidal thoughts ?:
+  'alta' + ''Class 12'' + 'Yes': 2216 occorrenze
+  'media' + ''Class 12'' + 'Yes': 1242 occorrenze
+
+Academic Pressure + Degree + Family History of Mental Illness:
+  'alta' + ''Class 12'' + 'Yes': 1454 occorrenze
+  'alta' + ''Class 12'' + 'No': 1430 occorrenze
+
+Academic Pressure + Degree + Depression:
+  'alta' + ''Class 12'' + '1': 2510 occorrenze
+  'media' + ''Class 12'' + '1': 1253 occorrenze
+
+Academic Pressure + Have you ever had suicidal thoughts ? + Study Hours:
+  'alta' + 'Yes' + '10.0': 1495 occorrenze
+  'alta' + 'Yes' + '12.0': 1121 occorrenze
+
+Academic Pressure + Have you ever had suicidal thoughts ? + Financial Stress:
+  'alta' + 'Yes' + '5.0': 2639 occorrenze
+  'alta' + 'Yes' + '4.0': 1968 occorrenze
+  'alta' + 'Yes' + '3.0': 1655 occorrenze
+  'media' + 'Yes' + '5.0': 1465 occorrenze
+  'bassa' + 'No' + '1.0': 1382 occorrenze
+  'alta' + 'Yes' + '2.0': 1371 occorrenze
+  'bassa' + 'No' + '2.0': 1178 occorrenze
+  'media' + 'Yes' + '4.0': 1174 occorrenze
+  'alta' + 'Yes' + '1.0': 1001 occorrenze
+
+Academic Pressure + Have you ever had suicidal thoughts ? + Family History of Mental Illness:
+  'alta' + 'Yes' + 'Yes': 4374 occorrenze
+  'alta' + 'Yes' + 'No': 4260 occorrenze
+  'bassa' + 'No' + 'No': 2626 occorrenze
+  'media' + 'Yes' + 'No': 2471 occorrenze
+  'media' + 'Yes' + 'Yes': 2417 occorrenze
+  'bassa' + 'No' + 'Yes': 2228 occorrenze
+  'bassa' + 'Yes' + 'No': 2204 occorrenze
+  'bassa' + 'Yes' + 'Yes': 1930 occorrenze
+  'alta' + 'No' + 'No': 1491 occorrenze
+  'media' + 'No' + 'No': 1346 occorrenze
+  'alta' + 'No' + 'Yes': 1326 occorrenze
+  'media' + 'No' + 'Yes': 1228 occorrenze
+
+Academic Pressure + Have you ever had suicidal thoughts ? + Depression:
+  'alta' + 'Yes' + '1': 7934 occorrenze
+  'bassa' + 'No' + '0': 4447 occorrenze
+  'media' + 'Yes' + '1': 3928 occorrenze
+  'bassa' + 'Yes' + '1': 2095 occorrenze
+  'bassa' + 'Yes' + '0': 2039 occorrenze
+  'media' + 'No' + '0': 2013 occorrenze
+  'alta' + 'No' + '1': 1411 occorrenze
+  'alta' + 'No' + '0': 1406 occorrenze
+
+Academic Pressure + Study Hours + Depression:
+  'alta' + '10.0' + '1': 1613 occorrenze
+  'alta' + '12.0' + '1': 1259 occorrenze
+  'alta' + '11.0' + '1': 1120 occorrenze
+
+Academic Pressure + Financial Stress + Family History of Mental Illness:
+  'alta' + '5.0' + 'Yes': 1622 occorrenze
+  'alta' + '5.0' + 'No': 1618 occorrenze
+  'alta' + '4.0' + 'Yes': 1293 occorrenze
+  'alta' + '4.0' + 'No': 1223 occorrenze
+  'bassa' + '1.0' + 'No': 1117 occorrenze
+  'alta' + '3.0' + 'Yes': 1078 occorrenze
+  'bassa' + '2.0' + 'No': 1072 occorrenze
+  'alta' + '3.0' + 'No': 1062 occorrenze
+  'alta' + '2.0' + 'No': 1060 occorrenze
+  'bassa' + '1.0' + 'Yes': 1023 occorrenze
+
+Academic Pressure + Financial Stress + Depression:
+  'alta' + '5.0' + '1': 3033 occorrenze
+  'alta' + '4.0' + '1': 2187 occorrenze
+  'bassa' + '1.0' + '0': 1910 occorrenze
+  'alta' + '3.0' + '1': 1776 occorrenze
+  'bassa' + '2.0' + '0': 1630 occorrenze
+  'media' + '5.0' + '1': 1535 occorrenze
+  'alta' + '2.0' + '1': 1390 occorrenze
+  'bassa' + '3.0' + '0': 1216 occorrenze
+  'media' + '4.0' + '1': 1183 occorrenze
+  'bassa' + '4.0' + '0': 1009 occorrenze
+
+Academic Pressure + Family History of Mental Illness + Depression:
+  'alta' + 'Yes' + '1': 4762 occorrenze
+  'alta' + 'No' + '1': 4583 occorrenze
+  'bassa' + 'No' + '0': 3555 occorrenze
+  'bassa' + 'Yes' + '0': 2931 occorrenze
+  'media' + 'Yes' + '1': 2284 occorrenze
+  'media' + 'No' + '1': 2205 occorrenze
+  'media' + 'No' + '0': 1612 occorrenze
+  'media' + 'Yes' + '0': 1361 occorrenze
+  'bassa' + 'No' + '1': 1275 occorrenze
+  'bassa' + 'Yes' + '1': 1227 occorrenze
+  'alta' + 'No' + '0': 1168 occorrenze
+
+CGPA + Study Satisfaction + Sleep Duration:
+  'media' + 'bassa' + ''Less than 5 hours'': 1542 occorrenze
+  'media' + 'alta' + ''Less than 5 hours'': 1396 occorrenze
+  'media' + 'alta' + ''7-8 hours'': 1208 occorrenze
+  'media' + 'bassa' + ''7-8 hours'': 1182 occorrenze
+  'bassa' + 'bassa' + ''Less than 5 hours'': 1128 occorrenze
+  'bassa' + 'alta' + ''Less than 5 hours'': 1122 occorrenze
+  'media' + 'alta' + ''5-6 hours'': 1105 occorrenze
+  'media' + 'bassa' + ''5-6 hours'': 1090 occorrenze
+  'bassa' + 'bassa' + ''7-8 hours'': 1008 occorrenze
+
+CGPA + Study Satisfaction + Dietary Habits:
+  'media' + 'bassa' + 'Unhealthy': 1818 occorrenze
+  'media' + 'bassa' + 'Moderate': 1768 occorrenze
+  'media' + 'alta' + 'Unhealthy': 1723 occorrenze
+  'media' + 'alta' + 'Moderate': 1655 occorrenze
+  'bassa' + 'bassa' + 'Unhealthy': 1439 occorrenze
+  'bassa' + 'alta' + 'Unhealthy': 1383 occorrenze
+  'bassa' + 'alta' + 'Moderate': 1363 occorrenze
+  'bassa' + 'bassa' + 'Moderate': 1342 occorrenze
+  'media' + 'alta' + 'Healthy': 1332 occorrenze
+  'media' + 'bassa' + 'Healthy': 1222 occorrenze
+  'bassa' + 'alta' + 'Healthy': 1096 occorrenze
+  'alta' + 'bassa' + 'Moderate': 1018 occorrenze
+
+CGPA + Study Satisfaction + Degree:
+  'media' + 'alta' + ''Class 12'': 1237 occorrenze
+
+CGPA + Study Satisfaction + Have you ever had suicidal thoughts ?:
+  'media' + 'bassa' + 'Yes': 3272 occorrenze
+  'media' + 'alta' + 'Yes': 2816 occorrenze
+  'bassa' + 'bassa' + 'Yes': 2534 occorrenze
+  'bassa' + 'alta' + 'Yes': 2226 occorrenze
+  'media' + 'alta' + 'No': 1896 occorrenze
+  'alta' + 'bassa' + 'Yes': 1818 occorrenze
+  'bassa' + 'alta' + 'No': 1618 occorrenze
+  'media' + 'media' + 'Yes': 1577 occorrenze
+  'media' + 'bassa' + 'No': 1538 occorrenze
+  'bassa' + 'media' + 'Yes': 1354 occorrenze
+  'alta' + 'alta' + 'Yes': 1273 occorrenze
+  'bassa' + 'bassa' + 'No': 1224 occorrenze
+
+CGPA + Study Satisfaction + Financial Stress:
+  'media' + 'bassa' + '5.0': 1254 occorrenze
+  'media' + 'alta' + '5.0': 1093 occorrenze
+  'media' + 'bassa' + '4.0': 1027 occorrenze
+
+CGPA + Study Satisfaction + Family History of Mental Illness:
+  'media' + 'bassa' + 'No': 2493 occorrenze
+  'media' + 'alta' + 'No': 2432 occorrenze
+  'media' + 'bassa' + 'Yes': 2317 occorrenze
+  'media' + 'alta' + 'Yes': 2280 occorrenze
+  'bassa' + 'alta' + 'No': 2000 occorrenze
+  'bassa' + 'bassa' + 'No': 1896 occorrenze
+  'bassa' + 'bassa' + 'Yes': 1862 occorrenze
+  'bassa' + 'alta' + 'Yes': 1844 occorrenze
+  'alta' + 'bassa' + 'No': 1407 occorrenze
+  'alta' + 'bassa' + 'Yes': 1324 occorrenze
+  'media' + 'media' + 'No': 1271 occorrenze
+  'alta' + 'alta' + 'No': 1174 occorrenze
+  'media' + 'media' + 'Yes': 1153 occorrenze
+  'bassa' + 'media' + 'No': 1077 occorrenze
+  'alta' + 'alta' + 'Yes': 1051 occorrenze
+  'bassa' + 'media' + 'Yes': 1044 occorrenze
+
+CGPA + Study Satisfaction + Depression:
+  'media' + 'bassa' + '1': 3310 occorrenze
+  'bassa' + 'bassa' + '1': 2500 occorrenze
+  'media' + 'alta' + '1': 2434 occorrenze
+  'media' + 'alta' + '0': 2278 occorrenze
+  'bassa' + 'alta' + '0': 1974 occorrenze
+  'bassa' + 'alta' + '1': 1870 occorrenze
+  'alta' + 'bassa' + '1': 1821 occorrenze
+  'media' + 'bassa' + '0': 1500 occorrenze
+  'media' + 'media' + '1': 1420 occorrenze
+  'bassa' + 'bassa' + '0': 1258 occorrenze
+  'bassa' + 'media' + '1': 1215 occorrenze
+  'alta' + 'alta' + '0': 1177 occorrenze
+  'alta' + 'alta' + '1': 1048 occorrenze
+  'media' + 'media' + '0': 1004 occorrenze
+
+CGPA + Sleep Duration + Dietary Habits:
+  'media' + ''Less than 5 hours'' + 'Moderate': 1378 occorrenze
+  'media' + ''Less than 5 hours'' + 'Unhealthy': 1316 occorrenze
+  'media' + ''7-8 hours'' + 'Unhealthy': 1204 occorrenze
+  'bassa' + ''Less than 5 hours'' + 'Unhealthy': 1064 occorrenze
+  'bassa' + ''Less than 5 hours'' + 'Moderate': 1018 occorrenze
+  'media' + ''5-6 hours'' + 'Moderate': 1010 occorrenze
+  'bassa' + ''7-8 hours'' + 'Unhealthy': 1007 occorrenze
+  'media' + ''7-8 hours'' + 'Moderate': 1006 occorrenze
+
+CGPA + Sleep Duration + Have you ever had suicidal thoughts ?:
+  'media' + ''Less than 5 hours'' + 'Yes': 2439 occorrenze
+  'media' + ''7-8 hours'' + 'Yes': 1986 occorrenze
+  'bassa' + ''Less than 5 hours'' + 'Yes': 1934 occorrenze
+  'media' + ''5-6 hours'' + 'Yes': 1786 occorrenze
+  'bassa' + ''7-8 hours'' + 'Yes': 1673 occorrenze
+  'media' + ''More than 8 hours'' + 'Yes': 1451 occorrenze
+  'bassa' + ''More than 8 hours'' + 'Yes': 1270 occorrenze
+  'bassa' + ''5-6 hours'' + 'Yes': 1233 occorrenze
+  'media' + ''Less than 5 hours'' + 'No': 1202 occorrenze
+  'alta' + ''Less than 5 hours'' + 'Yes': 1170 occorrenze
+  'alta' + ''7-8 hours'' + 'Yes': 1114 occorrenze
+  'media' + ''7-8 hours'' + 'No': 1036 occorrenze
+  'media' + ''5-6 hours'' + 'No': 1028 occorrenze
+  'media' + ''More than 8 hours'' + 'No': 1012 occorrenze
+
+CGPA + Sleep Duration + Family History of Mental Illness:
+  'media' + ''Less than 5 hours'' + 'No': 1848 occorrenze
+  'media' + ''Less than 5 hours'' + 'Yes': 1793 occorrenze
+  'media' + ''7-8 hours'' + 'No': 1580 occorrenze
+  'media' + ''5-6 hours'' + 'No': 1480 occorrenze
+  'bassa' + ''Less than 5 hours'' + 'No': 1443 occorrenze
+  'media' + ''7-8 hours'' + 'Yes': 1442 occorrenze
+  'bassa' + ''Less than 5 hours'' + 'Yes': 1409 occorrenze
+  'bassa' + ''7-8 hours'' + 'No': 1352 occorrenze
+  'media' + ''5-6 hours'' + 'Yes': 1334 occorrenze
+  'media' + ''More than 8 hours'' + 'No': 1284 occorrenze
+  'bassa' + ''7-8 hours'' + 'Yes': 1248 occorrenze
+  'media' + ''More than 8 hours'' + 'Yes': 1179 occorrenze
+  'bassa' + ''More than 8 hours'' + 'No': 1160 occorrenze
+  'bassa' + ''More than 8 hours'' + 'Yes': 1080 occorrenze
+  'bassa' + ''5-6 hours'' + 'No': 1013 occorrenze
+  'bassa' + ''5-6 hours'' + 'Yes': 1011 occorrenze
+
+CGPA + Sleep Duration + Depression:
+  'media' + ''Less than 5 hours'' + '1': 2366 occorrenze
+  'media' + ''7-8 hours'' + '1': 1869 occorrenze
+  'bassa' + ''Less than 5 hours'' + '1': 1838 occorrenze
+  'media' + ''5-6 hours'' + '1': 1629 occorrenze
+  'bassa' + ''7-8 hours'' + '1': 1512 occorrenze
+  'media' + ''More than 8 hours'' + '1': 1298 occorrenze
+  'media' + ''Less than 5 hours'' + '0': 1275 occorrenze
+  'media' + ''5-6 hours'' + '0': 1185 occorrenze
+  'media' + ''More than 8 hours'' + '0': 1165 occorrenze
+  'alta' + ''Less than 5 hours'' + '1': 1157 occorrenze
+  'media' + ''7-8 hours'' + '0': 1153 occorrenze
+  'bassa' + ''More than 8 hours'' + '0': 1138 occorrenze
+  'bassa' + ''5-6 hours'' + '1': 1130 occorrenze
+  'bassa' + ''More than 8 hours'' + '1': 1102 occorrenze
+  'bassa' + ''7-8 hours'' + '0': 1088 occorrenze
+  'bassa' + ''Less than 5 hours'' + '0': 1014 occorrenze
+
+CGPA + Dietary Habits + Degree:
+  'media' + 'Unhealthy' + ''Class 12'': 1118 occorrenze
+
+CGPA + Dietary Habits + Have you ever had suicidal thoughts ?:
+  'media' + 'Unhealthy' + 'Yes': 3092 occorrenze
+  'media' + 'Moderate' + 'Yes': 2709 occorrenze
+  'bassa' + 'Unhealthy' + 'Yes': 2548 occorrenze
+  'bassa' + 'Moderate' + 'Yes': 2081 occorrenze
+  'media' + 'Healthy' + 'Yes': 1860 occorrenze
+  'media' + 'Moderate' + 'No': 1567 occorrenze
+  'alta' + 'Unhealthy' + 'Yes': 1547 occorrenze
+  'bassa' + 'Healthy' + 'Yes': 1482 occorrenze
+  'media' + 'Healthy' + 'No': 1396 occorrenze
+  'alta' + 'Moderate' + 'Yes': 1380 occorrenze
+  'bassa' + 'Moderate' + 'No': 1326 occorrenze
+  'media' + 'Unhealthy' + 'No': 1318 occorrenze
+  'bassa' + 'Healthy' + 'No': 1182 occorrenze
+  'bassa' + 'Unhealthy' + 'No': 1099 occorrenze
+
+CGPA + Dietary Habits + Financial Stress:
+  'media' + 'Unhealthy' + '5.0': 1246 occorrenze
+  'bassa' + 'Unhealthy' + '5.0': 1014 occorrenze
+
+CGPA + Dietary Habits + Family History of Mental Illness:
+  'media' + 'Moderate' + 'No': 2253 occorrenze
+  'media' + 'Unhealthy' + 'No': 2244 occorrenze
+  'media' + 'Unhealthy' + 'Yes': 2166 occorrenze
+  'media' + 'Moderate' + 'Yes': 2023 occorrenze
+  'bassa' + 'Unhealthy' + 'Yes': 1829 occorrenze
+  'bassa' + 'Unhealthy' + 'No': 1818 occorrenze
+  'bassa' + 'Moderate' + 'No': 1784 occorrenze
+  'media' + 'Healthy' + 'No': 1697 occorrenze
+  'bassa' + 'Moderate' + 'Yes': 1623 occorrenze
+  'media' + 'Healthy' + 'Yes': 1559 occorrenze
+  'bassa' + 'Healthy' + 'No': 1366 occorrenze
+  'bassa' + 'Healthy' + 'Yes': 1298 occorrenze
+  'alta' + 'Unhealthy' + 'No': 1212 occorrenze
+  'alta' + 'Moderate' + 'No': 1126 occorrenze
+  'alta' + 'Moderate' + 'Yes': 1112 occorrenze
+  'alta' + 'Unhealthy' + 'Yes': 1048 occorrenze
+
+CGPA + Dietary Habits + Depression:
+  'media' + 'Unhealthy' + '1': 3158 occorrenze
+  'bassa' + 'Unhealthy' + '1': 2564 occorrenze
+  'media' + 'Moderate' + '1': 2475 occorrenze
+  'bassa' + 'Moderate' + '1': 1841 occorrenze
+  'media' + 'Moderate' + '0': 1801 occorrenze
+  'media' + 'Healthy' + '0': 1727 occorrenze
+  'alta' + 'Unhealthy' + '1': 1575 occorrenze
+  'bassa' + 'Moderate' + '0': 1566 occorrenze
+  'media' + 'Healthy' + '1': 1529 occorrenze
+  'bassa' + 'Healthy' + '0': 1487 occorrenze
+  'media' + 'Unhealthy' + '0': 1252 occorrenze
+  'alta' + 'Moderate' + '1': 1242 occorrenze
+  'bassa' + 'Healthy' + '1': 1177 occorrenze
+  'bassa' + 'Unhealthy' + '0': 1083 occorrenze
+
+CGPA + Degree + Have you ever had suicidal thoughts ?:
+  'media' + ''Class 12'' + 'Yes': 1918 occorrenze
+  'bassa' + ''Class 12'' + 'Yes': 1525 occorrenze
+
+CGPA + Degree + Family History of Mental Illness:
+  'media' + ''Class 12'' + 'No': 1441 occorrenze
+  'media' + ''Class 12'' + 'Yes': 1307 occorrenze
+  'bassa' + ''Class 12'' + 'Yes': 1116 occorrenze
+  'bassa' + ''Class 12'' + 'No': 1084 occorrenze
+
+CGPA + Degree + Depression:
+  'media' + ''Class 12'' + '1': 1968 occorrenze
+  'bassa' + ''Class 12'' + '1': 1561 occorrenze
+
+CGPA + Have you ever had suicidal thoughts ? + Study Hours:
+  'media' + 'Yes' + '10.0': 1381 occorrenze
+  'bassa' + 'Yes' + '10.0': 1017 occorrenze
+
+CGPA + Have you ever had suicidal thoughts ? + Financial Stress:
+  'media' + 'Yes' + '5.0': 2236 occorrenze
+  'media' + 'Yes' + '4.0': 1754 occorrenze
+  'bassa' + 'Yes' + '5.0': 1736 occorrenze
+  'media' + 'Yes' + '3.0': 1447 occorrenze
+  'bassa' + 'Yes' + '4.0': 1383 occorrenze
+  'media' + 'Yes' + '2.0': 1171 occorrenze
+  'bassa' + 'Yes' + '3.0': 1160 occorrenze
+  'alta' + 'Yes' + '5.0': 1112 occorrenze
+  'media' + 'No' + '1.0': 1094 occorrenze
+  'media' + 'Yes' + '1.0': 1057 occorrenze
+
+CGPA + Have you ever had suicidal thoughts ? + Family History of Mental Illness:
+  'media' + 'Yes' + 'No': 3894 occorrenze
+  'media' + 'Yes' + 'Yes': 3771 occorrenze
+  'bassa' + 'Yes' + 'No': 3068 occorrenze
+  'bassa' + 'Yes' + 'Yes': 3046 occorrenze
+  'media' + 'No' + 'No': 2302 occorrenze
+  'media' + 'No' + 'Yes': 1979 occorrenze
+  'alta' + 'Yes' + 'No': 1973 occorrenze
+  'bassa' + 'No' + 'No': 1905 occorrenze
+  'alta' + 'Yes' + 'Yes': 1904 occorrenze
+  'bassa' + 'No' + 'Yes': 1704 occorrenze
+  'alta' + 'No' + 'No': 1256 occorrenze
+  'alta' + 'No' + 'Yes': 1099 occorrenze
+
+CGPA + Have you ever had suicidal thoughts ? + Depression:
+  'media' + 'Yes' + '1': 6156 occorrenze
+  'bassa' + 'Yes' + '1': 4766 occorrenze
+  'media' + 'No' + '0': 3273 occorrenze
+  'alta' + 'Yes' + '1': 3035 occorrenze
+  'bassa' + 'No' + '0': 2790 occorrenze
+  'alta' + 'No' + '0': 1803 occorrenze
+  'media' + 'Yes' + '0': 1509 occorrenze
+  'bassa' + 'Yes' + '0': 1348 occorrenze
+  'media' + 'No' + '1': 1008 occorrenze
+
+CGPA + Study Hours + Depression:
+  'media' + '10.0' + '1': 1372 occorrenze
+
+CGPA + Financial Stress + Family History of Mental Illness:
+  'media' + '5.0' + 'No': 1491 occorrenze
+  'media' + '5.0' + 'Yes': 1409 occorrenze
+  'media' + '4.0' + 'No': 1273 occorrenze
+  'media' + '4.0' + 'Yes': 1221 occorrenze
+  'media' + '3.0' + 'No': 1194 occorrenze
+  'media' + '2.0' + 'No': 1178 occorrenze
+  'bassa' + '5.0' + 'No': 1168 occorrenze
+  'bassa' + '5.0' + 'Yes': 1166 occorrenze
+  'media' + '1.0' + 'Yes': 1091 occorrenze
+  'media' + '1.0' + 'No': 1060 occorrenze
+  'media' + '3.0' + 'Yes': 1042 occorrenze
+  'bassa' + '4.0' + 'Yes': 1001 occorrenze
+
+CGPA + Financial Stress + Depression:
+  'media' + '5.0' + '1': 2399 occorrenze
+  'bassa' + '5.0' + '1': 1875 occorrenze
+  'media' + '4.0' + '1': 1759 occorrenze
+  'media' + '1.0' + '0': 1435 occorrenze
+  'media' + '3.0' + '1': 1347 occorrenze
+  'bassa' + '4.0' + '1': 1340 occorrenze
+  'bassa' + '1.0' + '0': 1226 occorrenze
+  'media' + '2.0' + '0': 1221 occorrenze
+  'alta' + '5.0' + '1': 1184 occorrenze
+  'bassa' + '3.0' + '1': 1053 occorrenze
+  'bassa' + '2.0' + '0': 1029 occorrenze
+
+CGPA + Family History of Mental Illness + Depression:
+  'media' + 'Yes' + '1': 3591 occorrenze
+  'media' + 'No' + '1': 3573 occorrenze
+  'bassa' + 'Yes' + '1': 2883 occorrenze
+  'bassa' + 'No' + '1': 2702 occorrenze
+  'media' + 'No' + '0': 2623 occorrenze
+  'bassa' + 'No' + '0': 2271 occorrenze
+  'media' + 'Yes' + '0': 2159 occorrenze
+  'bassa' + 'Yes' + '0': 1867 occorrenze
+  'alta' + 'Yes' + '1': 1799 occorrenze
+  'alta' + 'No' + '1': 1788 occorrenze
+  'alta' + 'No' + '0': 1441 occorrenze
+  'alta' + 'Yes' + '0': 1204 occorrenze
+
+Study Satisfaction + Sleep Duration + Dietary Habits:
+  'bassa' + ''Less than 5 hours'' + 'Moderate': 1316 occorrenze
+  'bassa' + ''Less than 5 hours'' + 'Unhealthy': 1290 occorrenze
+  'bassa' + ''7-8 hours'' + 'Unhealthy': 1167 occorrenze
+  'alta' + ''Less than 5 hours'' + 'Unhealthy': 1165 occorrenze
+  'alta' + ''Less than 5 hours'' + 'Moderate': 1144 occorrenze
+  'bassa' + ''7-8 hours'' + 'Moderate': 1036 occorrenze
+  'alta' + ''7-8 hours'' + 'Unhealthy': 1021 occorrenze
+
+Study Satisfaction + Sleep Duration + Have you ever had suicidal thoughts ?:
+  'bassa' + ''Less than 5 hours'' + 'Yes': 2422 occorrenze
+  'bassa' + ''7-8 hours'' + 'Yes': 2051 occorrenze
+  'alta' + ''Less than 5 hours'' + 'Yes': 2005 occorrenze
+  'alta' + ''7-8 hours'' + 'Yes': 1679 occorrenze
+  'bassa' + ''5-6 hours'' + 'Yes': 1636 occorrenze
+  'bassa' + ''More than 8 hours'' + 'Yes': 1510 occorrenze
+  'alta' + ''5-6 hours'' + 'Yes': 1357 occorrenze
+  'alta' + ''More than 8 hours'' + 'Yes': 1269 occorrenze
+  'alta' + ''Less than 5 hours'' + 'No': 1187 occorrenze
+  'alta' + ''More than 8 hours'' + 'No': 1154 occorrenze
+  'media' + ''Less than 5 hours'' + 'Yes': 1116 occorrenze
+  'alta' + ''7-8 hours'' + 'No': 1113 occorrenze
+  'media' + ''7-8 hours'' + 'Yes': 1043 occorrenze
+  'bassa' + ''Less than 5 hours'' + 'No': 1040 occorrenze
+  'alta' + ''5-6 hours'' + 'No': 1007 occorrenze
+
+Study Satisfaction + Sleep Duration + Family History of Mental Illness:
+  'bassa' + ''Less than 5 hours'' + 'No': 1736 occorrenze
+  'bassa' + ''Less than 5 hours'' + 'Yes': 1726 occorrenze
+  'alta' + ''Less than 5 hours'' + 'No': 1640 occorrenze
+  'alta' + ''Less than 5 hours'' + 'Yes': 1552 occorrenze
+  'bassa' + ''7-8 hours'' + 'No': 1529 occorrenze
+  'alta' + ''7-8 hours'' + 'No': 1484 occorrenze
+  'bassa' + ''7-8 hours'' + 'Yes': 1422 occorrenze
+  'alta' + ''7-8 hours'' + 'Yes': 1308 occorrenze
+  'bassa' + ''5-6 hours'' + 'No': 1268 occorrenze
+  'alta' + ''More than 8 hours'' + 'No': 1263 occorrenze
+  'bassa' + ''More than 8 hours'' + 'No': 1260 occorrenze
+  'alta' + ''5-6 hours'' + 'No': 1212 occorrenze
+  'bassa' + ''5-6 hours'' + 'Yes': 1209 occorrenze
+  'alta' + ''More than 8 hours'' + 'Yes': 1160 occorrenze
+  'alta' + ''5-6 hours'' + 'Yes': 1152 occorrenze
+  'bassa' + ''More than 8 hours'' + 'Yes': 1142 occorrenze
+
+Study Satisfaction + Sleep Duration + Depression:
+  'bassa' + ''Less than 5 hours'' + '1': 2495 occorrenze
+  'bassa' + ''7-8 hours'' + '1': 2008 occorrenze
+  'alta' + ''Less than 5 hours'' + '1': 1834 occorrenze
+  'bassa' + ''5-6 hours'' + '1': 1659 occorrenze
+  'bassa' + ''More than 8 hours'' + '1': 1465 occorrenze
+  'alta' + ''7-8 hours'' + '1': 1412 occorrenze
+  'alta' + ''More than 8 hours'' + '0': 1408 occorrenze
+  'alta' + ''7-8 hours'' + '0': 1380 occorrenze
+  'alta' + ''Less than 5 hours'' + '0': 1358 occorrenze
+  'alta' + ''5-6 hours'' + '0': 1277 occorrenze
+  'alta' + ''5-6 hours'' + '1': 1087 occorrenze
+  'media' + ''Less than 5 hours'' + '1': 1032 occorrenze
+  'alta' + ''More than 8 hours'' + '1': 1015 occorrenze
+
+Study Satisfaction + Dietary Habits + Degree:
+  'alta' + 'Unhealthy' + ''Class 12'': 1085 occorrenze
+
+Study Satisfaction + Dietary Habits + Have you ever had suicidal thoughts ?:
+  'bassa' + 'Unhealthy' + 'Yes': 3115 occorrenze
+  'bassa' + 'Moderate' + 'Yes': 2769 occorrenze
+  'alta' + 'Unhealthy' + 'Yes': 2564 occorrenze
+  'alta' + 'Moderate' + 'Yes': 2132 occorrenze
+  'bassa' + 'Healthy' + 'Yes': 1736 occorrenze
+  'alta' + 'Moderate' + 'No': 1661 occorrenze
+  'alta' + 'Healthy' + 'Yes': 1615 occorrenze
+  'media' + 'Unhealthy' + 'Yes': 1508 occorrenze
+  'alta' + 'Healthy' + 'No': 1477 occorrenze
+  'bassa' + 'Moderate' + 'No': 1359 occorrenze
+  'alta' + 'Unhealthy' + 'No': 1326 occorrenze
+  'media' + 'Moderate' + 'Yes': 1269 occorrenze
+  'bassa' + 'Healthy' + 'No': 1178 occorrenze
+  'bassa' + 'Unhealthy' + 'No': 1138 occorrenze
+
+Study Satisfaction + Dietary Habits + Financial Stress:
+  'bassa' + 'Unhealthy' + '5.0': 1269 occorrenze
+  'bassa' + 'Moderate' + '5.0': 1049 occorrenze
+  'alta' + 'Unhealthy' + '5.0': 1034 occorrenze
+
+Study Satisfaction + Dietary Habits + Family History of Mental Illness:
+  'bassa' + 'Unhealthy' + 'No': 2166 occorrenze
+  'bassa' + 'Moderate' + 'No': 2115 occorrenze
+  'bassa' + 'Unhealthy' + 'Yes': 2087 occorrenze
+  'alta' + 'Moderate' + 'No': 2036 occorrenze
+  'bassa' + 'Moderate' + 'Yes': 2013 occorrenze
+  'alta' + 'Unhealthy' + 'No': 1972 occorrenze
+  'alta' + 'Unhealthy' + 'Yes': 1918 occorrenze
+  'alta' + 'Moderate' + 'Yes': 1757 occorrenze
+  'alta' + 'Healthy' + 'No': 1594 occorrenze
+  'bassa' + 'Healthy' + 'No': 1512 occorrenze
+  'alta' + 'Healthy' + 'Yes': 1498 occorrenze
+  'bassa' + 'Healthy' + 'Yes': 1402 occorrenze
+  'media' + 'Unhealthy' + 'No': 1136 occorrenze
+  'media' + 'Unhealthy' + 'Yes': 1038 occorrenze
+  'media' + 'Moderate' + 'No': 1012 occorrenze
+
+Study Satisfaction + Dietary Habits + Depression:
+  'bassa' + 'Unhealthy' + '1': 3321 occorrenze
+  'bassa' + 'Moderate' + '1': 2723 occorrenze
+  'alta' + 'Unhealthy' + '1': 2456 occorrenze
+  'alta' + 'Moderate' + '0': 2065 occorrenze
+  'alta' + 'Healthy' + '0': 1928 occorrenze
+  'alta' + 'Moderate' + '1': 1728 occorrenze
+  'bassa' + 'Healthy' + '1': 1584 occorrenze
+  'media' + 'Unhealthy' + '1': 1520 occorrenze
+  'alta' + 'Unhealthy' + '0': 1434 occorrenze
+  'bassa' + 'Moderate' + '0': 1405 occorrenze
+  'bassa' + 'Healthy' + '0': 1330 occorrenze
+  'alta' + 'Healthy' + '1': 1164 occorrenze
+  'media' + 'Moderate' + '1': 1107 occorrenze
+
+Study Satisfaction + Degree + Have you ever had suicidal thoughts ?:
+  'alta' + ''Class 12'' + 'Yes': 1766 occorrenze
+  'bassa' + ''Class 12'' + 'Yes': 1581 occorrenze
+
+Study Satisfaction + Degree + Family History of Mental Illness:
+  'alta' + ''Class 12'' + 'No': 1385 occorrenze
+  'alta' + ''Class 12'' + 'Yes': 1262 occorrenze
+  'bassa' + ''Class 12'' + 'Yes': 1117 occorrenze
+  'bassa' + ''Class 12'' + 'No': 1104 occorrenze
+
+Study Satisfaction + Degree + Depression:
+  'bassa' + ''Class 12'' + '1': 1720 occorrenze
+  'alta' + ''Class 12'' + '1': 1710 occorrenze
+
+Study Satisfaction + Have you ever had suicidal thoughts ? + Study Hours:
+  'bassa' + 'Yes' + '10.0': 1318 occorrenze
+  'alta' + 'Yes' + '10.0': 1078 occorrenze
+
+Study Satisfaction + Have you ever had suicidal thoughts ? + Financial Stress:
+  'bassa' + 'Yes' + '5.0': 2288 occorrenze
+  'alta' + 'Yes' + '5.0': 1774 occorrenze
+  'bassa' + 'Yes' + '4.0': 1768 occorrenze
+  'bassa' + 'Yes' + '3.0': 1452 occorrenze
+  'alta' + 'Yes' + '4.0': 1446 occorrenze
+  'alta' + 'No' + '1.0': 1272 occorrenze
+  'bassa' + 'Yes' + '2.0': 1171 occorrenze
+  'alta' + 'Yes' + '3.0': 1160 occorrenze
+  'alta' + 'No' + '2.0': 1041 occorrenze
+  'media' + 'Yes' + '5.0': 1022 occorrenze
+
+Study Satisfaction + Have you ever had suicidal thoughts ? + Family History of Mental Illness:
+  'bassa' + 'Yes' + 'No': 3840 occorrenze
+  'bassa' + 'Yes' + 'Yes': 3784 occorrenze
+  'alta' + 'Yes' + 'No': 3201 occorrenze
+  'alta' + 'Yes' + 'Yes': 3114 occorrenze
+  'alta' + 'No' + 'No': 2405 occorrenze
+  'alta' + 'No' + 'Yes': 2061 occorrenze
+  'bassa' + 'No' + 'No': 1956 occorrenze
+  'media' + 'Yes' + 'No': 1894 occorrenze
+  'media' + 'Yes' + 'Yes': 1823 occorrenze
+  'bassa' + 'No' + 'Yes': 1719 occorrenze
+  'media' + 'No' + 'No': 1102 occorrenze
+  'media' + 'No' + 'Yes': 1002 occorrenze
+
+Study Satisfaction + Have you ever had suicidal thoughts ? + Depression:
+  'bassa' + 'Yes' + '1': 6473 occorrenze
+  'alta' + 'Yes' + '1': 4585 occorrenze
+  'alta' + 'No' + '0': 3699 occorrenze
+  'media' + 'Yes' + '1': 2899 occorrenze
+  'bassa' + 'No' + '0': 2517 occorrenze
+  'alta' + 'Yes' + '0': 1730 occorrenze
+  'media' + 'No' + '0': 1650 occorrenze
+  'bassa' + 'No' + '1': 1158 occorrenze
+  'bassa' + 'Yes' + '0': 1151 occorrenze
+
+Study Satisfaction + Study Hours + Depression:
+  'bassa' + '10.0' + '1': 1366 occorrenze
+  'bassa' + '12.0' + '1': 1053 occorrenze
+
+Study Satisfaction + Financial Stress + Family History of Mental Illness:
+  'bassa' + '5.0' + 'No': 1521 occorrenze
+  'bassa' + '5.0' + 'Yes': 1450 occorrenze
+  'bassa' + '4.0' + 'Yes': 1226 occorrenze
+  'alta' + '5.0' + 'No': 1224 occorrenze
+  'alta' + '5.0' + 'Yes': 1194 occorrenze
+  'bassa' + '4.0' + 'No': 1176 occorrenze
+  'alta' + '4.0' + 'No': 1143 occorrenze
+  'alta' + '1.0' + 'No': 1135 occorrenze
+  'bassa' + '3.0' + 'No': 1114 occorrenze
+  'alta' + '1.0' + 'Yes': 1109 occorrenze
+  'bassa' + '2.0' + 'No': 1103 occorrenze
+  'alta' + '2.0' + 'No': 1100 occorrenze
+  'alta' + '4.0' + 'Yes': 1065 occorrenze
+  'bassa' + '3.0' + 'Yes': 1065 occorrenze
+  'alta' + '3.0' + 'No': 1004 occorrenze
+
+Study Satisfaction + Financial Stress + Depression:
+  'bassa' + '5.0' + '1': 2537 occorrenze
+  'bassa' + '4.0' + '1': 1863 occorrenze
+  'alta' + '5.0' + '1': 1826 occorrenze
+  'alta' + '1.0' + '0': 1716 occorrenze
+  'bassa' + '3.0' + '1': 1458 occorrenze
+  'alta' + '4.0' + '1': 1338 occorrenze
+  'alta' + '2.0' + '0': 1312 occorrenze
+  'media' + '5.0' + '1': 1095 occorrenze
+  'bassa' + '2.0' + '1': 1015 occorrenze
+
+Study Satisfaction + Family History of Mental Illness + Depression:
+  'bassa' + 'Yes' + '1': 3836 occorrenze
+  'bassa' + 'No' + '1': 3795 occorrenze
+  'alta' + 'No' + '0': 2996 occorrenze
+  'alta' + 'Yes' + '1': 2742 occorrenze
+  'alta' + 'No' + '1': 2610 occorrenze
+  'alta' + 'Yes' + '0': 2433 occorrenze
+  'bassa' + 'No' + '0': 2001 occorrenze
+  'media' + 'Yes' + '1': 1695 occorrenze
+  'bassa' + 'Yes' + '0': 1667 occorrenze
+  'media' + 'No' + '1': 1658 occorrenze
+  'media' + 'No' + '0': 1338 occorrenze
+  'media' + 'Yes' + '0': 1130 occorrenze
+
+Sleep Duration + Dietary Habits + Have you ever had suicidal thoughts ?:
+  ''Less than 5 hours'' + 'Unhealthy' + 'Yes': 2229 occorrenze
+  ''Less than 5 hours'' + 'Moderate' + 'Yes': 2015 occorrenze
+  ''7-8 hours'' + 'Unhealthy' + 'Yes': 1999 occorrenze
+  ''7-8 hours'' + 'Moderate' + 'Yes': 1608 occorrenze
+  ''5-6 hours'' + 'Unhealthy' + 'Yes': 1487 occorrenze
+  ''More than 8 hours'' + 'Unhealthy' + 'Yes': 1465 occorrenze
+  ''5-6 hours'' + 'Moderate' + 'Yes': 1366 occorrenze
+  ''Less than 5 hours'' + 'Healthy' + 'Yes': 1294 occorrenze
+  ''More than 8 hours'' + 'Moderate' + 'Yes': 1178 occorrenze
+  ''7-8 hours'' + 'Healthy' + 'Yes': 1164 occorrenze
+  ''Less than 5 hours'' + 'Moderate' + 'No': 1025 occorrenze
+
+Sleep Duration + Dietary Habits + Family History of Mental Illness:
+  ''Less than 5 hours'' + 'Moderate' + 'No': 1552 occorrenze
+  ''Less than 5 hours'' + 'Unhealthy' + 'No': 1550 occorrenze
+  ''Less than 5 hours'' + 'Unhealthy' + 'Yes': 1518 occorrenze
+  ''Less than 5 hours'' + 'Moderate' + 'Yes': 1488 occorrenze
+  ''7-8 hours'' + 'Unhealthy' + 'No': 1474 occorrenze
+  ''7-8 hours'' + 'Unhealthy' + 'Yes': 1346 occorrenze
+  ''7-8 hours'' + 'Moderate' + 'No': 1324 occorrenze
+  ''7-8 hours'' + 'Moderate' + 'Yes': 1191 occorrenze
+  ''More than 8 hours'' + 'Moderate' + 'No': 1144 occorrenze
+  ''5-6 hours'' + 'Moderate' + 'No': 1139 occorrenze
+  ''More than 8 hours'' + 'Unhealthy' + 'No': 1139 occorrenze
+  ''Less than 5 hours'' + 'Healthy' + 'No': 1108 occorrenze
+  ''5-6 hours'' + 'Unhealthy' + 'No': 1106 occorrenze
+  ''More than 8 hours'' + 'Unhealthy' + 'Yes': 1102 occorrenze
+  ''Less than 5 hours'' + 'Healthy' + 'Yes': 1089 occorrenze
+  ''5-6 hours'' + 'Moderate' + 'Yes': 1078 occorrenze
+  ''5-6 hours'' + 'Unhealthy' + 'Yes': 1074 occorrenze
+  ''7-8 hours'' + 'Healthy' + 'No': 1046 occorrenze
+
+Sleep Duration + Dietary Habits + Depression:
+  ''Less than 5 hours'' + 'Unhealthy' + '1': 2333 occorrenze
+  ''7-8 hours'' + 'Unhealthy' + '1': 2027 occorrenze
+  ''Less than 5 hours'' + 'Moderate' + '1': 1923 occorrenze
+  ''5-6 hours'' + 'Unhealthy' + '1': 1484 occorrenze
+  ''More than 8 hours'' + 'Unhealthy' + '1': 1449 occorrenze
+  ''7-8 hours'' + 'Moderate' + '1': 1403 occorrenze
+  ''5-6 hours'' + 'Moderate' + '1': 1212 occorrenze
+  ''More than 8 hours'' + 'Moderate' + '0': 1125 occorrenze
+  ''Less than 5 hours'' + 'Moderate' + '0': 1117 occorrenze
+  ''7-8 hours'' + 'Moderate' + '0': 1112 occorrenze
+  ''Less than 5 hours'' + 'Healthy' + '1': 1103 occorrenze
+  ''Less than 5 hours'' + 'Healthy' + '0': 1094 occorrenze
+  ''7-8 hours'' + 'Healthy' + '0': 1069 occorrenze
+  ''More than 8 hours'' + 'Healthy' + '0': 1049 occorrenze
+  ''More than 8 hours'' + 'Moderate' + '1': 1017 occorrenze
+  ''5-6 hours'' + 'Moderate' + '0': 1005 occorrenze
+
+Sleep Duration + Degree + Have you ever had suicidal thoughts ?:
+  ''Less than 5 hours'' + ''Class 12'' + 'Yes': 1297 occorrenze
+  ''7-8 hours'' + ''Class 12'' + 'Yes': 1104 occorrenze
+
+Sleep Duration + Degree + Depression:
+  ''Less than 5 hours'' + ''Class 12'' + '1': 1378 occorrenze
+  ''7-8 hours'' + ''Class 12'' + '1': 1107 occorrenze
+
+Sleep Duration + Have you ever had suicidal thoughts ? + Financial Stress:
+  ''Less than 5 hours'' + 'Yes' + '5.0': 1708 occorrenze
+  ''7-8 hours'' + 'Yes' + '5.0': 1356 occorrenze
+  ''Less than 5 hours'' + 'Yes' + '4.0': 1201 occorrenze
+  ''7-8 hours'' + 'Yes' + '4.0': 1120 occorrenze
+  ''5-6 hours'' + 'Yes' + '5.0': 1016 occorrenze
+  ''Less than 5 hours'' + 'Yes' + '3.0': 1008 occorrenze
+  ''More than 8 hours'' + 'Yes' + '5.0': 1001 occorrenze
+
+Sleep Duration + Have you ever had suicidal thoughts ? + Family History of Mental Illness:
+  ''Less than 5 hours'' + 'Yes' + 'Yes': 2810 occorrenze
+  ''Less than 5 hours'' + 'Yes' + 'No': 2733 occorrenze
+  ''7-8 hours'' + 'Yes' + 'No': 2476 occorrenze
+  ''7-8 hours'' + 'Yes' + 'Yes': 2297 occorrenze
+  ''5-6 hours'' + 'Yes' + 'No': 1935 occorrenze
+  ''5-6 hours'' + 'Yes' + 'Yes': 1901 occorrenze
+  ''More than 8 hours'' + 'Yes' + 'No': 1786 occorrenze
+  ''More than 8 hours'' + 'Yes' + 'Yes': 1707 occorrenze
+  ''Less than 5 hours'' + 'No' + 'No': 1481 occorrenze
+  ''7-8 hours'' + 'No' + 'No': 1371 occorrenze
+  ''More than 8 hours'' + 'No' + 'No': 1362 occorrenze
+  ''Less than 5 hours'' + 'No' + 'Yes': 1286 occorrenze
+  ''5-6 hours'' + 'No' + 'No': 1244 occorrenze
+  ''7-8 hours'' + 'No' + 'Yes': 1202 occorrenze
+  ''More than 8 hours'' + 'No' + 'Yes': 1189 occorrenze
+  ''5-6 hours'' + 'No' + 'Yes': 1103 occorrenze
+
+Sleep Duration + Have you ever had suicidal thoughts ? + Depression:
+  ''Less than 5 hours'' + 'Yes' + '1': 4593 occorrenze
+  ''7-8 hours'' + 'Yes' + '1': 3773 occorrenze
+  ''5-6 hours'' + 'Yes' + '1': 3000 occorrenze
+  ''More than 8 hours'' + 'Yes' + '1': 2583 occorrenze
+  ''More than 8 hours'' + 'No' + '0': 2056 occorrenze
+  ''Less than 5 hours'' + 'No' + '0': 1999 occorrenze
+  ''7-8 hours'' + 'No' + '0': 1975 occorrenze
+  ''5-6 hours'' + 'No' + '0': 1830 occorrenze
+  ''7-8 hours'' + 'Yes' + '0': 1000 occorrenze
+
+Sleep Duration + Financial Stress + Family History of Mental Illness:
+  ''Less than 5 hours'' + '5.0' + 'Yes': 1082 occorrenze
+  ''Less than 5 hours'' + '5.0' + 'No': 1064 occorrenze
+
+Sleep Duration + Financial Stress + Depression:
+  ''Less than 5 hours'' + '5.0' + '1': 1858 occorrenze
+  ''7-8 hours'' + '5.0' + '1': 1432 occorrenze
+  ''Less than 5 hours'' + '4.0' + '1': 1226 occorrenze
+  ''7-8 hours'' + '4.0' + '1': 1129 occorrenze
+  ''5-6 hours'' + '5.0' + '1': 1091 occorrenze
+  ''More than 8 hours'' + '5.0' + '1': 1074 occorrenze
+  ''Less than 5 hours'' + '1.0' + '0': 1009 occorrenze
+
+Sleep Duration + Family History of Mental Illness + Depression:
+  ''Less than 5 hours'' + 'Yes' + '1': 2768 occorrenze
+  ''Less than 5 hours'' + 'No' + '1': 2593 occorrenze
+  ''7-8 hours'' + 'No' + '1': 2216 occorrenze
+  ''7-8 hours'' + 'Yes' + '1': 2155 occorrenze
+  ''5-6 hours'' + 'Yes' + '1': 1795 occorrenze
+  ''5-6 hours'' + 'No' + '1': 1722 occorrenze
+  ''7-8 hours'' + 'No' + '0': 1631 occorrenze
+  ''Less than 5 hours'' + 'No' + '0': 1621 occorrenze
+  ''More than 8 hours'' + 'No' + '0': 1619 occorrenze
+  ''More than 8 hours'' + 'Yes' + '1': 1549 occorrenze
+  ''More than 8 hours'' + 'No' + '1': 1529 occorrenze
+  ''5-6 hours'' + 'No' + '0': 1457 occorrenze
+  ''More than 8 hours'' + 'Yes' + '0': 1347 occorrenze
+  ''7-8 hours'' + 'Yes' + '0': 1344 occorrenze
+  ''Less than 5 hours'' + 'Yes' + '0': 1328 occorrenze
+  ''5-6 hours'' + 'Yes' + '0': 1209 occorrenze
+
+Dietary Habits + Degree + Have you ever had suicidal thoughts ?:
+  'Unhealthy' + ''Class 12'' + 'Yes': 1803 occorrenze
+  'Moderate' + ''Class 12'' + 'Yes': 1405 occorrenze
+
+Dietary Habits + Degree + Family History of Mental Illness:
+  'Unhealthy' + ''Class 12'' + 'No': 1258 occorrenze
+  'Unhealthy' + ''Class 12'' + 'Yes': 1171 occorrenze
+  'Moderate' + ''Class 12'' + 'No': 1055 occorrenze
+  'Moderate' + ''Class 12'' + 'Yes': 1030 occorrenze
+
+Dietary Habits + Degree + Depression:
+  'Unhealthy' + ''Class 12'' + '1': 1952 occorrenze
+  'Moderate' + ''Class 12'' + '1': 1423 occorrenze
+
+Dietary Habits + Have you ever had suicidal thoughts ? + Study Hours:
+  'Unhealthy' + 'Yes' + '10.0': 1273 occorrenze
+  'Moderate' + 'Yes' + '10.0': 1104 occorrenze
+
+Dietary Habits + Have you ever had suicidal thoughts ? + Financial Stress:
+  'Unhealthy' + 'Yes' + '5.0': 2288 occorrenze
+  'Moderate' + 'Yes' + '5.0': 1731 occorrenze
+  'Unhealthy' + 'Yes' + '4.0': 1672 occorrenze
+  'Moderate' + 'Yes' + '4.0': 1363 occorrenze
+  'Unhealthy' + 'Yes' + '3.0': 1339 occorrenze
+  'Moderate' + 'Yes' + '3.0': 1178 occorrenze
+  'Healthy' + 'Yes' + '5.0': 1062 occorrenze
+  'Moderate' + 'No' + '1.0': 1031 occorrenze
+  'Moderate' + 'Yes' + '2.0': 1008 occorrenze
+  'Unhealthy' + 'Yes' + '2.0': 1004 occorrenze
+
+Dietary Habits + Have you ever had suicidal thoughts ? + Family History of Mental Illness:
+  'Unhealthy' + 'Yes' + 'No': 3596 occorrenze
+  'Unhealthy' + 'Yes' + 'Yes': 3591 occorrenze
+  'Moderate' + 'Yes' + 'No': 3169 occorrenze
+  'Moderate' + 'Yes' + 'Yes': 3001 occorrenze
+  'Healthy' + 'Yes' + 'No': 2163 occorrenze
+  'Healthy' + 'Yes' + 'Yes': 2126 occorrenze
+  'Moderate' + 'No' + 'No': 1994 occorrenze
+  'Healthy' + 'No' + 'No': 1789 occorrenze
+  'Moderate' + 'No' + 'Yes': 1757 occorrenze
+  'Unhealthy' + 'No' + 'No': 1678 occorrenze
+  'Healthy' + 'No' + 'Yes': 1573 occorrenze
+  'Unhealthy' + 'No' + 'Yes': 1452 occorrenze
+
+Dietary Habits + Have you ever had suicidal thoughts ? + Depression:
+  'Unhealthy' + 'Yes' + '1': 6200 occorrenze
+  'Moderate' + 'Yes' + '1': 4780 occorrenze
+  'Moderate' + 'No' + '0': 2973 occorrenze
+  'Healthy' + 'Yes' + '1': 2970 occorrenze
+  'Healthy' + 'No' + '0': 2859 occorrenze
+  'Unhealthy' + 'No' + '0': 2033 occorrenze
+  'Moderate' + 'Yes' + '0': 1390 occorrenze
+  'Healthy' + 'Yes' + '0': 1319 occorrenze
+  'Unhealthy' + 'No' + '1': 1097 occorrenze
+
+Dietary Habits + Study Hours + Depression:
+  'Unhealthy' + '10.0' + '1': 1338 occorrenze
+  'Moderate' + '10.0' + '1': 1045 occorrenze
+
+Dietary Habits + Financial Stress + Family History of Mental Illness:
+  'Unhealthy' + '5.0' + 'No': 1453 occorrenze
+  'Unhealthy' + '5.0' + 'Yes': 1434 occorrenze
+  'Moderate' + '5.0' + 'No': 1183 occorrenze
+  'Unhealthy' + '4.0' + 'No': 1133 occorrenze
+  'Unhealthy' + '4.0' + 'Yes': 1124 occorrenze
+  'Moderate' + '5.0' + 'Yes': 1081 occorrenze
+  'Moderate' + '2.0' + 'No': 1031 occorrenze
+
+Dietary Habits + Financial Stress + Depression:
+  'Unhealthy' + '5.0' + '1': 2543 occorrenze
+  'Moderate' + '5.0' + '1': 1830 occorrenze
+  'Unhealthy' + '4.0' + '1': 1783 occorrenze
+  'Unhealthy' + '3.0' + '1': 1366 occorrenze
+  'Moderate' + '1.0' + '0': 1337 occorrenze
+  'Moderate' + '4.0' + '1': 1313 occorrenze
+  'Healthy' + '1.0' + '0': 1221 occorrenze
+  'Moderate' + '2.0' + '0': 1112 occorrenze
+  'Healthy' + '5.0' + '1': 1082 occorrenze
+  'Moderate' + '3.0' + '1': 1051 occorrenze
+  'Healthy' + '2.0' + '0': 1046 occorrenze
+
+Dietary Habits + Family History of Mental Illness + Depression:
+  'Unhealthy' + 'Yes' + '1': 3689 occorrenze
+  'Unhealthy' + 'No' + '1': 3608 occorrenze
+  'Moderate' + 'Yes' + '1': 2793 occorrenze
+  'Moderate' + 'No' + '1': 2765 occorrenze
+  'Moderate' + 'No' + '0': 2398 occorrenze
+  'Healthy' + 'No' + '0': 2268 occorrenze
+  'Moderate' + 'Yes' + '0': 1965 occorrenze
+  'Healthy' + 'Yes' + '0': 1910 occorrenze
+  'Healthy' + 'Yes' + '1': 1789 occorrenze
+  'Healthy' + 'No' + '1': 1684 occorrenze
+  'Unhealthy' + 'No' + '0': 1666 occorrenze
+  'Unhealthy' + 'Yes' + '0': 1354 occorrenze
+
+Degree + Have you ever had suicidal thoughts ? + Financial Stress:
+  ''Class 12'' + 'Yes' + '5.0': 1265 occorrenze
+  ''Class 12'' + 'Yes' + '4.0': 1014 occorrenze
+
+Degree + Have you ever had suicidal thoughts ? + Family History of Mental Illness:
+  ''Class 12'' + 'Yes' + 'No': 2105 occorrenze
+  ''Class 12'' + 'Yes' + 'Yes': 2092 occorrenze
+
+Degree + Have you ever had suicidal thoughts ? + Depression:
+  ''Class 12'' + 'Yes' + '1': 3637 occorrenze
+  ''Class 12'' + 'No' + '0': 1217 occorrenze
+
+Degree + Financial Stress + Depression:
+  ''Class 12'' + '5.0' + '1': 1437 occorrenze
+  ''Class 12'' + '4.0' + '1': 1078 occorrenze
+
+Degree + Family History of Mental Illness + Depression:
+  ''Class 12'' + 'Yes' + '1': 2181 occorrenze
+  ''Class 12'' + 'No' + '1': 2122 occorrenze
+
+Have you ever had suicidal thoughts ? + Study Hours + Family History of Mental Illness:
+  'Yes' + '10.0' + 'No': 1523 occorrenze
+  'Yes' + '10.0' + 'Yes': 1518 occorrenze
+  'Yes' + '12.0' + 'No': 1108 occorrenze
+  'Yes' + '12.0' + 'Yes': 1078 occorrenze
+
+Have you ever had suicidal thoughts ? + Study Hours + Depression:
+  'Yes' + '10.0' + '1': 2628 occorrenze
+  'Yes' + '12.0' + '1': 1851 occorrenze
+  'Yes' + '11.0' + '1': 1672 occorrenze
+  'Yes' + '8.0' + '1': 1314 occorrenze
+  'Yes' + '6.0' + '1': 1084 occorrenze
+  'Yes' + '9.0' + '1': 1036 occorrenze
+  'Yes' + '7.0' + '1': 1002 occorrenze
+
+Have you ever had suicidal thoughts ? + Financial Stress + Family History of Mental Illness:
+  'Yes' + '5.0' + 'No': 2560 occorrenze
+  'Yes' + '5.0' + 'Yes': 2524 occorrenze
+  'Yes' + '4.0' + 'Yes': 2051 occorrenze
+  'Yes' + '4.0' + 'No': 1966 occorrenze
+  'Yes' + '3.0' + 'No': 1708 occorrenze
+  'Yes' + '3.0' + 'Yes': 1639 occorrenze
+  'Yes' + '2.0' + 'No': 1490 occorrenze
+  'No' + '1.0' + 'No': 1366 occorrenze
+  'No' + '1.0' + 'Yes': 1290 occorrenze
+  'No' + '2.0' + 'No': 1282 occorrenze
+  'Yes' + '1.0' + 'Yes': 1254 occorrenze
+  'Yes' + '2.0' + 'Yes': 1253 occorrenze
+  'Yes' + '1.0' + 'No': 1211 occorrenze
+  'No' + '2.0' + 'Yes': 1036 occorrenze
+  'No' + '3.0' + 'No': 1006 occorrenze
+
+Have you ever had suicidal thoughts ? + Financial Stress + Depression:
+  'Yes' + '5.0' + '1': 4668 occorrenze
+  'Yes' + '4.0' + '1': 3439 occorrenze
+  'Yes' + '3.0' + '1': 2630 occorrenze
+  'No' + '1.0' + '0': 2399 occorrenze
+  'No' + '2.0' + '0': 1988 occorrenze
+  'Yes' + '2.0' + '1': 1845 occorrenze
+  'No' + '3.0' + '0': 1429 occorrenze
+  'Yes' + '1.0' + '1': 1375 occorrenze
+  'No' + '4.0' + '0': 1207 occorrenze
+  'Yes' + '1.0' + '0': 1090 occorrenze
+
+Have you ever had suicidal thoughts ? + Family History of Mental Illness + Depression:
+  'Yes' + 'Yes' + '1': 7067 occorrenze
+  'Yes' + 'No' + '1': 6890 occorrenze
+  'No' + 'No' + '0': 4290 occorrenze
+  'No' + 'Yes' + '0': 3576 occorrenze
+  'Yes' + 'No' + '0': 2045 occorrenze
+  'Yes' + 'Yes' + '0': 1654 occorrenze
+  'No' + 'Yes' + '1': 1206 occorrenze
+  'No' + 'No' + '1': 1173 occorrenze
+
+Study Hours + Financial Stress + Depression:
+  '10.0' + '5.0' + '1': 1031 occorrenze
+
+Study Hours + Family History of Mental Illness + Depression:
+  '10.0' + 'Yes' + '1': 1518 occorrenze
+  '10.0' + 'No' + '1': 1461 occorrenze
+  '12.0' + 'Yes' + '1': 1100 occorrenze
+  '12.0' + 'No' + '1': 1069 occorrenze
+  '11.0' + 'Yes' + '1': 1015 occorrenze
+
+Financial Stress + Family History of Mental Illness + Depression:
+  '5.0' + 'No' + '1': 2745 occorrenze
+  '5.0' + 'Yes' + '1': 2713 occorrenze
+  '4.0' + 'Yes' + '1': 2096 occorrenze
+  '4.0' + 'No' + '1': 1894 occorrenze
+  '1.0' + 'No' + '0': 1810 occorrenze
+  '1.0' + 'Yes' + '0': 1679 occorrenze
+  '2.0' + 'No' + '0': 1630 occorrenze
+  '3.0' + 'Yes' + '1': 1566 occorrenze
+  '3.0' + 'No' + '1': 1514 occorrenze
+  '2.0' + 'Yes' + '0': 1256 occorrenze
+  '3.0' + 'No' + '0': 1200 occorrenze
+  '2.0' + 'No' + '1': 1142 occorrenze
+  '2.0' + 'Yes' + '1': 1033 occorrenze
+  '4.0' + 'No' + '0': 1005 occorrenze
+
+=== RIGHE DUPLICATE COMPLETE ===
+
+=== PATTERN COMBINAZIONI 3 COLONNE (min 1000 occorrenze) ===
+
+Gender + Age + Academic Pressure:
+  Trovate 12 combinazioni frequenti
+
+Gender + Age + CGPA:
+  Trovate 11 combinazioni frequenti
+
+Gender + Age + Study Satisfaction:
+  Trovate 10 combinazioni frequenti
+
+Gender + Age + Sleep Duration:
+  Trovate 14 combinazioni frequenti
+
+Gender + Age + Dietary Habits:
+  Trovate 12 combinazioni frequenti
+
+Gender + Age + Degree:
+  Trovate 4 combinazioni frequenti
+
+Gender + Age + Have you ever had suicidal thoughts ?:
+  Trovate 9 combinazioni frequenti
+
+Gender + Age + Study Hours:
+  Trovate 1 combinazioni frequenti
+
+Gender + Age + Financial Stress:
+  Trovate 13 combinazioni frequenti
+
+Gender + Age + Family History of Mental Illness:
+  Trovate 8 combinazioni frequenti
+
+Gender + Age + Depression:
+  Trovate 10 combinazioni frequenti
+
+Gender + Academic Pressure + CGPA:
+  Trovate 15 combinazioni frequenti
+
+Gender + Academic Pressure + Study Satisfaction:
+  Trovate 15 combinazioni frequenti
+
+Gender + Academic Pressure + Sleep Duration:
+  Trovate 16 combinazioni frequenti
+
+Gender + Academic Pressure + Dietary Habits:
+  Trovate 17 combinazioni frequenti
+
+Gender + Academic Pressure + Degree:
+  Trovate 2 combinazioni frequenti
+
+Gender + Academic Pressure + Have you ever had suicidal thoughts ?:
+  Trovate 12 combinazioni frequenti
+
+Gender + Academic Pressure + Study Hours:
+  Trovate 1 combinazioni frequenti
+
+Gender + Academic Pressure + Financial Stress:
+  Trovate 9 combinazioni frequenti
+
+Gender + Academic Pressure + Family History of Mental Illness:
+  Trovate 12 combinazioni frequenti
+
+Gender + Academic Pressure + Depression:
+  Trovate 11 combinazioni frequenti
+
+Gender + CGPA + Study Satisfaction:
+  Trovate 14 combinazioni frequenti
+
+Gender + CGPA + Sleep Duration:
+  Trovate 17 combinazioni frequenti
+
+Gender + CGPA + Dietary Habits:
+  Trovate 14 combinazioni frequenti
+
+Gender + CGPA + Degree:
+  Trovate 4 combinazioni frequenti
+
+Gender + CGPA + Have you ever had suicidal thoughts ?:
+  Trovate 11 combinazioni frequenti
+
+Gender + CGPA + Study Hours:
+  Trovate 1 combinazioni frequenti
+
+Gender + CGPA + Financial Stress:
+  Trovate 11 combinazioni frequenti
+
+Gender + CGPA + Family History of Mental Illness:
+  Trovate 12 combinazioni frequenti
+
+Gender + CGPA + Depression:
+  Trovate 12 combinazioni frequenti
+
+Gender + Study Satisfaction + Sleep Duration:
+  Trovate 16 combinazioni frequenti
+
+Gender + Study Satisfaction + Dietary Habits:
+  Trovate 14 combinazioni frequenti
+
+Gender + Study Satisfaction + Degree:
+  Trovate 3 combinazioni frequenti
+
+Gender + Study Satisfaction + Have you ever had suicidal thoughts ?:
+  Trovate 11 combinazioni frequenti
+
+Gender + Study Satisfaction + Study Hours:
+  Trovate 1 combinazioni frequenti
+
+Gender + Study Satisfaction + Financial Stress:
+  Trovate 14 combinazioni frequenti
+
+Gender + Study Satisfaction + Family History of Mental Illness:
+  Trovate 12 combinazioni frequenti
+
+Gender + Study Satisfaction + Depression:
+  Trovate 11 combinazioni frequenti
+
+Gender + Sleep Duration + Dietary Habits:
+  Trovate 15 combinazioni frequenti
+
+Gender + Sleep Duration + Degree:
+  Trovate 1 combinazioni frequenti
+
+Gender + Sleep Duration + Have you ever had suicidal thoughts ?:
+  Trovate 16 combinazioni frequenti
+
+Gender + Sleep Duration + Financial Stress:
+  Trovate 1 combinazioni frequenti
+
+Gender + Sleep Duration + Family History of Mental Illness:
+  Trovate 16 combinazioni frequenti
+
+Gender + Sleep Duration + Depression:
+  Trovate 16 combinazioni frequenti
+
+Gender + Dietary Habits + Degree:
+  Trovate 2 combinazioni frequenti
+
+Gender + Dietary Habits + Have you ever had suicidal thoughts ?:
+  Trovate 12 combinazioni frequenti
+
+Gender + Dietary Habits + Study Hours:
+  Trovate 1 combinazioni frequenti
+
+Gender + Dietary Habits + Financial Stress:
+  Trovate 11 combinazioni frequenti
+
+Gender + Dietary Habits + Family History of Mental Illness:
+  Trovate 12 combinazioni frequenti
+
+Gender + Dietary Habits + Depression:
+  Trovate 12 combinazioni frequenti
+
+Gender + Degree + Have you ever had suicidal thoughts ?:
+  Trovate 3 combinazioni frequenti
+
+Gender + Degree + Family History of Mental Illness:
+  Trovate 4 combinazioni frequenti
+
+Gender + Degree + Depression:
+  Trovate 2 combinazioni frequenti
+
+Gender + Have you ever had suicidal thoughts ? + Study Hours:
+  Trovate 4 combinazioni frequenti
+
+Gender + Have you ever had suicidal thoughts ? + Financial Stress:
+  Trovate 14 combinazioni frequenti
+
+Gender + Have you ever had suicidal thoughts ? + Family History of Mental Illness:
+  Trovate 8 combinazioni frequenti
+
+Gender + Have you ever had suicidal thoughts ? + Depression:
+  Trovate 8 combinazioni frequenti
+
+Gender + Study Hours + Family History of Mental Illness:
+  Trovate 2 combinazioni frequenti
+
+Gender + Study Hours + Depression:
+  Trovate 4 combinazioni frequenti
+
+Gender + Financial Stress + Family History of Mental Illness:
+  Trovate 20 combinazioni frequenti
+
+Gender + Financial Stress + Depression:
+  Trovate 12 combinazioni frequenti
+
+Gender + Family History of Mental Illness + Depression:
+  Trovate 8 combinazioni frequenti
+
+Age + Academic Pressure + CGPA:
+  Trovate 12 combinazioni frequenti
+
+Age + Academic Pressure + Study Satisfaction:
+  Trovate 13 combinazioni frequenti
+
+Age + Academic Pressure + Sleep Duration:
+  Trovate 11 combinazioni frequenti
+
+Age + Academic Pressure + Dietary Habits:
+  Trovate 13 combinazioni frequenti
+
+Age + Academic Pressure + Degree:
+  Trovate 2 combinazioni frequenti
+
+Age + Academic Pressure + Have you ever had suicidal thoughts ?:
+  Trovate 11 combinazioni frequenti
+
+Age + Academic Pressure + Financial Stress:
+  Trovate 8 combinazioni frequenti
+
+Age + Academic Pressure + Family History of Mental Illness:
+  Trovate 12 combinazioni frequenti
+
+Age + Academic Pressure + Depression:
+  Trovate 11 combinazioni frequenti
+
+Age + CGPA + Study Satisfaction:
+  Trovate 12 combinazioni frequenti
+
+Age + CGPA + Sleep Duration:
+  Trovate 12 combinazioni frequenti
+
+Age + CGPA + Dietary Habits:
+  Trovate 14 combinazioni frequenti
+
+Age + CGPA + Degree:
+  Trovate 3 combinazioni frequenti
+
+Age + CGPA + Have you ever had suicidal thoughts ?:
+  Trovate 12 combinazioni frequenti
+
+Age + CGPA + Study Hours:
+  Trovate 1 combinazioni frequenti
+
+Age + CGPA + Financial Stress:
+  Trovate 11 combinazioni frequenti
+
+Age + CGPA + Family History of Mental Illness:
+  Trovate 10 combinazioni frequenti
+
+Age + CGPA + Depression:
+  Trovate 12 combinazioni frequenti
+
+Age + Study Satisfaction + Sleep Duration:
+  Trovate 10 combinazioni frequenti
+
+Age + Study Satisfaction + Dietary Habits:
+  Trovate 14 combinazioni frequenti
+
+Age + Study Satisfaction + Degree:
+  Trovate 3 combinazioni frequenti
+
+Age + Study Satisfaction + Have you ever had suicidal thoughts ?:
+  Trovate 11 combinazioni frequenti
+
+Age + Study Satisfaction + Financial Stress:
+  Trovate 11 combinazioni frequenti
+
+Age + Study Satisfaction + Family History of Mental Illness:
+  Trovate 10 combinazioni frequenti
+
+Age + Study Satisfaction + Depression:
+  Trovate 11 combinazioni frequenti
+
+Age + Sleep Duration + Dietary Habits:
+  Trovate 13 combinazioni frequenti
+
+Age + Sleep Duration + Have you ever had suicidal thoughts ?:
+  Trovate 12 combinazioni frequenti
+
+Age + Sleep Duration + Financial Stress:
+  Trovate 2 combinazioni frequenti
+
+Age + Sleep Duration + Family History of Mental Illness:
+  Trovate 13 combinazioni frequenti
+
+Age + Sleep Duration + Depression:
+  Trovate 12 combinazioni frequenti
+
+Age + Dietary Habits + Degree:
+  Trovate 3 combinazioni frequenti
+
+Age + Dietary Habits + Have you ever had suicidal thoughts ?:
+  Trovate 10 combinazioni frequenti
+
+Age + Dietary Habits + Financial Stress:
+  Trovate 10 combinazioni frequenti
+
+Age + Dietary Habits + Family History of Mental Illness:
+  Trovate 12 combinazioni frequenti
+
+Age + Dietary Habits + Depression:
+  Trovate 12 combinazioni frequenti
+
+Age + Degree + Have you ever had suicidal thoughts ?:
+  Trovate 2 combinazioni frequenti
+
+Age + Degree + Family History of Mental Illness:
+  Trovate 4 combinazioni frequenti
+
+Age + Degree + Depression:
+  Trovate 2 combinazioni frequenti
+
+Age + Have you ever had suicidal thoughts ? + Study Hours:
+  Trovate 3 combinazioni frequenti
+
+Age + Have you ever had suicidal thoughts ? + Financial Stress:
+  Trovate 12 combinazioni frequenti
+
+Age + Have you ever had suicidal thoughts ? + Family History of Mental Illness:
+  Trovate 10 combinazioni frequenti
+
+Age + Have you ever had suicidal thoughts ? + Depression:
+  Trovate 7 combinazioni frequenti
+
+Age + Study Hours + Family History of Mental Illness:
+  Trovate 2 combinazioni frequenti
+
+Age + Study Hours + Depression:
+  Trovate 3 combinazioni frequenti
+
+Age + Financial Stress + Family History of Mental Illness:
+  Trovate 13 combinazioni frequenti
+
+Age + Financial Stress + Depression:
+  Trovate 11 combinazioni frequenti
+
+Age + Family History of Mental Illness + Depression:
+  Trovate 10 combinazioni frequenti
+
+Academic Pressure + CGPA + Study Satisfaction:
+  Trovate 11 combinazioni frequenti
+
+Academic Pressure + CGPA + Sleep Duration:
+  Trovate 6 combinazioni frequenti
+
+Academic Pressure + CGPA + Dietary Habits:
+  Trovate 12 combinazioni frequenti
+
+Academic Pressure + CGPA + Degree:
+  Trovate 2 combinazioni frequenti
+
+Academic Pressure + CGPA + Have you ever had suicidal thoughts ?:
+  Trovate 15 combinazioni frequenti
+
+Academic Pressure + CGPA + Financial Stress:
+  Trovate 3 combinazioni frequenti
+
+Academic Pressure + CGPA + Family History of Mental Illness:
+  Trovate 16 combinazioni frequenti
+
+Academic Pressure + CGPA + Depression:
+  Trovate 11 combinazioni frequenti
+
+Academic Pressure + Study Satisfaction + Sleep Duration:
+  Trovate 6 combinazioni frequenti
+
+Academic Pressure + Study Satisfaction + Dietary Habits:
+  Trovate 13 combinazioni frequenti
+
+Academic Pressure + Study Satisfaction + Degree:
+  Trovate 2 combinazioni frequenti
+
+Academic Pressure + Study Satisfaction + Have you ever had suicidal thoughts ?:
+  Trovate 14 combinazioni frequenti
+
+Academic Pressure + Study Satisfaction + Financial Stress:
+  Trovate 4 combinazioni frequenti
+
+Academic Pressure + Study Satisfaction + Family History of Mental Illness:
+  Trovate 15 combinazioni frequenti
+
+Academic Pressure + Study Satisfaction + Depression:
+  Trovate 9 combinazioni frequenti
+
+Academic Pressure + Sleep Duration + Dietary Habits:
+  Trovate 5 combinazioni frequenti
+
+Academic Pressure + Sleep Duration + Have you ever had suicidal thoughts ?:
+  Trovate 13 combinazioni frequenti
+
+Academic Pressure + Sleep Duration + Financial Stress:
+  Trovate 1 combinazioni frequenti
+
+Academic Pressure + Sleep Duration + Family History of Mental Illness:
+  Trovate 18 combinazioni frequenti
+
+Academic Pressure + Sleep Duration + Depression:
+  Trovate 10 combinazioni frequenti
+
+Academic Pressure + Dietary Habits + Degree:
+  Trovate 1 combinazioni frequenti
+
+Academic Pressure + Dietary Habits + Have you ever had suicidal thoughts ?:
+  Trovate 13 combinazioni frequenti
+
+Academic Pressure + Dietary Habits + Financial Stress:
+  Trovate 3 combinazioni frequenti
+
+Academic Pressure + Dietary Habits + Family History of Mental Illness:
+  Trovate 18 combinazioni frequenti
+
+Academic Pressure + Dietary Habits + Depression:
+  Trovate 11 combinazioni frequenti
+
+Academic Pressure + Degree + Have you ever had suicidal thoughts ?:
+  Trovate 2 combinazioni frequenti
+
+Academic Pressure + Degree + Family History of Mental Illness:
+  Trovate 2 combinazioni frequenti
+
+Academic Pressure + Degree + Depression:
+  Trovate 2 combinazioni frequenti
+
+Academic Pressure + Have you ever had suicidal thoughts ? + Study Hours:
+  Trovate 2 combinazioni frequenti
+
+Academic Pressure + Have you ever had suicidal thoughts ? + Financial Stress:
+  Trovate 9 combinazioni frequenti
+
+Academic Pressure + Have you ever had suicidal thoughts ? + Family History of Mental Illness:
+  Trovate 12 combinazioni frequenti
+
+Academic Pressure + Have you ever had suicidal thoughts ? + Depression:
+  Trovate 8 combinazioni frequenti
+
+Academic Pressure + Study Hours + Depression:
+  Trovate 3 combinazioni frequenti
+
+Academic Pressure + Financial Stress + Family History of Mental Illness:
+  Trovate 10 combinazioni frequenti
+
+Academic Pressure + Financial Stress + Depression:
+  Trovate 10 combinazioni frequenti
+
+Academic Pressure + Family History of Mental Illness + Depression:
+  Trovate 11 combinazioni frequenti
+
+CGPA + Study Satisfaction + Sleep Duration:
+  Trovate 9 combinazioni frequenti
+
+CGPA + Study Satisfaction + Dietary Habits:
+  Trovate 12 combinazioni frequenti
+
+CGPA + Study Satisfaction + Degree:
+  Trovate 1 combinazioni frequenti
+
+CGPA + Study Satisfaction + Have you ever had suicidal thoughts ?:
+  Trovate 12 combinazioni frequenti
+
+CGPA + Study Satisfaction + Financial Stress:
+  Trovate 3 combinazioni frequenti
+
+CGPA + Study Satisfaction + Family History of Mental Illness:
+  Trovate 16 combinazioni frequenti
+
+CGPA + Study Satisfaction + Depression:
+  Trovate 14 combinazioni frequenti
+
+CGPA + Sleep Duration + Dietary Habits:
+  Trovate 8 combinazioni frequenti
+
+CGPA + Sleep Duration + Have you ever had suicidal thoughts ?:
+  Trovate 14 combinazioni frequenti
+
+CGPA + Sleep Duration + Family History of Mental Illness:
+  Trovate 16 combinazioni frequenti
+
+CGPA + Sleep Duration + Depression:
+  Trovate 16 combinazioni frequenti
+
+CGPA + Dietary Habits + Degree:
+  Trovate 1 combinazioni frequenti
+
+CGPA + Dietary Habits + Have you ever had suicidal thoughts ?:
+  Trovate 14 combinazioni frequenti
+
+CGPA + Dietary Habits + Financial Stress:
+  Trovate 2 combinazioni frequenti
+
+CGPA + Dietary Habits + Family History of Mental Illness:
+  Trovate 16 combinazioni frequenti
+
+CGPA + Dietary Habits + Depression:
+  Trovate 14 combinazioni frequenti
+
+CGPA + Degree + Have you ever had suicidal thoughts ?:
+  Trovate 2 combinazioni frequenti
+
+CGPA + Degree + Family History of Mental Illness:
+  Trovate 4 combinazioni frequenti
+
+CGPA + Degree + Depression:
+  Trovate 2 combinazioni frequenti
+
+CGPA + Have you ever had suicidal thoughts ? + Study Hours:
+  Trovate 2 combinazioni frequenti
+
+CGPA + Have you ever had suicidal thoughts ? + Financial Stress:
+  Trovate 10 combinazioni frequenti
+
+CGPA + Have you ever had suicidal thoughts ? + Family History of Mental Illness:
+  Trovate 12 combinazioni frequenti
+
+CGPA + Have you ever had suicidal thoughts ? + Depression:
+  Trovate 9 combinazioni frequenti
+
+CGPA + Study Hours + Depression:
+  Trovate 1 combinazioni frequenti
+
+CGPA + Financial Stress + Family History of Mental Illness:
+  Trovate 12 combinazioni frequenti
+
+CGPA + Financial Stress + Depression:
+  Trovate 11 combinazioni frequenti
+
+CGPA + Family History of Mental Illness + Depression:
+  Trovate 12 combinazioni frequenti
+
+Study Satisfaction + Sleep Duration + Dietary Habits:
+  Trovate 7 combinazioni frequenti
+
+Study Satisfaction + Sleep Duration + Have you ever had suicidal thoughts ?:
+  Trovate 15 combinazioni frequenti
+
+Study Satisfaction + Sleep Duration + Family History of Mental Illness:
+  Trovate 16 combinazioni frequenti
+
+Study Satisfaction + Sleep Duration + Depression:
+  Trovate 13 combinazioni frequenti
+
+Study Satisfaction + Dietary Habits + Degree:
+  Trovate 1 combinazioni frequenti
+
+Study Satisfaction + Dietary Habits + Have you ever had suicidal thoughts ?:
+  Trovate 14 combinazioni frequenti
+
+Study Satisfaction + Dietary Habits + Financial Stress:
+  Trovate 3 combinazioni frequenti
+
+Study Satisfaction + Dietary Habits + Family History of Mental Illness:
+  Trovate 15 combinazioni frequenti
+
+Study Satisfaction + Dietary Habits + Depression:
+  Trovate 13 combinazioni frequenti
+
+Study Satisfaction + Degree + Have you ever had suicidal thoughts ?:
+  Trovate 2 combinazioni frequenti
+
+Study Satisfaction + Degree + Family History of Mental Illness:
+  Trovate 4 combinazioni frequenti
+
+Study Satisfaction + Degree + Depression:
+  Trovate 2 combinazioni frequenti
+
+Study Satisfaction + Have you ever had suicidal thoughts ? + Study Hours:
+  Trovate 2 combinazioni frequenti
+
+Study Satisfaction + Have you ever had suicidal thoughts ? + Financial Stress:
+  Trovate 10 combinazioni frequenti
+
+Study Satisfaction + Have you ever had suicidal thoughts ? + Family History of Mental Illness:
+  Trovate 12 combinazioni frequenti
+
+Study Satisfaction + Have you ever had suicidal thoughts ? + Depression:
+  Trovate 9 combinazioni frequenti
+
+Study Satisfaction + Study Hours + Depression:
+  Trovate 2 combinazioni frequenti
+
+Study Satisfaction + Financial Stress + Family History of Mental Illness:
+  Trovate 15 combinazioni frequenti
+
+Study Satisfaction + Financial Stress + Depression:
+  Trovate 9 combinazioni frequenti
+
+Study Satisfaction + Family History of Mental Illness + Depression:
+  Trovate 12 combinazioni frequenti
+
+Sleep Duration + Dietary Habits + Have you ever had suicidal thoughts ?:
+  Trovate 11 combinazioni frequenti
+
+Sleep Duration + Dietary Habits + Family History of Mental Illness:
+  Trovate 18 combinazioni frequenti
+
+Sleep Duration + Dietary Habits + Depression:
+  Trovate 16 combinazioni frequenti
+
+Sleep Duration + Degree + Have you ever had suicidal thoughts ?:
+  Trovate 2 combinazioni frequenti
+
+Sleep Duration + Degree + Depression:
+  Trovate 2 combinazioni frequenti
+
+Sleep Duration + Have you ever had suicidal thoughts ? + Financial Stress:
+  Trovate 7 combinazioni frequenti
+
+Sleep Duration + Have you ever had suicidal thoughts ? + Family History of Mental Illness:
+  Trovate 16 combinazioni frequenti
+
+Sleep Duration + Have you ever had suicidal thoughts ? + Depression:
+  Trovate 9 combinazioni frequenti
+
+Sleep Duration + Financial Stress + Family History of Mental Illness:
+  Trovate 2 combinazioni frequenti
+
+Sleep Duration + Financial Stress + Depression:
+  Trovate 7 combinazioni frequenti
+
+Sleep Duration + Family History of Mental Illness + Depression:
+  Trovate 16 combinazioni frequenti
+
+Dietary Habits + Degree + Have you ever had suicidal thoughts ?:
+  Trovate 2 combinazioni frequenti
+
+Dietary Habits + Degree + Family History of Mental Illness:
+  Trovate 4 combinazioni frequenti
+
+Dietary Habits + Degree + Depression:
+  Trovate 2 combinazioni frequenti
+
+Dietary Habits + Have you ever had suicidal thoughts ? + Study Hours:
+  Trovate 2 combinazioni frequenti
+
+Dietary Habits + Have you ever had suicidal thoughts ? + Financial Stress:
+  Trovate 10 combinazioni frequenti
+
+Dietary Habits + Have you ever had suicidal thoughts ? + Family History of Mental Illness:
+  Trovate 12 combinazioni frequenti
+
+Dietary Habits + Have you ever had suicidal thoughts ? + Depression:
+  Trovate 9 combinazioni frequenti
+
+Dietary Habits + Study Hours + Depression:
+  Trovate 2 combinazioni frequenti
+
+Dietary Habits + Financial Stress + Family History of Mental Illness:
+  Trovate 7 combinazioni frequenti
+
+Dietary Habits + Financial Stress + Depression:
+  Trovate 11 combinazioni frequenti
+
+Dietary Habits + Family History of Mental Illness + Depression:
+  Trovate 12 combinazioni frequenti
+
+Degree + Have you ever had suicidal thoughts ? + Financial Stress:
+  Trovate 2 combinazioni frequenti
+
+Degree + Have you ever had suicidal thoughts ? + Family History of Mental Illness:
+  Trovate 2 combinazioni frequenti
+
+Degree + Have you ever had suicidal thoughts ? + Depression:
+  Trovate 2 combinazioni frequenti
+
+Degree + Financial Stress + Depression:
+  Trovate 2 combinazioni frequenti
+
+Degree + Family History of Mental Illness + Depression:
+  Trovate 2 combinazioni frequenti
+
+Have you ever had suicidal thoughts ? + Study Hours + Family History of Mental Illness:
+  Trovate 4 combinazioni frequenti
+
+Have you ever had suicidal thoughts ? + Study Hours + Depression:
+  Trovate 7 combinazioni frequenti
+
+Have you ever had suicidal thoughts ? + Financial Stress + Family History of Mental Illness:
+  Trovate 15 combinazioni frequenti
+
+Have you ever had suicidal thoughts ? + Financial Stress + Depression:
+  Trovate 10 combinazioni frequenti
+
+Have you ever had suicidal thoughts ? + Family History of Mental Illness + Depression:
+  Trovate 8 combinazioni frequenti
+
+Study Hours + Financial Stress + Depression:
+  Trovate 1 combinazioni frequenti
+
+Study Hours + Family History of Mental Illness + Depression:
+  Trovate 5 combinazioni frequenti
+
+Financial Stress + Family History of Mental Illness + Depression:
+  Trovate 14 combinazioni frequenti
+
+============================================================
+=== RIASSUNTO: COLONNE PIÙ COINVOLTE NEI PATTERN ===
+============================================================
+
+Colonne ordinate per frequenza di coinvolgimento nei pattern:
+  Family History of Mental Illness: coinvolta in 687 pattern frequenti
+  Gender: coinvolta in 673 pattern frequenti
+  CGPA: coinvolta in 640 pattern frequenti
+  Dietary Habits: coinvolta in 635 pattern frequenti
+  Study Satisfaction: coinvolta in 632 pattern frequenti
+  Have you ever had suicidal thoughts ?: coinvolta in 628 pattern frequenti
+  Depression: coinvolta in 622 pattern frequenti
+  Age: coinvolta in 620 pattern frequenti
+  Academic Pressure: coinvolta in 615 pattern frequenti
+  Sleep Duration: coinvolta in 611 pattern frequenti
+  Financial Stress: coinvolta in 526 pattern frequenti
+  Study Hours: coinvolta in 152 pattern frequenti
+  Degree: coinvolta in 139 pattern frequenti
+  City: coinvolta in 13 pattern frequenti
+
+=== RELAZIONI PIÙ FORTI TRA COLONNE ===
+
+Relazioni tra colonne ordinate per forza della relazione:
+  Sleep Duration + Financial Stress: 20 pattern comuni
+  Gender + Financial Stress + Family History of Mental Illness: 20 pattern comuni
+  Academic Pressure + Sleep Duration + Family History of Mental Illness: 18 pattern comuni
+  Academic Pressure + Dietary Habits + Family History of Mental Illness: 18 pattern comuni
+  Sleep Duration + Dietary Habits + Family History of Mental Illness: 18 pattern comuni
+  Gender + Academic Pressure + Dietary Habits: 17 pattern comuni
+  Gender + CGPA + Sleep Duration: 17 pattern comuni
+  Gender + Academic Pressure + Sleep Duration: 16 pattern comuni
+  Gender + Study Satisfaction + Sleep Duration: 16 pattern comuni
+  Gender + Sleep Duration + Have you ever had suicidal thoughts ?: 16 pattern comuni
